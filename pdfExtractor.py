@@ -12,8 +12,7 @@ from pdfminer.pdfdocument import PDFDocument
 from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from pdfminer.pdfpage import PDFPage
 from pdfminer.pdfparser import PDFParser
-import re
-import webExtractor as w
+
 
 # Fiche de la formation IDU
 file = 'Programme_IDU_2021_2025.pdf'
@@ -47,15 +46,5 @@ def textCreator(pdfContent):
     return texte
 texte = textCreator(pdfContent)
 
-# ETAPE2
-module = w.Module
-
-def prerequis(module):
-    opentext = open('pdfContent.text', 'r')
-    for text in text
-    
-
-def competence(module):
-    pass
 
     

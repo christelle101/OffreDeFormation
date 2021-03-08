@@ -21,22 +21,22 @@ Modele_Relationnel.png :  un modèle relationnel.
 
 Puis :
 #### BDcreator.py : permet d’implémenter la base de données.
-Ce programme utilise la bibliothèque sqlalchemy qui permet de créer les tables semestre,module,prérequis,et UE (Unité d’enseignement) puis l’insertion des données dans ces tables.
+Ce programme utilise la bibliothèque sqlalchemy qui permet de créer les tables semestre, module, prérequis et UE (Unité d’enseignement). Puis l’insertion des données dans ces tables.
 
  
 Pour récupérer les données,il faudra :
 ### textReader.py:  permet de procéder à l’extraction des données:
 
-La fonction sommaire_extracting(fichier) permet d'extraire les données du sommaire.
-La fonction UE_module(fichier)  permet de créer une relation entre les UE et les modules 
-La fonction  semestre_UE(fichier) permet de créer une relation entre les semestre et les UE
-La fonction Module(fichier) retourne la liste des modules de la formation
-La fonction attributModule(module, fichier) retourne les prérequis du modules
+* La fonction sommaire_extracting(fichier) permet d'extraire les données du sommaire.
+* La fonction UE_module(fichier)  permet de créer une relation entre les UE et les modules 
+* La fonction  semestre_UE(fichier) permet de créer une relation entre les semestre et les UE
+* La fonction Module(fichier) retourne la liste des modules de la formation
+* La fonction attributModule(module, fichier) retourne les prérequis du modules
 
 Pour convertir les données :
 ### pdfExtractor.py : permet de convertir un fichier PDF au format TXT.
 Il contient les fonctions suivantes :
-   convert_pdf_to_string(file) :convertit le pdf en chaîne de caractères.
-   textCreator( pdfContent): crée un fichier à partir des données obtenues afin de faciliter la gestion   des données
+   * convert_pdf_to_string(file) :convertit le pdf en chaîne de caractères.
+   * textCreator( pdfContent): crée un fichier à partir des données obtenues afin de faciliter la gestion   des données
 
 Enfin,dans le fichier data.png vous trouverez le graphe qui représente les différents liens entre les semestres, unité d’enseignement et les modules.

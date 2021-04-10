@@ -6,12 +6,16 @@ Created on Wed Feb 10 19:13:51 2021
 """
 from sqlalchemy import create_engine, MetaData, Table, Column, String, ForeignKey
 import textReader as t
-donnee = create_engine("sqlite:///test4.csv", echo = True)
-
+donnee = create_engine("sqlite:///test4.bd", echo = True)
+conn = donnee.connect()
 meta = MetaData()
 
+#drop
+conn.execute("drop table if exists Semestre;")
+conn.execute("drop table if exists UE;")
+conn.execute("drop table if exists Module;")
+conn.execute("drop table if exists Prerequis;")
 # table
-
 Semestre = Table(
     'Semestre', meta,
     Column('nomSemestre', String, primary_key = True)
@@ -38,15 +42,17 @@ Prerequis = Table(
 
 meta.create_all(donnee)
 #####################################################################
-conn = donnee.connect()
+
 # insertion dans semestre
 text = t.text
 semestre_UE = t.semestre_UE(text)
-UE_module = t.UE_module(text)
+UE_module = t.UE_module_court(text)
 #
+print(1)
 liste_semestre = []
 for semestre in semestre_UE.items():
     #liste_semestre.append({'Semestre':semestre[0]})
+    #print(semestre[0])
     sem = Semestre.insert().values(nomSemestre= semestre[0])
     conn.execute(sem)
 #
@@ -58,7 +64,7 @@ for termes in semestre_UE.items():
         conn.execute(ue_p)
 
 #
-UE_modules = t.UE_module(text)
+UE_modules = t.UE_module_court(text)
 liste_module = []
 for modules in UE_modules.items():
     for module in modules[1]:

@@ -1,0 +1,108 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 100%;
+            height: 100%;
+            background-color: #222222;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"font": {"color": "white"}, "id": 0, "label": "DDRS501", "shape": "dot"}, {"font": {"color": "white"}, "id": 1, "label": "EASI501a", "shape": "dot"}, {"font": {"color": "white"}, "id": 2, "label": "INFO501a", "shape": "dot"}, {"font": {"color": "white"}, "id": 3, "label": "INFO502a", "shape": "dot"}, {"font": {"color": "white"}, "id": 4, "label": "MATH500a", "shape": "dot"}, {"font": {"color": "white"}, "id": 5, "label": "MATH501a", "shape": "dot"}, {"font": {"color": "white"}, "id": 6, "label": "EASI541b", "shape": "dot"}, {"font": {"color": "white"}, "id": 7, "label": "ISOC531", "shape": "dot"}, {"font": {"color": "white"}, "id": 8, "label": "MATH531", "shape": "dot"}, {"font": {"color": "white"}, "id": 9, "label": "PROJ531", "shape": "dot"}, {"font": {"color": "white"}, "id": 10, "label": "LANG500a", "shape": "dot"}, {"font": {"color": "white"}, "id": 11, "label": "LANG501a", "shape": "dot"}, {"font": {"color": "white"}, "id": 12, "label": "SHES501a", "shape": "dot"}, {"font": {"color": "white"}, "id": 13, "label": "SHES505", "shape": "dot"}, {"font": {"color": "white"}, "id": 14, "label": "INFO631a", "shape": "dot"}, {"font": {"color": "white"}, "id": 15, "label": "MATH641c", "shape": "dot"}, {"font": {"color": "white"}, "id": 16, "label": "PROJ631a", "shape": "dot"}, {"font": {"color": "white"}, "id": 17, "label": "INFO641c", "shape": "dot"}, {"font": {"color": "white"}, "id": 18, "label": "INFO642c", "shape": "dot"}, {"font": {"color": "white"}, "id": 19, "label": "INFO632", "shape": "dot"}, {"font": {"color": "white"}, "id": 20, "label": "ISOC631", "shape": "dot"}, {"font": {"color": "white"}, "id": 21, "label": "PROJ632", "shape": "dot"}, {"font": {"color": "white"}, "id": 22, "label": "LANG600", "shape": "dot"}, {"font": {"color": "white"}, "id": 23, "label": "LANG601", "shape": "dot"}, {"font": {"color": "white"}, "id": 24, "label": "PROJ601", "shape": "dot"}, {"font": {"color": "white"}, "id": 25, "label": "SHES601", "shape": "dot"}, {"font": {"color": "white"}, "id": 26, "label": "SHES602", "shape": "dot"}, {"font": {"color": "white"}, "id": 27, "label": "DATA731a", "shape": "dot"}, {"font": {"color": "white"}, "id": 28, "label": "INFO731a", "shape": "dot"}, {"font": {"color": "white"}, "id": 29, "label": "MATH741c", "shape": "dot"}, {"font": {"color": "white"}, "id": 30, "label": "INFO732a", "shape": "dot"}, {"font": {"color": "white"}, "id": 31, "label": "INFO743c", "shape": "dot"}, {"font": {"color": "white"}, "id": 32, "label": "PROJ731a", "shape": "dot"}, {"font": {"color": "white"}, "id": 33, "label": "DATA732", "shape": "dot"}, {"font": {"color": "white"}, "id": 34, "label": "INFO734", "shape": "dot"}, {"font": {"color": "white"}, "id": 35, "label": "ISOC731", "shape": "dot"}, {"font": {"color": "white"}, "id": 36, "label": "LANG700a", "shape": "dot"}, {"font": {"color": "white"}, "id": 37, "label": "LANG701a", "shape": "dot"}, {"font": {"color": "white"}, "id": 38, "label": "LANG702a", "shape": "dot"}, {"font": {"color": "white"}, "id": 39, "label": "SHES703a", "shape": "dot"}, {"font": {"color": "white"}, "id": 40, "label": "DATA831a", "shape": "dot"}, {"font": {"color": "white"}, "id": 41, "label": "DATA832a", "shape": "dot"}, {"font": {"color": "white"}, "id": 42, "label": "INFO831a", "shape": "dot"}, {"font": {"color": "white"}, "id": 43, "label": "PROJ831a", "shape": "dot"}, {"font": {"color": "white"}, "id": 44, "label": "INFO832a", "shape": "dot"}, {"font": {"color": "white"}, "id": 45, "label": "INFO833a", "shape": "dot"}, {"font": {"color": "white"}, "id": 46, "label": "INFO834a", "shape": "dot"}, {"font": {"color": "white"}, "id": 47, "label": "ISOC831a", "shape": "dot"}, {"font": {"color": "white"}, "id": 48, "label": "LANG800", "shape": "dot"}, {"font": {"color": "white"}, "id": 49, "label": "LANG801a", "shape": "dot"}, {"font": {"color": "white"}, "id": 50, "label": "LANG802a", "shape": "dot"}, {"font": {"color": "white"}, "id": 51, "label": "PROJ801", "shape": "dot"}, {"font": {"color": "white"}, "id": 52, "label": "SHES802a", "shape": "dot"}, {"font": {"color": "white"}, "id": 53, "label": "SHES803a", "shape": "dot"}, {"font": {"color": "white"}, "id": 54, "label": "INFO931", "shape": "dot"}, {"font": {"color": "white"}, "id": 55, "label": "INFO932", "shape": "dot"}, {"font": {"color": "white"}, "id": 56, "label": "PROJ931", "shape": "dot"}, {"font": {"color": "white"}, "id": 57, "label": "DATA931", "shape": "dot"}, {"font": {"color": "white"}, "id": 58, "label": "ISOC931", "shape": "dot"}, {"font": {"color": "white"}, "id": 59, "label": "PROJ932", "shape": "dot"}, {"font": {"color": "white"}, "id": 60, "label": "LANG901a", "shape": "dot"}, {"font": {"color": "white"}, "id": 61, "label": "LANG902a", "shape": "dot"}, {"font": {"color": "white"}, "id": 62, "label": "PROJ901a", "shape": "dot"}, {"font": {"color": "white"}, "id": 63, "label": "SHES901a", "shape": "dot"}, {"font": {"color": "white"}, "id": 64, "label": "PROJ001", "shape": "dot"}, {"color": "#00ff1e", "font": {"color": "white"}, "id": 100, "label": "IDU", "shape": "dot", "size": 50}, {"color": "#00ff1e", "font": {"color": "white"}, "id": 200, "label": "TC", "shape": "dot", "size": 50}, {"color": "#EAEBE3", "font": {"color": "white"}, "id": 500, "label": "IDU-1.1", "shape": "dot", "size": 25}, {"color": "#EAEBE3", "font": {"color": "white"}, "id": 501, "label": "IDU-1.2", "shape": "dot", "size": 25}, {"color": "#EAEBE3", "font": {"color": "white"}, "id": 502, "label": "IDU-1.3", "shape": "dot", "size": 25}, {"color": "#EAEBE3", "font": {"color": "white"}, "id": 503, "label": "IDU-2.1", "shape": "dot", "size": 25}, {"color": "#EAEBE3", "font": {"color": "white"}, "id": 504, "label": "IDU-2.2", "shape": "dot", "size": 25}, {"color": "#EAEBE3", "font": {"color": "white"}, "id": 505, "label": "IDU-2.3", "shape": "dot", "size": 25}, {"color": "#EAEBE3", "font": {"color": "white"}, "id": 506, "label": "IDU-3.1", "shape": "dot", "size": 25}, {"color": "#EAEBE3", "font": {"color": "white"}, "id": 507, "label": "IDU-3.2", "shape": "dot", "size": 25}, {"color": "#EAEBE3", "font": {"color": "white"}, "id": 508, "label": "IDU-4.1", "shape": "dot", "size": 25}, {"color": "#EAEBE3", "font": {"color": "white"}, "id": 509, "label": "IDU-4.2", "shape": "dot", "size": 25}, {"color": "#EAEBE3", "font": {"color": "white"}, "id": 510, "label": "TC-1.4", "shape": "dot", "size": 25}, {"color": "#EAEBE3", "font": {"color": "white"}, "id": 511, "label": "TC-1.5", "shape": "dot", "size": 25}, {"color": "#EAEBE3", "font": {"color": "white"}, "id": 512, "label": "TC-2.1", "shape": "dot", "size": 25}, {"color": "#EAEBE3", "font": {"color": "white"}, "id": 513, "label": "TC-2.2", "shape": "dot", "size": 25}, {"color": "#EAEBE3", "font": {"color": "white"}, "id": 514, "label": "TC-2.3", "shape": "dot", "size": 25}, {"color": "#EAEBE3", "font": {"color": "white"}, "id": 515, "label": "TC-3.1", "shape": "dot", "size": 25}, {"color": "#EAEBE3", "font": {"color": "white"}, "id": 516, "label": "TC-3.2", "shape": "dot", "size": 25}, {"color": "#EAEBE3", "font": {"color": "white"}, "id": 517, "label": "TC-3.3", "shape": "dot", "size": 25}, {"color": "#EAEBE3", "font": {"color": "white"}, "id": 518, "label": "TC-3.4", "shape": "dot", "size": 25}, {"color": "#EAEBE3", "font": {"color": "white"}, "id": 519, "label": "TC-4.1", "shape": "dot", "size": 25}, {"color": "#EAEBE3", "font": {"color": "white"}, "id": 520, "label": "TC-1.1", "shape": "dot", "size": 25}, {"color": "#EAEBE3", "font": {"color": "white"}, "id": 521, "label": "TC-1.2", "shape": "dot", "size": 25}, {"color": "#EAEBE3", "font": {"color": "white"}, "id": 522, "label": "TC-1.3", "shape": "dot", "size": 25}, {"color": "#EAEBE3", "font": {"color": "white"}, "id": 523, "label": "TC-4.2", "shape": "dot", "size": 25}, {"color": "#EAEBE3", "font": {"color": "white"}, "id": 524, "label": "TC-4.3", "shape": "dot", "size": 25}, {"color": "#EAEBE3", "font": {"color": "white"}, "id": 525, "label": "TC-4.4", "shape": "dot", "size": 25}]);
+        edges = new vis.DataSet([{"from": 500, "to": 100, "weight": 1}, {"from": 501, "to": 100, "weight": 1}, {"from": 502, "to": 100, "weight": 1}, {"from": 503, "to": 100, "weight": 1}, {"from": 504, "to": 100, "weight": 1}, {"from": 505, "to": 100, "weight": 1}, {"from": 506, "to": 100, "weight": 1}, {"from": 507, "to": 100, "weight": 1}, {"from": 508, "to": 100, "weight": 1}, {"from": 509, "to": 100, "weight": 1}, {"from": 510, "to": 200, "weight": 1}, {"from": 511, "to": 200, "weight": 1}, {"from": 512, "to": 200, "weight": 1}, {"from": 513, "to": 200, "weight": 1}, {"from": 514, "to": 200, "weight": 1}, {"from": 515, "to": 200, "weight": 1}, {"from": 516, "to": 200, "weight": 1}, {"from": 517, "to": 200, "weight": 1}, {"from": 518, "to": 200, "weight": 1}, {"from": 519, "to": 200, "weight": 1}, {"from": 520, "to": 200, "weight": 1}, {"from": 521, "to": 200, "weight": 1}, {"from": 522, "to": 200, "weight": 1}, {"from": 523, "to": 200, "weight": 1}, {"from": 524, "to": 200, "weight": 1}, {"from": 525, "to": 200, "weight": 1}, {"from": 11, "to": 512, "weight": 1}, {"from": 11, "to": 514, "weight": 1}, {"from": 11, "to": 517, "weight": 1}, {"from": 12, "to": 520, "weight": 1}, {"from": 12, "to": 521, "weight": 1}, {"from": 12, "to": 511, "weight": 1}, {"from": 12, "to": 512, "weight": 1}, {"from": 12, "to": 514, "weight": 1}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": false,
+            "type": "continuous"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+	 
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>

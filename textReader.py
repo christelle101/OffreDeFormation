@@ -7,6 +7,7 @@ Created on Sat Feb  6 11:49:40 2021
 
 text ='PDF_TEXT.text'
 
+
 def semestrePrime(text):
     '''
     verifie si le texte fait reference a un semeste
@@ -14,7 +15,8 @@ def semestrePrime(text):
     if 'Semestre' in text:
         return (True, text)
     else: return (False, None)
-        
+
+
 def EstDans(mot, text):
     ''' 
     verifie si le mot est dans le texte
@@ -22,7 +24,8 @@ def EstDans(mot, text):
     if mot in text:
         return True
     else: return False
-    
+
+
 def semestre(text):
     ''' 
     permet de detcter si le texte indique un semestre
@@ -30,7 +33,8 @@ def semestre(text):
     if 'Semestre' in text:
         return True
     else: return False
-    
+
+
 def residu(text):
     ''' 
     detecte si le texte comporte un \n
@@ -38,7 +42,8 @@ def residu(text):
     if '\n' in text:
         return True
     else: return False
-    
+
+
 def estUneUE(text):
     ''' 
     permet de reconnaitre si un texte contient une UE ou pas 
@@ -48,6 +53,7 @@ def estUneUE(text):
         return (True, textsplit)
     else: return (False, None)
 
+
 def glossaire(text):
     '''
     retourne True si le texte contient Glossaire
@@ -55,7 +61,8 @@ def glossaire(text):
     if 'Glossaire' in text:
         return True
     else: return False
-    
+
+
 def sommaire(text):
     ''' 
     retourne True si le texte contient sommaire
@@ -63,6 +70,7 @@ def sommaire(text):
     if 'Table des matières' in text:
         return True
     else: return False
+
 
 def sommaire_extracting(fichier):
     
@@ -89,6 +97,7 @@ def sommaire_extracting(fichier):
     file.close()
     return data1
 
+
 def analyse_sommaire_data(fichier):
     
     ''' 
@@ -102,6 +111,47 @@ def analyse_sommaire_data(fichier):
         data2.append(split_data)
     #file.close()
     return data2
+
+
+def Module_court(module_long):
+    """
+    retourne la liste des modules de la formation avec les noms reduits
+    """    
+    split_module = module_long.split(" - ")
+    return split_module[0]
+
+
+def UE_module_court(fichier):
+    
+    '''
+    permet de creer une relation entre les UE et les modules
+    '''
+    
+    # file = open(fichier, 'r')
+    UEname = None
+    data2 = analyse_sommaire_data(fichier)
+    data3 = {}
+    capteur3 = False
+    for data in data2:
+        
+        if estUneUE(data)[0]:
+           UEname = estUneUE(data)[1]
+           data3.update({UEname:[]})
+           capteur3 = True
+           continue
+        
+        if (semestre(data)) or (residu(data)):
+            capteur3 = False
+        
+        elif estUneUE(data)[0] and estUneUE(data)[1] != UEname:
+            capteur3 = False
+            
+        if capteur3:
+            data_m = data.split('. ')[1]
+            data3.get(UEname).append(Module_court(data_m))
+    # file.close()
+    return data3
+
 
 def UE_module(fichier):
     
@@ -133,14 +183,15 @@ def UE_module(fichier):
             data3.get(UEname).append(data_m)
     #file.close()
     return data3
-        
+
+
 def semestre_UE(fichier):
     
     ''' 
     permet de creer une relation entre les semestre et les UE
     '''
     
-    #file = open(fichier, 'r')
+    # file = open(fichier, 'r')
     sem = None
     data2 = analyse_sommaire_data(fichier)
     capteur4 = False
@@ -162,13 +213,14 @@ def semestre_UE(fichier):
         if capteur4 and estUneUE(data)[0]:
             data_m = data.split('. ')[1]
             Semestre.get(sem).append(data_m)
-    #file.close()    
+    # file.close()
     return Semestre
-    
+
+
 def Module(fichier):
     
     ''' 
-    retourne la liste des modules de la formation
+    retourne la liste des modules de la formation avec les noms entier
     '''
     
     #file = open(fichier, 'r')
@@ -176,8 +228,31 @@ def Module(fichier):
     module = list()
     for terme in ue.items():
         module += terme[1]
+
     #file.close()
     return module
+
+
+def list_Module_court(fichier):
+    '''
+    retourne la liste des modules de la formation avec les noms entier
+    '''
+
+    # file = open(fichier, 'r')
+    ue = UE_module(fichier)
+    module = list()
+    for terme in ue.items():
+        for name_module in terme[1]:
+            name = name_module.split(" - ")[0]
+            module.append(name)
+        # print(module)
+    # file.close()
+    return module
+
+
+# test
+# print(Module(text))
+
 
 def attributModule(module, fichier):
     
@@ -239,8 +314,9 @@ def attributModule(module, fichier):
                 if capteur_comp:
                     comp += line
     file.close()
-    #print(capteur5, capteur6, capteur_pre, capteur_comp, compteur, compte)
+    # print(capteur5, capteur6, capteur_pre, capteur_comp, compteur, compte)
     return (pre, comp)
+
 
 def relation_entre_matiere(fichier):
     file = open(fichier, 'r')
@@ -254,7 +330,7 @@ def relation_entre_matiere(fichier):
         # prerequis du module
         pre_module = attributModule(module, fichier)[0]
         for module_prime in modules:
-            #abreviation du module
+            # abreviation du module
             abre_module_prime = module_prime.split(' - ')[0]
             if EstDans(abre_module_prime, pre_module):
                 relation.get(module).append(module_prime)

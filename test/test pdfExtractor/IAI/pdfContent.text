@@ -1,0 +1,8836 @@
+Programme de la spécialité Systèmes
+
+Numériques - Instrumentation
+
+Programme de la spécialité Systèmes Numériques - Instrumenta-
+tion
+
+Copyright © 2021 Polytech Annecy-Chambéry
+
+Table des matières
+
+Glossaire  ......................................................................................................................................   1
+Semestre  5  ...................................................................................................................................   2
+1. UE501 : Passerelle vers le milieu professionnel .......................................................................  2
+1.1. LANG500a - Soutien Anglais ....................................................................................  2
+1.2. LANG501a - Anglais ...............................................................................................  3
+1.3. SHES501a - Sport ...................................................................................................  4
+1.4. SHES505 - Simulation de gestion d'entreprise ..............................................................  5
+2. UE502 : Sciences et outils de l'Ingénieur ................................................................................ 6
+2.1. DDRS501 - Développement Durable ..........................................................................  6
+2.2. EASI501a - Electricité .............................................................................................  7
+2.3. INFO501a - Numération et Algorithmique ...................................................................  8
+2.4. INFO502a - Bases de données ...................................................................................  9
+2.5. MATH500a - Soutien Mathématiques .........................................................................  9
+2.6. MATH501a - Mathématiques ................................................................................... 10
+3. UE503 : Sciences de l'Ingénieur .......................................................................................... 12
+3.1. EASI541a - Automatisation .....................................................................................  12
+3.2. PHYS541a - Propriétés des matériaux .......................................................................  13
+3.3. PHYS542a - Electromagnétisme appliqué à la transmission de l'information .....................  15
+3.4. PROJ541a - Découverte expérimentale de la spécialité SNI ...........................................  16
+Semestre  6  ..................................................................................................................................   19
+1. UE601 : Passerelle vers le milieu professionnel .....................................................................  20
+1.1. LANG600a - Soutien : Anglais ................................................................................  20
+1.2. LANG601a - Anglais .............................................................................................  20
+1.3. PROJ601a - Stage Découverte du milieu professionnel .................................................  21
+1.4. SHES601a - Gestion financière ................................................................................  22
+1.5. SHES602a - Initiation au droit .................................................................................  22
+2. UE602 : Sciences appliquées et apprentissage par projet .......................................................... 23
+2.1. MATH641a - Mathématiques ................................................................................... 23
+2.2. PACI641 - Matériaux actifs et intelligents pour l'instrumentation ....................................  24
+2.3. PACI642 - Optique appliquée et transmission optique ..................................................  25
+2.4. PROJ641a - Apprentissage par Projet ........................................................................  26
+3. UE603 : Traitement de l'information et programmation ...........................................................  27
+3.1. EASI641a - Signaux et systèmes ..............................................................................  27
+3.2. EASI642a - Signal et image : opérateurs de base .........................................................  28
+3.3. INFO641a - Conception et programmation orientée objet ..............................................  29
+3.4. INFO642a - Bases de données et technologies web ......................................................  30
+3.5. MATH642a - Mathématiques spécialisées ..................................................................  32
+Semestre  7  ..................................................................................................................................   34
+1. UE701 : Passerelle vers le milieu professionnel .....................................................................  35
+1.1. LANG700a - Soutien : Anglais ................................................................................  35
+1.2. LANG701a - Anglais (Niveau TOEIC non atteint) ....................................................... 35
+1.3. LANG702a - Langues vivantes (Niveau TOEIC atteint) ................................................  36
+1.4. SHES703a - Ressources et dynamique professionnelles ................................................  37
+1.5. SHES704a - Créativité et Management de l'innovation .................................................  37
+2. UE702 : Electronique, automatique et apprentissage par projet .................................................  38
+2.1. EASI744a - Automatique - Stabilité et commande de systèmes ....................................... 38
+2.2. PACI741 - Electronique d'instrumentation : notions essentielles pour l'ingénieur ................  40
+2.3. PACI742 - Systèmes d'acquisition de données - Programmation graphique .......................  40
+2.4. PROJ741a - Apprentissage par Projet ........................................................................  42
+3. UE703 : Signaux et systèmes numériques .............................................................................  43
+3.1. EASI741a - Signaux aléatoires .................................................................................  43
+3.2. INFO741a - Systèmes embarqués .............................................................................  44
+3.3. INFO742a - Méthodes de développement logiciel et qualité ........................................... 45
+3.4. INFO743a - Réseaux et systèmes répartis ................................................................... 46
+3.5. MATH741a - Probabilités - Statistiques .....................................................................  47
+
+iii
+
+Programme de la spécialité Systèmes Numériques - Instrumentation
+
+Semestre  8  ..................................................................................................................................   49
+1. UE801 : Passerelle vers le milieu professionnel .....................................................................  50
+1.1. LANG800 - Soutien : Anglais ..................................................................................  50
+1.2. LANG801a - Anglais (Niveau TOEIC non atteint) ....................................................... 50
+1.3. LANG802a - Langues vivantes (Niveau TOEIC atteint) ................................................  51
+1.4. SHES802a - Système de Management Intégré QSE (Qualité Sécurité Environnement) .........  52
+1.5. SHES803a - Théorie des organisations ......................................................................  53
+2. UE802 : Stage .................................................................................................................  54
+2.1. PROJ801 - Stage Assistant ingénieur ........................................................................  54
+3. UE803 : Mesures, instrumentation et pilotage de systèmes .......................................................  55
+3.1. EASI843a - Automatisation décentralisée ...................................................................  55
+3.2. PACI841 - Physique expérimentale, mesures, capteurs et instrumentation .........................  56
+4. UE804 : Data science et apprentissage par projet ...................................................................  58
+4.1. EASI842a - Analyse d'image et vision par ordinateur ...................................................  58
+4.2. EASI844a - Modèles des systèmes à évènements discrets et applications ..........................  59
+4.3. INFO841 - Sécurité des systèmes cyber-physiques .......................................................  60
+4.4. PROJ841a - Apprentissage par projet ........................................................................  61
+Semestre  9  ..................................................................................................................................   62
+1. UE901 : Passerelle vers le milieu professionnel .....................................................................  62
+1.1. LANG901a - Anglais (Niveau TOEIC non atteint) ....................................................... 63
+1.2. LANG902a - Langues (Niveau TOEIC atteint) ............................................................ 64
+1.3. PROJ901a - Projet Recherche et Développement .........................................................  64
+1.4. SHES901a - Techniques de management ...................................................................  65
+2. UE902 : Automatique et apprentissage par projet ...................................................................  66
+2.1. EASI943a - Approche d'état en automatique : représentation, commande et observation ....... 66
+2.2. PROJ943a - Apprentissage par projet ........................................................................  68
+3. UE903 : Data science et objets communicants .......................................................................  69
+3.1. EASI941a - Systèmes communicants, capteurs communicants ........................................  69
+3.2. EASI942a - Imagerie 3D : acquisition, reconstruction, applications .................................  70
+3.3. INFO941a - Systèmes embarqués et programmation concurrente ....................................  71
+3.4. INFO942a - Apprentissage automatique et fouille de données ........................................  72
+3.5. INFO943 - Internet des objets ..................................................................................  73
+3.6. PROJ942a - Projet technique traitement de l'information ...............................................  74
+Semestre  10  ................................................................................................................................   76
+1. UE001 : Stage Ingénieur .................................................................................................... 76
+1.1. PROJ001 - Stage Ingénieur .....................................................................................  76
+
+iv
+
+Glossaire
+
+Spécialité
+
+SNI
+
+Systèmes Numériques - Instrumentation
+
+DDRS
+EASI
+INFO
+LANG
+MATH
+PACI
+PHYS
+PROJ
+SHES
+
+CC
+ET
+TC
+TD
+TP
+UE
+
+N
+
+A
+
+M
+
+E
+
+Disciplines
+
+Développement Durable et Responsabilité Sociétale
+Électronique-Électrotechnique, Automatique, Signal, Images
+Informatique, Génie Informatique
+Langues vivantes
+Mathématiques
+Physique Appliquée, Capteurs, Instrumentation
+Physique
+Projets et stages
+Sciences Humaines, Économiques et Sociales
+
+Termes généraux
+
+Contrôle continu
+Épreuve terminale
+Tronc commun
+Travaux dirigés
+Travaux pratiques
+Unité d'enseignement
+
+Niveaux pour les objectifs d'apprentissage
+
+Notion : l'èlève-ingénieur a des connaissances de base et est capable de les
+restituer ou d'en parler
+Application  :  l'élève-ingénieur  sait  appliquer  les  connaissances  et  les  sa-
+voir-faire dans des situations courantes
+Maîtrise : l'élève-ingénieur est capable d'utiliser les différents concepts et de
+traiter des cas complexes ou inhabituels
+Expertise : l'élève-ingénieur matrîse les différents concepts et est capable d'en
+utiliser ou d'en proposer de nouveaux
+
+1
+
+Semestre 5
+
+UE
+
+ECTS Module
+
+Intitulé
+
+Cours (h) TD (h)
+
+TP (h)
+
+6
+
+LANG500a
+
+Soutien Anglais
+
+UE501 :
+Passerelle
+vers le mi-
+lieu pro-
+fessionnel
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+LANG501a
+SHES501a
+SHES505
+
+12
+
+DDRS501
+
+UE502 :
+Sciences
+et outils de
+l'Ingénieur
+
+Anglais
+Sport
+
+Simulation
+de gestion
+d'entreprise
+Développe-
+ment Durable
+
+ 
+
+ 
+ 
+ 
+
+12
+
+40.5
+21
+19.5
+
+11.5
+
+9
+
+EASI501a
+
+Electricité
+
+13.5
+
+15
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+12
+
+16
+
+12
+
+ 
+
+ 
+20
+
+8
+
+8
+
+Pondé-
+ration
+
+ 
+
+3
+1.5
+1.5
+
+1.5
+
+3
+
+3
+
+1.5
+
+ 
+
+3
+3
+
+3
+
+3
+
+3
+
+Evaluation
+
+ 
+
+CC
+CC
+CC
+
+CC(50%)
++ CT(50%)
+
+CC(70%)
+TP(30%)
+CT(70%)
++ TP(30%)
+CT(70%)
+TP(30%)
+
+CC
+
+CC
+
+CC (70%)
++ TP (30%)
+
+CC(20%)
+CT(60%)
+TP(20%)
+CT(70%)
+TP(30%)
+
+TP
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+12
+
+UE503 :
+
+Sciences de
+l'Ingénieur
+
+INFO501a
+
+Numération et
+Algorithmique
+
+INFO502a Bases de données
+
+MATH500a
+
+Soutien Ma-
+thématiques
+
+MATH501a Mathématiques
+Automatisation
+EASI541a
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+PHYS541a
+
+Propriétés
+
+des matériaux
+
+PHYS542a
+
+PROJ541a
+
+Electromagné-
+tisme appliqué à
+la transmission
+de l'information
+Découverte ex-
+périmentale de
+la spécialité SNI
+
+12
+
+10.5
+
+6
+
+ 
+
+21
+7.5
+
+20
+
+17
+
+4.5
+
+21
+
+19.5
+12
+
+12
+
+15
+
+ 
+
+ 
+
+40
+
+1. UE501 : Passerelle vers le milieu professionnel
+
+1.1. LANG500a - Soutien Anglais
+Cours (h)
+
+TD (h)
+
+TP (h)
+
+ 
+
+12
+
+ 
+
+Pondération
+
+Evaluation
+
+ 
+
+ 
+
+2
+
+Semestre 5
+
+Langue(s) utilisée(s) pour les enseignements
+• Anglais
+Pré-requis
+Score inférieur à 600 au Toeic du début d'année.
+Descriptif
+Reprise de toutes les bases et renforcement des points de langues . 12h de cours  par semestre en groupe de 15
+étudiants.
+
+1.2. LANG501a - Anglais
+TP (h)
+Cours (h)
+
+TD (h)
+40.5
+
+ 
+
+ 
+
+Pondération
+
+3
+
+Evaluation
+
+CC
+
+Langue(s) utilisée(s) pour les enseignements
+• Anglais
+Pré-requis
+Niveau B1 du CECR
+Descriptif
+Ce  cours  prépare  les  étudiants  au  test  du  TOEIC  ("Test  of  English  for  International  communication")  et  plus
+exactement à l'obtention d'un score minimal de 785 points (sur 990).
+Dans le but de travailler les 4 compétences, ce cours est aussi une introduction à la prise de parole en public au
+moyen de présentations données par des étudiants en groupes ou en individuel, sur des sujets illustrés par des
+articles de presse ou des supports vidéos (VTD : Video, Talk and Debate et aussi production écrite). Selon le site
+(Annecy ou Chambéry certains seront vus à des moments différents du semestre, de l'année voire même des trois
+années de formation).
+Les étudiants sont évalués tout au long de chaque semestre. L'évaluation terminale consiste en une épreuve de 1h,
+1h30 ou 2h selon le semestre et selon le site (Annecy ou Le Bourget), et compte coefficient 2 dans le contrôle
+continu total.
+Plan du Cours
+1. Oral
+
+2.
+
+1.1. Éléments de phonologie
+1.2. Éléments grammaticaux(temps, questionnement, adjectifs......)
+1.3. Réinvestissement des structures et du vocabulaire
+1.4. Communication orale interactive
+1.5. Introduction et entraînement au TOEIC (Partie listening)
+Écrit
+2.1. Révision d'éléments grammaticaux (temps, questionnement, adjectifs....)
+2.2. Traduction (thème/version)
+2.3. Compréhension de texte en langue authentique
+2.4. Curriculum vitae (en S5, S6 au plus tard S7)
+2.5. Lettre de candidature / motivation (en s5, s6 au plus tard S7)
+2.6. Introduction et entraînement au TOEIC (Partie reading)
+
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+auto-vérifier sa maîtrise des structures de la
+langue et à en poursuivre l’apprentissage mé-
+thodique, en visant une inter-activité opération-
+nelle des 4 compétences de communication
+
+Niveau
+Maîtrise
+
+ 
+
+ 
+
+3
+
+A l'issue de ce cours l'élève sera capable :
+de faire des révisions grammaticales sur : les
+réflexes corrects des structures courantes ; le
+groupe verbal et les temps (sauf l’expression
+du conditionnel) ; le groupe nominal et tous ses
+éléments constitutifs; les liens logiques (mots
+de liaison)
+d'améliorer ses connaissances grammaticales et
+lexicales (anglais général et vocabulaire spéci-
+
+Semestre 5
+
+Ce cours vise à rendre l'élève apte à :
+
+Niveau
+
+comprendre des documents sonores et
+s’exprimer oralement
+
+Maîtrise
+
+ 
+
+ 
+
+ 
+
+ 
+
+comprendre des documents écrits et s’exprimer
+à l’écrit
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Maîtrise
+
+ 
+
+ 
+
+A l'issue de ce cours l'élève sera capable :
+fique au TOEIC) en classe et en autonomie, en
+les validant par des tests d’évaluation réguliers
+d'écouter régulièrement les nouvelles sur des
+sites anglophones d’information (CNN, BBC,
+Skynews…) et sera en mesure de restituer
+l’essentiel oralement de façon succincte, en in-
+ter-activité avec le groupe-classe
+de travailler sur des supports audio et vidéo va-
+riés et de prendre la parole pour réagir sponta-
+nément en inter-activité avec la classe
+de pratiquer des exercices de TOEIC (4 parties
+de compréhension orale) + tests entiers
+de prendre la parole en mode préparé et en in-
+ter-activité spontanée via des exposés indivi-
+duels (auto-présentation et/ou compte-rendus
+d’articles, type « colles ») et des exposés par
+deux (sujets variés)
+de travailler sur les conversations télépho-
+niques (compréhension /production)
+de pratiquer des exercices de TOEIC (3 parties
+écrites)
+de lire des documents variés (articles généraux
+et scientifiques) et de rédiger quelques lignes
+pour en rendre compte et donner son avis
+d'écrire des emails (à caractère personnel et
+professionnel) / de commencer à rédiger CVs
+et lettres de motivation
+
+Bibliographie
+• Documents distribués par les intervenants
+• Différents sites internet dont la liste est fournie en début d'année
+
+1.3. SHES501a - Sport
+Cours (h)
+
+TD (h)
+
+TP (h)
+
+ 
+
+21
+
+ 
+
+Pondération
+
+1.5
+
+Evaluation
+
+CC
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Descriptif
+Ce cours s’appuie sur la pratique des activités physiques et sportives et s’articule autour de deux axes prioritaires.
+D’une part, il s’agit de permettre aux élèves d’acquérir des savoir-faire liés aux activités sportives et de mettre en
+avant leurs savoir-être, qualités requises pour leur insertion et leur réussite professionnelle. Cet axe s’appuiera sur
+le travail effectué autour des valeurs véhiculées par les différentes activités sportives et leurs modes de pratique
+diversifiés.
+D’autre part, il s’agit de permettre aux élèves-ingénieurs d’acquérir des compétences collectives dans la réalisation
+d’un projet et la gestion de groupe mais également de développer leurs capacités individuelles d’adaptation et de
+régulation. Cet axe se traduira par l’organisation collective et la mise en place d’un évènement sportif sur une
+séance.
+
+4
+
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+travailler en équipe afin de préparer, mettre en
+place et réguler un évènement sportif dans un
+cadre contraint
+ 
+
+ 
+
+Semestre 5
+
+Niveau
+Maîtrise
+
+ 
+
+ 
+
+s’engager dans une nouvelle activité physique
+de manière intense, lucide, raisonnée et critique
+
+Maîtrise
+
+ 
+
+ 
+
+ 
+
+ 
+
+A l'issue de ce cours l'élève sera capable :
+de concevoir une fiche de projet collectif en in-
+tégrant les différents paramètres organisation-
+nels.
+d'expliquer et de faire appliquer à un groupe un
+ensemble de règles collectives de fonctionne-
+ment
+d'adapter et de réguler le fonctionnement de
+son activité en s’adaptant aux contraintes spa-
+tiales matérielles et humaines et en répondant
+rapidement aux problèmes rencontrés
+de développer une motricité adaptative en
+s’engageant pleinement dans l’activité tout en
+respectant les règles, les autres et sa propre in-
+tégrité physique
+d'intégrer et d'appliquer rapidement des règles
+de fonctionnement complexes et nouvelles
+de développer un regard critique et constructif
+afin de pouvoir juger objectivement sa presta-
+tion et celle des autres
+
+1.4. SHES505 - Simulation de gestion d'entreprise
+Cours (h)
+
+Pondération
+
+TP (h)
+
+TD (h)
+19.5
+
+ 
+
+ 
+
+1.5
+
+Evaluation
+
+CC
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Pré-requis
+Aucun
+Descriptif
+Les jeux d’entreprise, également appelés serious game ou simulation de gestion d'entreprise, sont des outils pé-
+dagogiques pour apprendre autrement. Il s’agit d’une simulation qui vise à monter la complexité des entreprises
+tout en reposant sur un modèle simplifié. Dans un jeu d’entreprise le temps est accéléré et les participants jouent
+sur une période condensée (deux journées dans le cas présent) plusieurs années de la vie d’une entreprise. Cette
+simulation d’entreprise est réalisée à l’aide d’un programme informatique. Ce programme intègre un algorithme
+afin de calculer les performances de chaque équipes concurrentes (chaque équipe représentant une entreprise du
+marché) à la fin de chaque décision.
+Plan du Cours
+1. Analyser le contexte général pour mieux communiquer,
+2. Connaître les principaux outils de communication, médias/hors médias,
+3. Comprendre le processus d'élaboration d'une stratégie de communication,
+4. Donner une formation globale, concrète et efficace en matière de gestion des entreprises,
+5.
+
+Sensibiliser à l'interdépendance des fonctions de l'entreprise à travers la prise de décisions et l'analyse de
+résultats.
+
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+concevoir les bases d'une stratégie d’entreprise
+et appréhender les interactions entre fonctions
+
+Niveau
+
+A l'issue de ce cours l'élève sera capable :
+
+Application  
+
+5
+
+Semestre 5
+
+Bibliographie
+• Sophie Delerm, Jean-Pierre Helfer et Jacques Orsoni. « Les bases du marketing », Vuibert, 2006 (Partie 2,
+
+Chapitres 1 et 2 et Partie 3, Chapitre 2).
+
+• Jacques Lendrevie, Julien Levy, « Mercator, Théorie Et Nouvelles Pratique Du Marketing (9e Edition), Dunod,
+
+Paris, 2009 (Chapitre 15)
+
+• Jean Barreau, Jacqueline Delahaye, « Gestion financière DECF Epreuve 4 », Dunod, 2006 (Chapitres 7 et 8)
+• Christian Goujet, Christian Raulet & Christiane Raulet, « Comptabilité de gestion », Dunod, Paris, 2007. (Cha-
+
+pitres 1, 17 et 18)
+
+• Maurice Pillet, Chantal Martin-Bonnefous, Pascal Bonnefous, Alain Courtois, «  Gestion de production : les
+
+fondamentaux et les bonnes pratiques », Eyrolles, 2011. (Lire : Chapitres 4, 6 et 8)
+
+Outils numériques
+• Serious game : OgPlay
+2. UE502 : Sciences et outils de l'Ingénieur
+
+2.1. DDRS501 - Développement Durable
+Cours (h)
+
+TD (h)
+
+TP (h)
+
+Pondération
+
+Evaluation
+
+11.5
+
+9
+
+ 
+
+1.5
+
+CC(50%) + CT(50%)
+
+Descriptif
+Ce cours vise à sensibiliser les élèves ingénieurs à la problématique du développement durable et à son intégration
+dans les entreprises et de leur permettre de prendre en main cet aspect dans leur vie professionnelle.
+Plan du Cours
+1.
+
+ Etat des lieux de la planète
+
+Introduction au développement durable (3h. C)
+1.1.
+1.2. Historique du développement durable
+1.3. Concept du développement durable
+
+2. Bilan carbone (3h C, 4,5h TD)
+
+2.1. Changement climatique - Gaz à effet de serre
+2.2. Situation énergétique mondiale
+2.3. Méthode bilan carbone
+2.4. exercices d'application et études de cas
+
+3. Analyse du cycle de vie des produits, écoconception
+4. Gestion des déchets
+
+4.1. Approche globale de la production et du traitement
+
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+mettre en œuvre une politique de développe-
+ment durable dans son entreprise et réaliser le
+Bilan Carbone et/ou l'ACV d'un produit.
+ 
+
+Niveau
+
+A l'issue de ce cours l'élève sera capable :
+
+Application de comprendre les grands enjeux du DD.
+
+ 
+
+d'analyser des données, d’émettre des hypo-
+thèses (simplificatrices ou par manque de don-
+nées) afin de réaliser un BC ou une ACV pour
+le compte d'une entreprise.
+
+Bibliographie
+• Bertrand Barré, Bernadette Mérenne-Schoumaker,  Atlas des énergies mondiales. Ed. Autrement, 2011, ISBN
+
+978-2-7467-1486-1 Cote BU Savoie 333.70 BAR
+
+• Yvette  Veyret  Paul  Arnould,  Atlas  des  développements  durables.  Ed.  Autrement,  2008,  ISBN
+
+978-2-7467-1187-7. Côte Savoie BU 338.9 ATL
+
+•  Comité de Prospective en énergie de l’Académie des Sciences. La recherche scientifique face aux défis de
+
+l’énergie.Ed. EDP Sciences, 2012. ISBN 978-2-7598-0826-7 Côte BU Savoie 333.79 COM
+
+• Bernard  Wiesenfeld.  L’énergie  en  2050,  nouveaux  défis  et  faux  espoirs.  Ed.  EDP  Sciences,  2005,  ISBN
+
+2-86883-818-9 Côte BU Savoie 333.79 WIE
+
+6
+
+Semestre 5
+
+•   Louis  Boisgibault,  L’énergie  solaire  après  Fukushima  :  la  nouvelle  donne.  Ed.  Medicilline,  2011,  ISBN
+
+978-2-9152-2037-7 Côte BU Savoie 621.47 BOI 1
+
+•   G.  Thomas  Farmer,  John  Cook.  Climate  change  science:  a  modern  synthesis.  Ed.  Springer,  2013,  ISBN
+
+978-94-007-5756-1 Côte BU Savoie 551.6 FAR
+
+•   B.  Mérenne-Schoumaker.  Géographie  de  l'énergie,  acteurs,  lieux  et  enjeux.  Ed.  Belin,  2011,  ISBN  :
+
+978-2-7011-5897-6 Côte BU Savoie 333.79 MER
+2.2. EASI501a - Electricité
+TP (h)
+Cours (h)
+
+TD (h)
+
+Pondération
+
+13.5
+
+15
+
+12
+
+3
+
+Evaluation
+
+CC(70%) TP(30%)
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Pré-requis
+• Connaissances scientifiques et technologiques du premier cycle universitaire
+Descriptif
+Bases de l'électricité, étude des régimes transitoires, continus et sinusoïdaux
+Plan du Cours
+1.
+
+Lois d'étude des circuits (4,5h cours)
+1.1. Lois de Kirchhoff, théorème de superposition, théorème de Millman
+1.2. Générateur de Thévenin, de Norton
+1.3. Dipôles
+1.4. Adaptation d'impédances
+1.5. Régime permanent, régime transitoire
+Energie électrique (6h cours)
+2.1. Conversion électromécanique
+2.2. Systèmes de distribution monophasé et triphasé
+2.3. Puissances active, réactive et apparente en monophasé et triphasé
+2.4. Protection électrique
+
+2.
+
+Intitulés TP
+1. Circuit RC en régime transitoire
+2. Mesure de puissances en triphasé
+3. Machine à courant continu
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+calculer et mesurer les grandeurs électriques
+courants et tensions dans un circuit linéaire, en
+régime continu, transitoire, sinusoïdal mono-
+phasé ou triphasé.
+
+Niveau
+Maîtrise
+
+calculer et mesurer les puissances et énergies
+consommées dans un circuit linéaire, en régime
+continu, transitoire, sinusoïdal monophasé ou
+triphasé
+
+Maîtrise
+
+7
+
+A l'issue de ce cours l'élève sera capable :
+de donner les lois de comportement cou-
+rant-tension pour les dipôles de base (résis-
+tance, condensateur, bobine) d’appliquer les
+lois de Kirchhoff dans un circuit électrique
+d’établir et de résoudre les équations différen-
+tielles correspondant à l'étude d'un circuit élec-
+trique linéaire en régime transitoire de simpli-
+fier un circuit électrique en donnant la source
+de tension ou la source de courant équivalente
+entre deux points de ce circuit d'utiliser les
+nombres complexes pour la représentation de
+grandeurs électriques en régime sinusoïdal
+(courants, tensions, impédances)
+de quantifier les énergies échangées et/ou sto-
+ckées dans un circuit linéaire en régime transi-
+toire de calculer et mesurer les puissances ac-
+tives, réactives et apparentes en régime sinusoï-
+dal monophasé et triphasé équilibré de savoir
+
+Semestre 5
+
+Ce cours vise à rendre l'élève apte à :
+
+Niveau
+
+A l'issue de ce cours l'élève sera capable :
+comment relever le facteur de puissance d’une
+installation électrique
+
+expliquer le principe de fonctionnement d’un
+moteur à courant continu
+
+décrire l’architecture générale du réseau de
+production, distribution et consommation
+d’électricité en France
+
+établir si une installation électrique simple
+(domestique ou petite entreprise) présente un
+risque électrique
+
+Application de calculer la vitesse de rotation et/ou le couple
+
+moteur en régime permanent de quantifier les
+énergies mises en jeu
+
+Application d’expliquer le choix du régime sinusoïdal
+triphasé pour la production et le transport
+d’électricité de décrire les principales sources
+d'énergies électriques, les moyens de transport
+de l'électricité, ainsi que les principaux postes
+de consommation
+
+Application de décrire le principe de fonctionnement des
+dispositifs de protection des biens contre le
+risque électrique de décrire le principe de fonc-
+tionnement des dispositifs de protection des
+personnes contre le risque électrique (régime
+de neutre TT)
+
+Bibliographie
+• Electricité générale : Analyse et synthèse des circuits, cours et exercices corrigés de Tahar Neffati, édition Dunod
+• Chiffres clés de l'énergie - Édition 2018: http://www.statistiques.developpement-durable.gouv.fr/chiffres-cles-
+
+lenergie-edition-2018
+2.3. INFO501a - Numération et Algorithmique
+Cours (h)
+
+Pondération
+
+TP (h)
+
+TD (h)
+10.5
+
+Evaluation
+
+12
+
+16
+
+3
+
+CT(70%) + TP(30%)
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Pré-requis
+Aucun
+Descriptif
+Ce  cours  vise  d'une  part  à  acquérir  les  connaissances  de  base  sur  la  représentation  des  informations  dans  les
+ordinateurs et d'autre part à acquérir les bases de l'algorithmique et de la programmation avec une initiation à
+l'utilisation d'un langage objet. L'objectif est d'être capable d'utiliser l'outil informatique pour la résolution des
+problèmes rencontrés dans l'activité d'ingénierie.
+Plan du Cours
+1. Historique de l'informatique et Ingénierie
+2. Architecture des machines, représentation des données
+3.
+
+Initiation à la programmation
+3.1. Programmer en Python
+3.2. Notion d’objet
+3.3. (La récursivité)
+
+Intitulés TP
+Ce module comporte 4 séances de TP
+• Séance 1 : Initiation à la manipulation d'objets en python illustrée sur la reconnaissance de chiffres dans des
+
+images par corrélation
+
+• Séance 2, 3 et 4 : ces 3 séances correspondent à un seul sujet au choix :
+
+• Réprésentation visuelle d'informations issues de capteurs sous la forme d'émoticone colorées, souriantes ou
+
+grimaçantes à l'aide du module Pygame
+
+• Représentation visuelle d'objets 3D à l'aide des modules Pygame et PyOpenGL
+
+8
+
+Semestre 5
+
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+Solutionner un problème en utilisant l'outil in-
+formatique
+
+ 
+
+ 
+
+Niveau
+
+A l'issue de ce cours l'élève sera capable :
+Application de comprendre les conséquences de la repré-
+
+sentation de données sur ordinateur et de choi-
+sir la plus pertinente
+de concevoir des algorithmes en utilisant la
+programmation objet
+d'implanter ces algorithmes sur un ordinateur
+
+ 
+
+ 
+
+Bibliographie
+• A. Cazes, J. Delacroix, Architecture des machines et des systèmes informatiques, Dunod, 2005.
+• T. Cormen, C. Leiserson, R. Rivest, Introduction à l'algorithmique, Dunod, 2002.
+• G. Swinnen, Apprendre à programmer avec Python 3 (http://inforef.be/swi/python.htm)
+Outils numériques
+• Ce  module  s'appuie  sur  le  langage  python.  Les  développements  demandés  en  td  et  en  tp  se  font  dans
+
+l'environnement Annaconda / Spyder, avec des modules spécifiques (scikit-image, Pygame et PyOpenGL).
+2.4. INFO502a - Bases de données
+Cours (h)
+
+Pondération
+
+Evaluation
+
+TD (h)
+
+TP (h)
+
+6
+
+4.5
+
+12
+
+1.5
+
+CT(70%) TP(30%)
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Pré-requis
+Aucun
+Descriptif
+Ce cours vise à acquérir les connaissances de base afin de modéliser, concevoir et manipuler une base de données.
+L'application de ce cours se fait sur des problèmes généraux et d'autres métiers.
+Plan du Cours
+1.
+2. Modélisation Entité/Association (1h CM)
+3. Modélisation et algèbre relationnel (3h CM)
+4.
+Objectifs d'apprentissage
+
+Introduction aux Bases de Données (30min CM)
+
+Introduction au langage SQL (1.5h CM)
+
+Ce cours vise à rendre l'élève apte à :
+manipuler tous les concepts nécessaires à la
+gestion d'une base de données
+ 
+ 
+
+Niveau
+Maîtrise
+
+A l'issue de ce cours l'élève sera capable :
+de concevoir une base de données
+
+ 
+ 
+
+de gérer une base de données
+d'utiliser une base de données
+
+Bibliographie
+J. Akoka, I. Comyn-Wattiau, Conception des bases de données relationnelles, Vuibert Informatique, 2001
+
+Evaluation
+
+CC
+
+2.5. MATH500a - Soutien Mathématiques
+Cours (h)
+
+TD (h)
+
+TP (h)
+
+Pondération
+
+ 
+
+21
+
+ 
+
+ 
+
+Pré-requis
+• Bases solides de mathématiques niveau lycée
+Descriptif
+Cet enseignement vise à renforcer les bases en mathématiques .
+
+9
+
+Semestre 5
+
+Plan du Cours
+1. Géométrie plane et géométrie dans l'espace
+2. Nombres complexes, polynômes, fractions rationnelles: décomposition en éléments simples sur R
+3.
+4. Calcul différentiel des fonctions d'une variable réelle, applications : formule de Taylor, développements li-
+
+Systèmes linéaires, matrices, déterminants
+
+mités, équivalents
+
+5. Calcul intégral basique (dont changement de variable), définition et exemples d'intégrales généralisées
+6.
+
+Equations différentielles de base : cas linéaire du premier ordre, variation de la constante, second ordre li-
+néaires  à coefficients constants.
+
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+savoir manipuler, appliquer et utiliser les ou-
+tils de géométrie plane et de géométrie dans
+l'espace
+savoir manipuler, appliquer et utiliser les outils
+fondamentaux de l'algèbre
+
+ 
+
+ 
+
+savoir manipuler, appliquer et utiliser les outils
+fondamentaux de l'analyse
+
+ 
+
+ 
+
+Niveau
+Maîtrise
+
+A l'issue de ce cours l'élève sera capable :
+ 
+
+Maîtrise
+
+ 
+
+ 
+
+d’utiliser les nombres complexes, de résoudre
+des équations avec les nombres complexes, de
+faire le lien entre géométrie plane et nombres
+complexes
+d’effectuer la division euclidienne de poly-
+nômes, d’utiliser les propriétés des racines de
+polynômes et d’effectuer la décomposition en
+éléments simples d’une fraction rationnelle.
+d’effectuer des calculs sur les matrices, de cal-
+culer des déterminants notamment en utilisant
+les propriétés des déterminants, de résoudre un
+système linéaire et d’utiliser les liens entre ma-
+trices et systèmes linéaires
+
+Application de savoir dériver, d’écrire la formule de Tay-
+
+ 
+
+ 
+
+lor et de calculer un développement limité pour
+une fonction d’une variable réelle
+de calculer une intégrale simple, d’utiliser
+intégration par parties et changement de va-
+riable pour une intégrale, d’étudier la conver-
+gence d’une intégrale généralisée dans des cas
+simples.
+de résoudre une équation différentielle linéaire
+du premier ordre, d’utiliser éventuellement
+pour cela un changement de variable ou de
+fonction donné, de résoudre une équation diffé-
+rentielle linéaire du second ordre à coefficients
+constants.
+
+Bibliographie
+• J-P.  Truc, Précis de Mathématiques, Nathan,1997
+• G Chauvat, A. Chollet, Y.Bouteiller, Mathématiques, Ediscience,2005
+• S Ferrigno, D Marx, A Muller-Gueudin, Mathématiques pour les sciences de l'ingénieur,Dunod,2013
+Lien vers un site contenant des cours, des exercices corrigés, des qcm et des liens vers des sites interessants
+http://ead-polytech.univ-savoie.fr/course/view.php?id=778&ifyeditingon=1
+
+Evaluation
+
+CC
+
+Pondération
+
+3
+
+10
+
+2.6. MATH501a - Mathématiques
+Cours (h)
+
+TP (h)
+
+21
+
+TD (h)
+19.5
+
+ 
+
+Semestre 5
+
+Pré-requis
+• Remise à niveau Mathématiques ou sinon bases solides de BAC+2
+Descriptif
+Cet enseignement vise à donner les bases de l’analyse nécessaires pour les sciences de l’ingénieur.
+Plan du Cours
+1. Calcul différentiel : fonctions de plusieurs variables, différentiation,  exemples d'équations aux dérivées par-
+
+tielles
+
+2. Courbes et surfaces, mouvements ponctuels
+3.
+4. Analyse vectorielle: opérateurs différentiels, potentiels scalaires, potentiels vecteurs, intégrales curvilignes,
+
+Intégrales multiples
+
+intégrales de surface
+
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+Savoir identifier et caractériser une courbe ou
+une surface classique, déterminer une équation
+d’une tangente pour une courbe, d’un plan tan-
+gent pour une surface.
+ 
+
+ 
+
+savoir calculer et donner du sens à une inté-
+grale double et une intégrale triple.
+ 
+
+savoir calculer et manipuler,les outils usuelles
+de l'analyse vectorielle.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Niveau
+
+A l'issue de ce cours l'élève sera capable :
+
+Application déterminer une équation d’une courbe ou d’une
+
+surface classique et identifier une courbe ou
+une surface d'après son équation.
+
+ 
+
+ 
+
+Maîtrise
+
+ 
+
+Maîtrise
+
+ 
+
+ 
+
+ 
+
+ 
+
+de travailler sur des paramétrages de courbes et
+surfaces .
+d'obtenir une équation de tangente à une courbe
+ou de plan tangent à une surface
+de calculer une intégrale double en coordon-
+nées cartésiennes ou en coordonnées polaires
+de calculer une intégrale triple en coordonnées
+cartésiennes, cylindriques ou sphériques.
+de calculer, manipuler, interpréter et utiliser les
+opérateurs gradient , divergence, rotationnel et
+laplacien.
+d'identifier et déterminer un potentiel vecteur,
+un potentiel scalaire.
+de calculer et interpréter une dérivée direction-
+nelle
+de calculer et interpréter une intégrale curvi-
+ligne, une intégrale de surface.
+de calculer le flux d'une fonction vectorielle à
+travers une surface.
+
+Bibliographie
+Livres :
+• J-P.  Truc, Précis de Mathématiques, Nathan,1997   (pour MATH500)
+• J. Stewart, Analyse, Concepts et contextes, vol 2,De Boeck,2001
+• B. Dacorogna, Analyse avancée pour ingénieurs, Presses polytechniques et universitaires romandes,2002
+• E. Azoulay, J. Avignant, G. Auliac. Les mathématiques en Licence (2ème année tome1) Ediscience, 2003
+• F. Cottet-Emard, Analyse 2, De Boeck, 2006
+Sites: https://fr.wikiversity.org/wiki/Facult%C3%A9:Math%C3%A9matiques
+http://uel.unisciel.fr/    
+Livres complémentaires
+• P.Pilibossian, J-P. Lecoutre , Analyse, 1998
+• P. Pilibossian, J-P. Lecoutre , Algèbre, 1998
+
+11
+
+Semestre 5
+
+• P. Thuillier, J.C. Belloc, Mathématiques (2 tomes) ,2004
+3. UE503 : Sciences de l'Ingénieur
+
+3.1. EASI541a - Automatisation
+Cours (h)
+
+TD (h)
+
+TP (h)
+
+Pondération
+
+Evaluation
+
+7.5
+
+12
+
+20
+
+3
+
+CC (70%) + TP (30%)
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Pré-requis
+Notions d'algèbre de Boole
+Descriptif
+Des lignes de production à la gestion énergétique de l'habitat, nombreux et variés sont les systèmes automatisés.
+Cet enseignement aborde les éléments de base nécessaires à la modélisation, l'analyse, la commande et la mise
+en oeuvre des systèmes automatisés.
+Plan du Cours
+1.
+
+2.
+
+3.
+
+2.
+
+Les systèmes combinatoires
+1.1. Ecritures canoniques et simplifications
+Les systèmes séquentiels
+2.1. Le modèle Graphe d'états
+2.2. Synthèse d'un modèle pour une solution câblée
+2.3. Solution programmée
+Le Grafcet : un outil de spécification et de modélisation des systèmes séquentiels
+3.1. Principes généraux : concepts, éléments graphiques, interprétation
+3.2. Structures élémentaires : séquence, choix, parallélisme, synchronisation
+3.3. Structuration horizontale et verticale : structures dérivées, ressources
+3.4. Algorithme d'interprétation
+
+4. Modes de marche d'un système (GEMMA) et interface homme-machine (IHM)
+5. Conduite de projets d'automatisation : la démarche en V
+Intitulés TP
+1.
+
+TP1 (4h) : Cible matérielle et atelier logiciel
+1.1. Configuration matérielle
+1.2. Architecture réseau
+1.3. Organisation logicielle, application multi-tâches
+TP2, 3, 4 et 5 (16h) : Commande centralisée de systèmes
+2.1. Implémentation de modes de fonctionnement
+2.2. Tests élémentaires et finaux
+
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+expliquer la structure d’un système automati-
+sé : du capteur au dialogue opérateur
+ 
+ 
+
+organiser la solution de commande d’un auto-
+matisme centralisé : modes de marche et hié-
+rarchisation
+ 
+
+modéliser les spécifications fonctionnelles d’un
+système automatisé à partir de la description de
+son cahier des charges
+
+Niveau
+Maîtrise
+
+ 
+ 
+
+Maîtrise
+
+A l'issue de ce cours l'élève sera capable :
+de comprendre l’organisation d’un système in-
+dustriel
+d'acquérir la notion de système
+de différencier systèmes automatisés et sys-
+tèmes mécatroniques
+de réfléchir et de décider à propos des diffé-
+rents modes de marche.
+
+ 
+
+Maîtrise
+
+de faire une hiérarchisation verticale
+de suivre une démarche d’analyse
+
+12
+
+Semestre 5
+
+Ce cours vise à rendre l'élève apte à :
+ 
+
+ 
+
+Niveau
+
+ 
+
+ 
+
+A l'issue de ce cours l'élève sera capable :
+de proposer des solutions combinatoires et sé-
+quentielles
+de mettre en œuvre une solution Grafcet
+
+3.2. PHYS541a - Propriétés des matériaux
+Pondération
+Cours (h)
+
+TD (h)
+
+TP (h)
+
+20
+
+12
+
+8
+
+3
+
+Evaluation
+CC(20%)
+
+CT(60%) TP(20%)
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Pré-requis
+Bases de physique
+Descriptif
+Le cours débute par des notions générales sur la structure des matériaux afin d'aborder ensuite les modèles décrivant
+leurs propriétés électriques, thermiques et mécaniques. Il apporte également des notions sur les transferts de chaleur
+entre les matériaux.
+Plan du Cours
+1.
+
+Structure des matériaux
+1.1. Liaisons atomiques
+1.2. Structure cristalline
+1.3. Notions de diffraction
+1.4. Matériaux amorphes
+Propriétés électriques
+2.1. Porteurs de charge et conduction électrique
+2.2. Niveaux et bandes d'énergie
+2.3. Conducteurs électriques et applications
+2.4. Isolants électriques et applications
+2.5. Semi-conducteurs et application
+2.6. Classification des matériaux
+Propriétés et transferts thermiques
+3.1. Propriétés thermiques des matériaux
+3.2. Introduction aux transferts de chaleur
+3.3. Transferts de chaleur par conduction
+3.4. Transferts de chaleur par convection
+3.5. Transferts de chaleur par rayonnement
+3.6. Analogie électrique, résistances thermiques et réseaux électriques analogues
+Propriétés mécaniques
+4.1. Contrainte et déformation (métaux, céramiques et verres, polymères)
+4.2. Déformation élastique
+4.3. Déformation plastique
+4.4. Dureté
+
+2.
+
+3.
+
+4.
+
+Intitulés TP
+• Convection, conduction, rayonnement : expérimentation et modélisation
+• CaRine - Logiciel pour la cristallographie
+• Choix de matériaux
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+décrire la structure interne des matériaux cris-
+tallins ou amorphes et associer certaines pro-
+priétés des matériaux à leur constitution
+
+Niveau
+Notion
+
+13
+
+A l'issue de ce cours l'élève sera capable :
+de citer les différents types de liaisons ato-
+miques et de préciser comment ils condi-
+tionnent les propriétés physiques des matériaux
+
+Semestre 5
+
+Ce cours vise à rendre l'élève apte à :
+
+Niveau
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+A l'issue de ce cours l'élève sera capable :
+telles que température de fusion, rigidité, ex-
+pansion thermique, conductivité électrique
+de définir ce qu’est une structure cristalline et
+de nommer les différents systèmes et réseaux
+cristallins (réseaux de Bravais) et d'expliquer
+leur description par les indices de Miller
+de décrire le principe de la diffraction des
+rayons X par un réseau périodique et de calcu-
+ler les angles de diffraction ou un paramètre de
+maille par application de la loi de Bragg
+d'expliquer ce qui distingue les matériaux
+amorphes des matériaux cristallins en terme de
+structure microscopique
+
+distinguer les différentes classes de matériaux
+en fonction de leurs propriétés électriques en
+vue de leur utilisation dans un système instru-
+menté (par exemple capteur ou actionneur)
+ 
+
+ 
+
+distinguer les différentes classes de matériaux
+en fonction de leurs propriétés thermiques en
+vue de leur utilisation dans un système instru-
+menté et à modéliser un transfert de chaleur
+entre matériaux dans une configuration simple.
+ 
+
+ 
+
+reconnaître et comparer le comportement mé-
+canique des différentes classes de matériaux en
+vue de leur mise en œuvre dans des systèmes
+instrumentés
+ 
+
+Application de décrire le lien entre les liaisons atomiques
+
+dans un matériau, sa structure et ses propriétés
+électriques
+
+ 
+
+ 
+
+d'expliquer la différence entre matériaux métal-
+liques, isolants et semi-conducteurs du point de
+vue des propriétés électriques
+de discuter de l’influence de la température sur
+les propriétés électriques des matériaux
+
+Application de distinguer les matériaux du point de vue
+de leurs propriétés thermiques (isolants ou
+conducteurs thermiques) et énumérer quelques
+exemples de chaque cas
+
+ 
+
+ 
+
+Notion
+
+d'expliquer l’origine des échanges de chaleur
+par conduction, convection et rayonnement
+de schématiser des échanges de chaleur entre
+matériaux dans des configurations simples et
+d'employer les lois des transferts de chaleur
+pour calculer des flux de chaleur ou des distri-
+butions de température dans ces configurations
+d'interpréter une courbe contrainte-déformation
+et d'en déduire les caractéristiques mécaniques
+de base du matériau
+
+ 
+
+de différencier les comportements élastiques et
+plastiques d'un matériau
+
+Bibliographie
+• James F. Schackelford, Introduction to materials science for engineers, Pearson Prentice Hall, 2000
+• Cours de Physique des Semiconducteurs, Bernard Gréhant, Eyrolles (1990)
+• Dissemination of IT for the Promotion of Materials Science (DoITPoMS) / University of Cambridge.
+Outils numériques
+Comsol Multiphysics
+CaRine Crystallography
+
+14
+
+Semestre 5
+
+3.3. PHYS542a - Electromagnétisme appliqué à la transmission de
+l'information
+Cours (h)
+
+Pondération
+
+Evaluation
+
+TD (h)
+
+TP (h)
+
+17
+
+15
+
+8
+
+3
+
+CT(70%) TP(30%)
+
+Langue(s) utilisée(s) pour les enseignements
+• Français avec documents en anglais
+Pré-requis
+Bases de physique générale
+Outil mathématique : intégrales, dérivées, systèmes de coordonnées,opérateurs, analyse vectorielle, opérations sur
+les nombres complexes
+Descriptif
+Le cours décrit les principes fondamentaux qui expliquent et régissent l'existence de champs électriques et ma-
+gnétiques. Ces principes permettent de comprendre la propagation des ondes électromagnétiques et leur utilisation
+pour transporter des informations (fibres optiques, lignes bifilaires, guide d'ondes, etc...).
+Plan du Cours
+1.
+2. Magnétostatique
+3.
+4. Ondes électromagnétiques
+5.
+6.
+7.
+Intitulés TP
+1. Optique micro-ondes
+2. Magnétostatique
+3.
+Fibres optiques
+Objectifs d'apprentissage
+
+Propagation guidée : Lignes de transmission, câble coaxial, guide d'ondes
+Propagation guidée :  Notions préliminaires  sur les fibres optiques
+Propagation libre et application :  antennes, RFID
+
+Équations de Maxwell
+
+Électrostatique
+
+Ce cours vise à rendre l'élève apte à :
+expliquer l'origine d'un champ électrique, d'un
+champ magnétique, et d'une onde électroma-
+gnétique.
+
+ 
+
+ 
+
+décrire les phénomènes physiques qui per-
+mettent la propagation d'ondes électromagné-
+tiques et leur utilisation pour la transmission de
+l'information.
+ 
+
+Niveau
+
+A l'issue de ce cours l'élève sera capable :
+
+Application de donner l’expression d’un champ électrique
+
+ 
+
+ 
+
+en fonction d’une répartition de charge, et d’un
+champ magnétique en fonction d’une réparti-
+tion basique de courant, et réciproquement.
+d'utiliser le théorème de Gauss et le théorème
+d'Ampère, et la loi de Biot et Savart
+de déterminer les informations essentielles
+contenues dans l’expression d’une onde élec-
+tromagnétique (direction de propagation, pola-
+risation, plan de polarisation, phase, indice de
+réfraction du milieu de propagation).
+
+Application de maitriser les principes de fonctionnement
+
+des lignes de transmission, des guides d’ondes
+et des antennes.
+
+d'utiliser la connaissance acquise sur les prin-
+cipes de fonctionnement et sur les paramètres
+caractéristiques de la transmission guidée pour
+faire un choix pertinent entre les différentes
+technologies.
+
+ 
+
+15
+
+Semestre 5
+
+Ce cours vise à rendre l'élève apte à :
+ 
+
+Niveau
+
+ 
+
+A l'issue de ce cours l'élève sera capable :
+de résoudre des calculs simples permettant de
+caractériser les différents moyens de transmis-
+sion de l’information guidée.
+
+Bibliographie
+Maxime Nicolas, Ondes et électromagnétisme, Dunod, 2009
+
+3.4. PROJ541a - Découverte expérimentale de la spécialité SNI
+Evaluation
+Cours (h)
+
+Pondération
+
+TD (h)
+
+TP (h)
+
+ 
+
+ 
+
+40
+
+3
+
+TP
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Pré-requis
+Aucun prérequis n'est nécessaire pour ce module.
+Descriptif
+Ce module vise une découverte expérimentale de différents aspects de la spécialité. Il est composé de 5 séances
+pratiques de 8h00 chacune durant lesquelles les étudiants travaillent en équipe de 3 ou 4.
+Les 5 thèmes abordés concernent :
+- l'informatique et la robotique de service ;
+- l'analyse d'images et la vision par ordinateur ;
+- l'acquisition et l'exploitation de données issues de capteurs ;
+- l'automatique et les asservissements ;
+- le pilotage des moteurs d'un système embarqué.
+Intitulés TP
+Le module est composé de 5 séances pratiques de 8h00 chacune durant lesquelles les étudiants travaillent en équipe
+de 3 ou 4.
+Les 5 thèmes abordés sont :
+Découverte de la robotique de service (Flavien VERNIER)
+A travers la programmation graphique de robots humanoïdes, le travail consiste à développer des comportements
+afin que les robots intéragissent avec l'humain.
+A la suite d'une première partie de découverte des robots et de leur programmation, un projet propre par trinôme
+est développé afin de mettre en pratique les concepts vus dans la première partie.
+La séance se termine par le développement d'un comportement imposé.
+Analyse d'images et vision par ordinateur (Emmanuel TROUVE et Yajing YAN)
+Les images sont de plus en plus utilisées dans de nombreux domaines : véhicules autonomes, robotique, imagerie
+médicale, observation de la terre, contrôle qualité, systèmes de surveillance, . . . etc. Prises sous des angles diffé-
+rents, les images permettent une reconstruction 3D des scènes observées, alors que les séries temporelles (time-
+lapse) permettent de détecter les changements ou mesurer les mouvements.
+L'objectif de ce thème est de découvrir le potentiel des images comme sources d'informations. A partir de trois
+séries d'images acquises sur un parking, il s'agit de découvrir la structure de ces données et les outils de base du
+traitement d'images permettant de les manipuler. Ces séries d'images sont ensuite utilisées pour découvrir la vision
+stéréo, la détection de changement ou la mesure de trajectoires de véhicules.
+Une balance pour l'évaluation de la posture et de l'équilibre (Stéphane MARTEAU et Alexandre BASCOP)
+Tout  le  monde  dispose,  ou  peut  facilement  disposer,  chez  soi  d'un  pèse-personne.  Sa  fonction  principale  est
+d'indiquer la masse d'une personne en position debout. Mais comment cela fonctionne? Sur quel(s) principe(s)?
+Est-il possible de s'en servir dans le cadre de la stabilométrie pour observer comment le sujet se "débrouille" pour
+se stabiliser debout?
+
+16
+
+Semestre 5
+
+Un statokinésigramme offre une représentation claire et efficace de la mesure de stabilité d'une personne. Il affiche
+le déplacement du centre de pression des pieds dans le plan de la balance.
+Essayons ! Il s'agit notamment de capter/mesurer, récupérer les informations et tracer les résultats.
+Modélisation et commande d'un robot LEGO MINDSTORMS EV3 suiveur de cible (Pascal MOUILLE)
+Ce thème se situe dans le domaine de l'automatique. L'objectif du travail proposé est de réaliser l'asservissement de
+position d'un robot LEGO MINDSTORMS EV3 par rapport à une cible mouvante à l'aide des logiciels MATLAB
+et SIMULINK.
+Le travail se décompose en 5 étapes :
+1. Construction du robot, choix des actionneurs et des capteurs.
+2. Modélisation mathématique de la cinématique du robot et des mesures.
+3.
+
+Prise en main des logiciels MATLAB et SIMULINK ; commande en boucle ouverte du robot et identification
+de paramètres.
+
+4. Compréhension des principes de base d'un asservissement et synthèse d'une structure de commande en boucle
+
+fermée du robot. Simulation.
+
+5. Mise  en  oeuvre  à  l'aide  des  logiciels  MATLAB  et  SIMULINK.  Evaluation  des  performances  de
+
+l'asservissement.
+
+Pilotage des moteurs d'un robot à 2 roues motrices (François LEPLUS)
+L'objectif de ce thème est de piloter le déplacement d'un robot à 2 roues motrices pour qu'il effectue un parcours
+donné. Pour cela, il est nécessaire de caractériser avec précision les 2 motoréducteurs du robot. Chaque motoré-
+ducteur est aliménté par un variateur de vitesse. Les 2 variateurs sont pilotés par une carte ARDUINO UNO.
+Le travail se décompose en 4 étapes :
+1. Caractérisation des motoréducteurs.
+2. Réalisation de la tension U variable : hacheur 4 cadrants avec circuit L298.
+3. Déplacements élémentaires du robot.
+4. Réalisation d'un parcours.
+Objectifs d'apprentissage
+
+Niveau
+Notion
+
+A l'issue de ce cours l'élève sera capable :
+de comprendre et de réaliser un asservissement
+élémentaire d'un procédé simple, en utilisant
+notamment les outils logiciels Matlab et Simu-
+link
+
+Notion
+
+de développer graphiquement une chaîne de
+traitement prenant en compte les capteurs et ac-
+tionneurs d'un robot humanoïde.
+
+Application de charger une image, d'extraire les attributs
+d'image et de réaliser des opérations simples
+(histogramme, colorbar, ...)
+
+Application d'expliquer certaines utilités des images,
+
+d'effectuer un traitement simple de détection
+de changement ou mesure de déplacement et
+d'interpréter les résultats obtenus.
+
+Notion
+
+de mettre en oeuvre un système d'acquisition
+simple de mesures et de réfléchir à
+l'exploitation des données récoltées
+
+Ce cours vise à rendre l'élève apte à :
+réaliser la modélisation et l'analyse d'un pro-
+cédé simple en vue de son asservissement ; à
+réaliser la synthèse et la mise en oeuvre d'une
+structure de commande en boucle fermée élé-
+mentaire
+concevoir et implémenter un comportement
+simple d'un robot humanoïde en interaction
+avec son environnement
+découvrir la structure d'images et réaliser des
+traitements de base (histogramme, extraire une
+bande, ...)
+réaliser une détection de changement ou une
+mesure de déplacement à partir d'une série
+d'images avec des méthodes classiques, analy-
+ser et exploiter les résultats avec des méthodes
+statistiques
+observer l'architecture d'un système et le mo-
+déliser. Réaliser des mesures et les mettre en
+forme.
+
+Outils numériques
+LOGICIELS
+• CHOREGRAPHE
+• ENVI (ENvironment Visualizing Images)
+• LABVIEW et SCILAB
+
+17
+
+Semestre 5
+
+• MATLAB et SIMULINK
+MATERIELS
+• Robots Nao et Pepper
+• Robots LEGO EV3
+• Cartes ARDUINO UNO
+
+18
+
+Semestre 6
+
+UE
+
+ECTS Module
+
+Intitulé
+
+Cours (h) TD (h)
+
+TP (h)
+
+Pondé-
+ration
+
+Evaluation
+
+6
+
+LANG600a Soutien : Anglais
+
+ 
+ 
+
+LANG601a
+PROJ601a
+
+Anglais
+
+Stage Décou-
+verte du milieu
+professionnel
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+SHES601a Gestion financière
+SHES602a
+Initiation au droit
+12 MATH641a Mathématiques
+
+10.5
+15
+18
+
+12
+
+40.5
+
+ 
+
+9
+4.5
+18
+
+ 
+
+ 
+
+ 
+
+PACI641
+
+PACI642
+
+PROJ641a
+
+Matériaux ac-
+tifs et intel-
+ligents pour
+
+l'instrumentation
+Optique appli-
+quée et trans-
+mission optique
+
+Apprentis-
+
+sage par Projet
+
+12
+
+EASI641a
+
+Signaux et
+systèmes
+
+21
+
+15
+
+14.5
+
+13.5
+
+ 
+
+12
+
+ 
+
+12
+
+UE601 :
+Passerelle
+vers le mi-
+lieu pro-
+fessionnel
+
+ 
+ 
+
+ 
+ 
+
+UE602 :
+Sciences
+appliquées
+et appren-
+
+tissage
+
+par projet
+
+ 
+
+ 
+
+ 
+
+UE603 :
+Traite-
+ment de
+
+l'information
+et program-
+
+mation
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+EASI642a
+
+Signal et image :
+opérateurs de base
+
+13.5
+
+13.5
+
+INFO641a
+
+Conception et
+programmation
+orientée objet
+Bases de don-
+nées et tech-
+nologies web
+MATH642a Mathématiques
+
+INFO642a
+
+9
+
+9
+
+8.5
+
+7.5
+
+18
+
+18
+
+spécialisées
+
+19
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+8
+
+24
+
+12
+
+9
+
+20
+
+20
+
+ 
+
+ 
+
+3
+ 
+
+1.5
+1.5
+3
+
+3
+
+3
+
+3
+
+2.5
+
+2.5
+
+2.5
+
+2.5
+
+2
+
+ 
+
+CC
+
+Quitus diplôme
+
+CT
+CT
+
+CC(50%)
+CT(50%)
+
+CT
+
+CT(70%)
++ TP(30%)
+
+CC (Rapport,
+soutenance,
+pratique)
+CT(70%)
++ TP(30%)
+
+CT(70%)
++ TP(30%)
+CC(20%)
+CT(50%)
+TP(30%)
+CC(70%)
++ TP(30%)
+
+CT
+
+Semestre 6
+
+1. UE601 : Passerelle vers le milieu professionnel
+
+1.1. LANG600a - Soutien : Anglais
+Cours (h)
+
+TD (h)
+
+TP (h)
+
+Pondération
+
+ 
+
+12
+
+ 
+
+ 
+
+Evaluation
+
+ 
+
+Langue(s) utilisée(s) pour les enseignements
+• Anglais
+Pré-requis
+Soutien de S6 (12h en présentiel et 12h en autonomie)
+Descriptif
+Reprise de toutes les bases et renforcement des points de langues vus en s5. 12h de cours  par semestre en groupe
+de 15 étudiants.
+
+1.2. LANG601a - Anglais
+TP (h)
+Cours (h)
+
+TD (h)
+40.5
+
+ 
+
+ 
+
+Pondération
+
+3
+
+Evaluation
+
+CC
+
+Langue(s) utilisée(s) pour les enseignements
+• Anglais
+Pré-requis
+Programme de S5 (LANG501)
+Descriptif
+Ce  cours  prépare  les  étudiants  au  test  du  TOEIC  ("Test  of  English  for  International  communication")  et  plus
+exactement à l'obtention d'un score minimal de 785 points (sur 990).
+Les étudiants sont évalués tout au long de chaque semestre. L'évaluation terminale consiste en une épreuve de
+1h, 1h30 ou 2h selon le semestre et selon le site (Annecy ou Le Bourget),et compte coefficient 2 dans le contrôle
+continu total.
+Les étudiants sont évalués tout au long de chaque semestre. L'évaluation terminale consiste en une épreuve de
+1h, 1h30 ou 2h selon le semestre et selon le site (Annecy ou Le Bourget),et compte coefficient 2 dans le contrôle
+continu total.
+Plan du Cours
+1. Révision de points de grammaire importants pour le Toeic
+
+1.1. Le nom
+1.2. Les pronoms
+1.3. Les mots de liaisons....
+
+2. Compréhension orale
+
+2.1. Dialogues enregistrés en anglais américain, britannique, néo-zélandais....
+2.2. Videos en anglais américain, britannique, australien....
+
+3. Compréhension écrite
+3.1. Extraits de presse
+3.2. Textes divers
+
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+auto-vérifier sa maîtrise des structures de la
+langue et à en poursuivre l’apprentissage mé-
+thodique, en visant une inter-activité opération-
+nelle des 4 compétences de communication.
+
+Niveau
+Maîtrise
+
+ 
+
+ 
+
+20
+
+A l'issue de ce cours l'élève sera capable :
+de faire des révisions grammaticales sur : les
+réflexes corrects des structures courantes ; le
+groupe verbal et les temps (sauf l’expression
+du conditionnel) ; le groupe nominal et tous ses
+éléments constitutifs; les liens logiques (mots
+de liaison)
+d'améliorer ses connaissances grammaticales et
+lexicales (anglais général et vocabulaire spéci-
+
+Semestre 6
+
+Niveau
+
+Maîtrise
+
+Ce cours vise à rendre l'élève apte à :
+
+comprendre des documents sonores et
+s’exprimer oralement
+ 
+
+A l'issue de ce cours l'élève sera capable :
+fique au TOEIC) en classe et en autonomie, en
+les validant par des tests d’évaluation réguliers
+de travailler sur les conversations télépho-
+niques (compréhension /production)
+de travailler sur des supports audio et vidéo va-
+riés et prendre la parole pour réagir spontané-
+ment en inter-activité avec la classe
+de pratiquer des exercices de TOEIC (4 parties
+de compréhension orale) + tests entiers
+de prendre la parole en mode préparé et en in-
+ter-activité spontanée via des exposés indivi-
+duels (auto-présentation et/ou compte-rendus
+d’articles, type « colles ») et des exposés par
+deux (sujets variés)
+d'écouter régulièrement les nouvelles sur des
+sites anglophones d’information (CNN, BBC,
+Skynews…) et sera en mesure de restituer
+l’essentiel oralement de façon succincte, en in-
+ter-activité avec le groupe-classe
+de pratiquer des exercices de TOEIC (3 parties
+écrites)
+de lire des documents variés (articles généraux
+et scientifiques) et de rédiger quelques lignes
+pour en rendre compte et donner son avis.
+d'écrire des emails (à caractère personnel et
+professionnel) /de commencer à rédiger CVs et
+lettres de motivation
+1.3. PROJ601a - Stage Découverte du milieu professionnel
+Cours (h)
+
+comprendre des documents écrits et s’exprimer
+à l’écrit
+ 
+
+Pondération
+
+Evaluation
+
+Maîtrise
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+TD (h)
+
+TP (h)
+
+ 
+
+ 
+
+ 
+
+ 
+
+Quitus diplôme
+
+Descriptif
+Au cours de sa 3ème année, l’élève ingénieur aura l’obligation d’effectuer soit un stage en entreprise (stage ouvrier
+ou technicien) soit un stage de mobilité à l’étranger (travail pour une œuvre humanitaire ou emploi dans un pays
+étranger, etc.).
+Les objectifs du stage ouvrier sont :
+• vivre une expérience en situation d’ouvrier,
+• s’intégrer et participer à une organisation professionnelle,
+• identifier les missions des employés (ingénieurs, techniciens, ouvriers ...),
+• découvrir des méthodes et des pratiques professionnelles (style de management, qualité, sécurité, environne-
+
+ment, ...).
+
+• tirer des conclusions de son stage, pour sa propre formation, dans l’optique d’une éventuelle future intégration
+
+dans cette entreprise en tant qu’ingénieur.
+
+Les objectifs du stage de mobilité à l’étranger :
+• vivre une expérience à l’international,
+• s’intégrer et découvrir un pays étranger (hors canton de Genève et Monaco),
+• améliorer son niveau en langue
+
+21
+
+Semestre 6
+
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+murir son projet professionnel
+
+ 
+
+Niveau
+
+A l'issue de ce cours l'élève sera capable :
+
+Application d’identifier ses motivations, ses valeurs et ses
+
+compétences professionnelles
+de décrire l'organisation d'une entreprise
+
+ 
+
+1.4. SHES601a - Gestion financière
+Cours (h)
+
+TD (h)
+
+TP (h)
+
+Pondération
+
+10.5
+
+9
+
+ 
+
+1.5
+
+Evaluation
+
+CT
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Descriptif
+L'objectif de ce cours est d'acquérir les notions de base en gestion financière.
+Plan du Cours
+1.
+2.
+3.
+
+L'entreprise et son environnement: notions générales, milieu économique... (1 cours + 1 TD)
+La comptabilité générale: écriture comptable, comptabilité analytique, impôts et taxes (1 cours + 1 TD)
+Le diagnostic économique: caractéristiques et structure, moyens financiers, humains et matériels, investisse-
+ment et financement (2 cours + 2 TD)
+Le diagnostic financier : bilan, compte de résultat, ratios... (3 cours + 2 TD)
+
+4.
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+décrire les paramètres essentiels en gestion fi-
+nancière
+
+Niveau
+Notion
+
+ 
+
+ 
+
+ 
+
+ 
+
+1.5. SHES602a - Initiation au droit
+Cours (h)
+
+TD (h)
+
+TP (h)
+
+Pondération
+
+15
+
+4.5
+
+ 
+
+1.5
+
+A l'issue de ce cours l'élève sera capable :
+de comprendre les principales notions en
+comptabilité générale: écriture comptable,
+comptabilité analytique, impôts et taxes
+d'expliquer le diagnostic économique: carac-
+téristiques et structure, moyens financiers, hu-
+mains et matériels, investissement et finance-
+ment
+de comprendre les outils de diagnostic finan-
+cier : bilan, compte de résultat, ratios...
+
+Evaluation
+
+CT
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Descriptif
+L'objectif de ce cours  est d'acquérir les notions de base en droit.
+Plan du Cours
+1.
+2.
+3.
+4.
+Objectifs d'apprentissage
+
+Les Institutions judiciaires, les Principes Fondamentaux et les Acteurs de la Justice (2 cours + 1 TD)
+La Procédure Pénale et de Droit Pénal (1 cours + 1 TD)
+Le Contrat, la Responsabilité Contractuelle et le Droit de la Famille (2 cours + 1 TD)
+Le Droit du Travail (4 cours)
+
+Ce cours vise à rendre l'élève apte à :
+appréhender les bases du droit du travail
+
+Niveau
+Notion
+
+A l'issue de ce cours l'élève sera capable :
+d'identifier les principes du Droit du Travail
+
+22
+
+Ce cours vise à rendre l'élève apte à :
+ 
+
+ 
+
+Semestre 6
+
+Niveau
+
+ 
+
+ 
+
+A l'issue de ce cours l'élève sera capable :
+de connaître les Institutions judiciaires, les
+Principes Fondamentaux et les Acteurs de la
+Justice
+d'appréhender le Contrat, la Responsabilité
+Contractuelle et le Droit de la Famille
+
+2. UE602 : Sciences appliquées et apprentissage par projet
+
+2.1. MATH641a - Mathématiques
+Cours (h)
+
+TD (h)
+
+TP (h)
+
+Pondération
+
+Evaluation
+
+18
+
+18
+
+ 
+
+3
+
+CC(50%) CT(50%)
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Pré-requis
+Algèbre linéaire de base (espaces vectoriels, opérations matricielles), analyse élémentaire.
+Descriptif
+Ce cours est divisé en trois parties :
+• Algèbre linéaire (espaces vectoriels, applications linéaires, réduction des endomorphismes)
+• Espaces euclidiens et hermitiens.
+• Suites et séries de fonctions.
+Plan du Cours
+1. Algèbre linéaire
+
+2.
+
+1.1. Espaces vectoriels
+1.2. Applications linéaires
+1.3. Déterminants
+Espace euclidiens et hermitiens
+2.1. Produit scalaire
+2.2. Bases orthonormées
+2.3. Projections orthogonales
+2.4. Produit hermitien
+
+3. Réductions des endomorphismes
+
+4.
+
+3.1. Diagonalisation et trigonalisation
+3.2. Applications (puissances de matrice, suites et systèmes différentiels)
+Suites et séries de fonctions
+4.1. Suites de fonctions
+4.2. Séries de fonctions
+4.3. Séries entiéres, application aux équations différentielles
+4.4. Séries de Fourier
+
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+utiliser les différentes réductions possibles de
+matrices
+ 
+
+ 
+ 
+
+comprendre les structures algébriques et eucli-
+diennes d'un espace vectoriel
+
+Niveau
+
+A l'issue de ce cours l'élève sera capable :
+
+Application de trouver des valeurs propres
+
+ 
+
+ 
+ 
+
+Maîtrise
+
+23
+
+de construire une base de sous-espaces propres
+Trouver des valeurs propres
+de calculer des puissances de matrices
+de résoudre des systèmes différentiels linéaires
+du premier ordre
+de construire une base orthonormée avec diffé-
+rents produits scalaires
+
+Semestre 6
+
+Ce cours vise à rendre l'élève apte à :
+ 
+
+Niveau
+
+ 
+
+A l'issue de ce cours l'élève sera capable :
+de déterminer une projection orthogonale et
+faire le lien avec les approximations au sens
+des moindres carrés.
+
+utiliser les suites et séries de fonctions
+
+Application de reconnaitre les différents types de conver-
+
+ 
+
+ 
+
+gence.
+de résoudre des équations différentielles en uti-
+lisant les séries entières
+de décomposer un signal en série de Fourier
+
+ 
+
+ 
+
+2.2. PACI641 - Matériaux actifs et intelligents pour l'instrumentation
+Cours (h)
+
+Pondération
+
+Evaluation
+
+TD (h)
+
+TP (h)
+
+21
+
+15
+
+ 
+
+3
+
+CT
+
+Langue(s) utilisée(s) pour les enseignements
+• Français avec documents en anglais
+Pré-requis
+Bases de physique générale
+Electromagnétisme.
+Outil mathématique : intégrales, dérivées, systèmes de coordonnées, opérateurs, analyse vectorielle, calcul matri-
+ciel
+Descriptif
+Ce cours décrit des matériaux à propriétés spécifiques, utilisés dans des capteurs, actionneurs et dispositifs méca-
+troniques : explication des phénomènes physiques mis en oeuvre dans ces matériaux, description des modèles de
+comportement permettant de rendre compte de leurs propriétés, applications.
+Plan du Cours
+1.
+2. Matériaux piézoélectriques
+3. Matériaux piézorésisitifs et électrostrictifs
+4.
+5. Matériaux  magnétorésistifs et magnétostrictifs
+6. Biréfringence et modulation électro-optique
+Objectifs d'apprentissage
+
+Propriétés magnétiques des matériaux : aimantation, perméabilité magnétique, para-, dia- et ferromagnétisme
+
+Propriétés diélectriques  : polarisation, rigidité et permittivité diélectrique, pyro- et ferroélectricité
+
+Ce cours vise à rendre l'élève apte à :
+identifier les classes de matériaux actifs mis
+en œuvre dans différentes applications de type
+mesure et transduction.
+
+Niveau
+Maîtrise
+
+ 
+
+ 
+
+ 
+
+ 
+
+expliquer le comportement des différentes
+classes de matériaux vis-à-vis de sollicitations
+électriques, magnétiques et électromagnétiques
+
+Maîtrise
+
+ 
+
+ 
+
+24
+
+A l'issue de ce cours l'élève sera capable :
+d'utiliser et d'appliquer les grandeurs propres
+aux propriétés diélectriques, piézorésistives et
+électrostrictives dans un capteur ou un trans-
+ducteur
+d'utiliser et d'appliquer les grandeurs propres
+aux propriétés magnétiques, magnétorésis-
+tives et magnétostrictives dans un capteur ou
+un transducteur
+d'expliquer le principe d'aimantation
+de définir les notions de moment dipolaire per-
+manent et induit propre aux matériaux diélec-
+triques et à l’origine des phénomènes piézo-
+électriques, ferroélectriques et pyroélectriques
+de distinguer les courants de conduction en pié-
+zorésistivité des courants de polarisation pour
+les diélectriques
+
+2.3. PACI642 - Optique appliquée et transmission optique
+Cours (h)
+
+Pondération
+
+TP (h)
+
+Evaluation
+
+TD (h)
+13.5
+
+Semestre 6
+
+Ce cours vise à rendre l'élève apte à :
+ 
+
+Niveau
+
+ 
+
+A l'issue de ce cours l'élève sera capable :
+de décrire l’utilisation de l’effet électro-optique
+pour la transmission d’un signal (modulation
+d’amplitude)
+
+Bibliographie
+David Jiles, Introduction to magnetism and magnetic materials, Ed Chapmann and Hall, 1994
+Yuhuan Xu, Ferroelectric Materials and their applications, Ed North-Hollland, Elsevier, 1991
+
+14.5
+
+8
+
+3
+
+CT(70%) + TP(30%)
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Pré-requis
+PHYS542 : Electromagnétisme appliqué à la transmission de l'information
+Descriptif
+Ce cours donne les bases de l'optique géométrique et ondulatoire nécessaires à la compréhension des systèmes
+utilisant des transmissions optiques. Le formalisme matriciel et la simulation numérique sont mises à profit pour
+donner au futur ingénieur des méthodes fiables permettant de décrire rapidement et simplement le fonctionnement
+d'un système optique.
+Plan du Cours
+1. Optique Géométrique (propagation de la lumière, généralités sur les instruments optiques, traitement matri-
+
+ciel)
+
+2. Optique Ondulatoire (Propagation d'une impulsion, la nature "ondulatoire" de la lumière, photométrie, pola-
+
+risation : traitement matriciel, applications des phénomènes d'interférences et de diffraction)
+La microscopie optique
+
+3.
+4. Optique guidée et transmission optique
+Intitulés TP
+1.
+2.
+3.
+Objectifs d'apprentissage
+
+Les instruments optiques, approche matricielle
+Interférences - diffraction
+Le guide optique plan
+
+Ce cours vise à rendre l'élève apte à :
+décrire l'état de polarisation d'une onde lu-
+mineuse et d'expliquer les phénomènes
+d'interférences et de diffraction
+
+ 
+
+décrire le fonctionnement d'un système op-
+tique géométrique en se basant sur ses éléments
+équivalents
+ 
+
+ 
+
+Niveau
+Maîtrise
+
+ 
+
+Maîtrise
+
+A l'issue de ce cours l'élève sera capable :
+de décrire la prorogation d'une onde lumineuse
+en notation complexe et d'utiliser le formalisme
+matriciel pour calculer l'action d'un polariseur
+ou d'une lame à retard sur un état de polarisa-
+tion quelconque.
+de modéliser les phénomènes d'interférences et
+de diffraction, et de connaitre les applications
+courantes de ces phénomènes
+de prévoir et décrire le fonctionnement de tout
+système optique géométrique
+
+de manipuler les notions d'objets, d'images, de
+grandissement et de grossissement
+de remplacer le système par ses éléments équi-
+valents
+
+ 
+
+ 
+
+25
+
+Semestre 6
+
+Ce cours vise à rendre l'élève apte à :
+décrire la propagation et le confinement de la
+lumière dans une structure de type guide plan
+ou de type fibre optique
+ 
+
+Niveau
+
+A l'issue de ce cours l'élève sera capable :
+Application de calculer l'ouverture numérique d'une fibre
+
+optique
+
+ 
+
+d'évaluer dans une structure plane le nombre de
+modes guidés
+
+Bibliographie
+• Optique, Eugene Hecht, Pearson, 2005
+• Manuel d'optique, G Chartier, Hermes, 1997
+• Introduction to matrix methods in optics, A Gerrard and JM Burch, Wiley 1994
+
+2.4. PROJ641a - Apprentissage par Projet
+Pondération
+Cours (h)
+
+TD (h)
+
+TP (h)
+
+ 
+
+ 
+
+24
+
+3
+
+Evaluation
+
+CC (Rapport, sou-
+tenance, pratique)
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Descriptif
+L'Apprentissage par Problèmes et par Projet ( APP ) dans la spécialité IAI consiste d'une part à développer chez
+les élèves ingénieurs les compétences acquises dans la formation académique et d'autre part à acquérir des com-
+pétences supplémentaires dans des thèmes d'avenir:
+• Bâtiment Intelligent (BI) et Objets Connectés (OC)
+• Gestion des énergies renouvelables (GER) : photovoltaïque, éolienne, hydrolienne
+• Imagerie pour l'environnement (IE)
+• Robotique de service (RS) : traitements informatiques
+• Santé (S)
+Ces thèmes sont le fil conducteur des activités d'APP qui s'étalent sur 3 à 5 semestres à raison d'un module par
+semestre (module de 36h aux semestres 6, 7 et 9 ; module de 60h au semestre 8). Le travail est effectué par équipe
+(entre 4 et 7 élèves ingénieurs) sur l'ensemble des semestres.
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+travailler en équipe, organiser, participer et
+faire progresser un projet d'équipe tout en ac-
+quérant de nouvelles connaissances et de nou-
+velles compétences.
+ 
+
+ 
+ 
+
+ 
+
+s'approprier les connaissances et les concepts
+de base liés à un domaine particulier en rapport
+avec la formation IAI
+ 
+
+Niveau
+
+A l'issue de ce cours l'élève sera capable :
+
+Application d'organiser un travail en tâches
+
+ 
+
+ 
+ 
+
+ 
+
+de répartir les tâches entre les membres de
+l'équipe
+d'organiser et animer une réunion de travail
+de se positionner par rapport à l'équipe en
+termes de compétences
+d'évoluer en acquérant ou en développant des
+compétences nouvelles
+
+Application de faire une recherche bibliographique dans un
+
+domaine nouveau
+
+d'inventorier les connaissances et concepts
+utiles à un projet et identifier ceux qu'il est né-
+cessaire d'acquérir
+
+ 
+
+26
+
+Ce cours vise à rendre l'élève apte à :
+ 
+
+ 
+
+Semestre 6
+
+Niveau
+
+ 
+
+ 
+
+A l'issue de ce cours l'élève sera capable :
+de chercher à l'extérieur des informations et des
+expériences pouvant contribuer à l'avancement
+du projet
+d'aborder la modélisation du système, du pro-
+cédé ou de l'application à réaliser
+
+Outils numériques
+Logiciels spécialisés divers (Labview, Matlab, ETS4, Choregraphe, AndroidStudio, ...).
+Plates-formes collaboratives (Moodle, Github, Trello, ...).
+Systèmes d'exploitation Windows, Linux, Android et virtualisation.
+3. UE603 : Traitement de l'information et programmation
+
+3.1. EASI641a - Signaux et systèmes
+Cours (h)
+
+TD (h)
+
+TP (h)
+
+Pondération
+
+Evaluation
+
+12
+
+12
+
+12
+
+2.5
+
+CT(70%) + TP(30%)
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Pré-requis
+Notions de base sur les équations différentielles et sur les équations récurrentes.
+Notions et opérations de base sur les nombres complexes.
+Descriptif
+A l'issue de ce module, l'étudiant doit être capable de représenter le comportement d'un système dynamique li-
+néaire, en temps continu ou en temps échantillonné, à l'aide d'une fonction de transfert, et d'analyser les princi-
+pales caractéristiques d'un système lorsque l'on dispose d'un modèle sous forme de fonction de transfert (analyse
+temporelle, analyse fréquentielle). Le cas particulier d'excitations sinusoïdales est traité via la représentation gra-
+phique de Bode (gain et phase).
+Plan du Cours
+COURS
+1.
+
+2.
+
+3.
+
+Introduction
+1.1. Notion de système et de variables
+1.2. Notion de causalité
+1.3. Notion de modèle
+1.4. Temps continu, temps échantillonné
+Les signaux
+2.1. Introduction
+2.2. La transformée de Laplace
+2.3. La transformée en z
+Fonction de transfert
+3.1. Introduction
+3.2. Systèmes en temps continu
+3.3. Systèmes en temps discret
+3.4. Systèmes en temps continu échantillonnés
+3.5. Représentation d'un système par schéma bloc
+
+4. Analyses temporelle et fréquentielle des systèmes linéaires continus d'ordre 1 et d'ordre 2
+
+4.1. Introduction
+4.2. Analyse temporelle
+4.3. Analyse fréquentielle
+4.4. Les systèmes du 1er ordre
+4.5. Les systèmes du 2ème ordre
+
+TRAVAUX DIRIGES
+
+27
+
+Semestre 6
+
+Transformée de Laplace et transformée de Laplace inverse
+Fonction de transfert et réponse indicielle
+Systèmes du 1er ordre
+
+1.
+2.
+3.
+4. Analyse fréquentielle d'un filtre analogique
+5.
+6.
+Intitulés TP
+1.
+2.
+3.
+
+Signaux échantillonnés, transformée en z et transformée en z inverse, fonction de transfert échantillonnée
+Systèmes du 2ème ordre
+
+Systèmes du 1er ordre (analyses statique, indicielle et fréquentielle, modélisation et validation de modèle)
+Systèmes du 2ème ordre (Analyse statique, indicielle et fréquentielle, modélisation et validation de modèle)
+Filtrage analogique (fonction de transfert d'un circuit électronique donné, analyses fréquentielles théorique
+et expérimentale)
+
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+modéliser le comportement d'un système dyna-
+mique
+ 
+
+Niveau
+Maîtrise
+
+ 
+
+analyser le comportement temporel et fréquen-
+tiel d'un système dynamique
+
+Maîtrise
+
+A l'issue de ce cours l'élève sera capable :
+d'associer différents sous-systèmes pour
+construire un modèle global
+de représenter par une fonction de transfert
+le comportement dynamique d'un système li-
+néaire, en temps continu ou en temps échan-
+tillonné
+d'analyser les propriétés d'un système dyna-
+mique dont on connait un modèle sous la forme
+d'une fonction de transfert, dans le domaine
+temporel comme dans le domaine fréquentiel
+
+Bibliographie
+Ph. De Larminat, Analyse des systèmes linéaires, Lavoisier Hermès Sciences, 2002
+H. Bourlès, Systèmes linéaires : de la modélisation à la commande, Lavoisier Hermès Sciences, 2006
+P.  Codron,  S.  Le  Ballois,  Automatique  -  Systèmes  linéaires  et  continus  -  Cours  et  exercices  résolus,  Dunod
+Sciences Sup, 1998
+Outils numériques
+Logiciels MATLAB et SIMULINK
+
+3.2. EASI642a - Signal et image : opérateurs de base
+Cours (h)
+
+Pondération
+
+TP (h)
+
+Evaluation
+
+13.5
+
+9
+
+2.5
+
+CT(70%) + TP(30%)
+
+TD (h)
+13.5
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Pré-requis
+• espaces vectoriels, produit scalaire
+• convolution, transformée de Fourier, distributions
+Descriptif
+A partir de la modélisation de signaux analogiques, ce cours vise à donner les notions nécessaires à la pratique du
+fltrage et de l'analyse de signaux numériques 1D et 2D. Les notions abordées comprennent :
+• étude temporelle des signaux déterministes
+• étude fréquentielle des signaux déterministes
+• filtrage linéaire analogique
+• signaux numériques : modélisation et filtrage
+• signaux 2D et images : représentation et filtrage
+Plan du Cours
+1.
+
+Espaces vectoriels des signaux déterministes d'énergie finie et de puissance moyenne finie (étude temporelle
+et fréquentielle, filtrage)
+
+28
+
+Semestre 6
+
+2.
+3.
+
+4.
+
+Signaux numériques : échantillonnage et quantification, aspects fréquentiels
+Filtrage numérique linéaire 1D : approche fréquentielle et convolution circulaire, approche temporelle et
+filtrage RIF, équation aux différences et filtrage RII,
+Signaux 2D : filtrage et détection de contours dans des images, compression des signaux et des images ;
+introduction aux signaux sur graphe
+
+Intitulés TP
+• Etude temporelle, fonctions de corrélation
+• Etude fréquentielle, analyse spectrale
+• Filtrage numérique
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+déterminer la modélisation la plus adaptée à un
+signal réel 1D ou 2D
+ 
+
+faire l'étude des propriétés temporelles de si-
+gnaux déterministes (caractérisation au 1er et
+2e ordre)
+ 
+ 
+
+faire l'étude fréquentielle de signaux détermi-
+nistes
+ 
+
+ 
+
+réaliser la numérisation d'un signal physique en
+vue de l'étude de ses propriétés ou de sa trans-
+mission (sans distorsion ou avec un distorsion
+contrôlée)
+ 
+
+Niveau
+Maîtrise
+
+ 
+
+Maîtrise
+
+ 
+ 
+
+Maîtrise
+
+ 
+
+ 
+
+Maîtrise
+
+ 
+
+de déterminer les propriétés d'un filtre numé-
+rique et effectuer le choix d'architecture adapté
+ 
+
+Maîtrise
+
+ 
+
+A l'issue de ce cours l'élève sera capable :
+de comprendre la multiplicité des représenta-
+tions d'un même signal physique
+de changer de système de représentation
+de choisir l'opérateur de calcul adapté à la
+classe des signaux
+
+de vérifier la validité du calcul effectué
+d’interpréter le résultat des calculs
+de choisir l'opérateur de calcul adapté à la
+classe des signaux
+d'évaluer les performances de l'opérateur de
+calcul
+d’interpréter le résultat des calculs
+choisir les paramètres de la numérisation
+(échantillonnage et quantification) tester la va-
+lidité de la numérisation effectuée
+
+choisir un mode de représentation du signal
+numérique en vue de sa compression ou de la
+synthèse d'un signal analogique
+de déterminer les propriétés temporelles et fré-
+quentielles à partir de l'architecture du filtre
+de faire la synthèse de filtres en adoptant un
+compromis performance - complexité de réali-
+sation
+
+Bibliographie
+• Aide-mémoire - Traitement du signal, F. Cottet, Dunod, 2017
+Outils numériques
+MATLAB : synthèse de signaux, calcul de fonctions de correlation et transformées de Fourier en 1D et 2D
+Analyse temps-fréquence de signaux sonores
+Questionnaires et support de cours accessible sur plateforme Moodle
+
+9
+
+9
+
+20
+
+3.3. INFO641a - Conception et programmation orientée objet
+Evaluation
+Cours (h)
+CC(20%)
+
+Pondération
+
+2.5
+
+TD (h)
+
+TP (h)
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+
+29
+
+CT(50%) TP(30%)
+
+Semestre 6
+
+Pré-requis
+Connaissances de base en informatique.
+Descriptif
+Ce module est une introduction à l'approche orienté objet. Il aborde des aspects liés à la conception et à la pro-
+grammation. Pour la partie programmation, le langage Java est utilisé en tant que langage support.
+Plan du Cours
+1.
+2. Classes et Objets. Communication entre objets. Encapsulation.
+3. Relations entre classes. Héritage et polymorphisme
+4. Classes abstraites et interfaces
+5. Modèle a événements et interfaces graphiques
+Objectifs d'apprentissage
+
+L'approche orienté objet et cycle de vie du logiciel
+
+Ce cours vise à rendre l'élève apte à :
+expliquer les caractéristiques de l'approche
+orientée objet
+ 
+ 
+
+ 
+
+concevoir et implémenter une application
+orientée objet de relativement petite taille (10
+classes) à partir d’une description de problème.
+ 
+
+ 
+
+ 
+
+ 
+
+Niveau
+
+A l'issue de ce cours l'élève sera capable :
+
+Application d'expliquer la structure d'une application orien-
+
+ 
+ 
+
+ 
+
+Maîtrise
+
+tée objet
+d'expliquer comment les objets communiquent
+d'expliquer ce qu'est l'encapsulation et son inté-
+ret
+d'expliquer ce qu'est l'héritage et son lien avec
+la réutilisation du code.
+de définir un diagramme de classe a partir d'un
+description de problème
+
+ 
+
+ 
+
+ 
+
+ 
+
+de créer des instances de classes et les faire
+communiquer
+de réaliser une application impliquant de
+l'héritage, des classes abstraites et des inter-
+faces.
+de mettre en place un mécanisme de communi-
+cation a base d'événements
+de construire une interface graphique conte-
+nant plusieurs fenêtres s'échangeant des événe-
+ments.
+
+3.4. INFO642a - Bases de données et technologies web
+Cours (h)
+
+Pondération
+
+Evaluation
+
+TD (h)
+
+TP (h)
+
+8.5
+
+7.5
+
+20
+
+2.5
+
+CC(70%) + TP(30%)
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Pré-requis
+ Avoir des connaissances de base en informatique (INFO501, INFO502)
+Descriptif
+L'objectif de ce cours est d’aller : (1) vers une conception de qualité d’une base de données relationnelle en prenant
+notamment en compte des contraintes et des règles de gestion des données et en assurant la cohérence et l’intégrité
+de la base de données ; (2) concevoir une interface web pour créer et manipuler les données de la base. L’accès à
+la base de données est réalisé à l’aide d’un serveur web qui génère les pages web de l'application.
+Ce cours vise à ce que les étudiants soient capables de :
+• concevoir et de mettre en œuvre une application 3 tiers (serveur base de données, client web, serveur web) de
+
+taille moyenne,
+
+30
+
+Semestre 6
+
+• concevoir l'organisation des données au travers d'un modèle entité-association et de sa traduction dans une base
+
+de données relationnelle normalisée,
+
+• formaliser les contraintes et d’élaborer des traitements sur les données en utilisant les mécanismes de contraintes
+
+SQL, les déclencheurs, les fonctions et procédures stockées,
+
+• accéder aux données à travers un serveur web, concevoir des interfaces web pour la représentation et la mani-
+
+pulation des données,
+
+• utiliser les technologies actuelles telles que le SGBD Postgres/Mysql, les langages SQL, PHP, HTML, ...
+Plan du Cours
+Plan du Cours
+1. Architectures 3 tiers
+2.
+
+Schémas conceptuels (Entités/Association, UML) d'une BD et traduction en modèle relationnel, normalisa-
+tion du modèle
+Langage de définition, de manipulation, déclencheur, fonctions/procédures stockées
+
+3.
+4. Conception d'une interface web dynamique
+5. Gestion des accès à une BD, interrogation des données, restitution et présentation au client web
+Intitulés TP
+Les deux premières séances sont une application des concepts vus en cours/TD, les trois autres séances sont dédiées
+à un mini-projet par équipe APP avec pour objectif la mise en place d'un site web pour l'APP pour chacune des
+thématiques.
+Les travaux pratiques portent sur :
+• concevoir et mettre en œuvre une base de données normalisée à partir d'un cahier des charges,
+• formaliser les contraintes et règles de gestion en utilisant les mécanismes de contraintes SQL, déclencheurs,
+
+fonctions et procédures stockées, gestion des exceptions
+
+• mettre en œuvre une démarche permettant de travailler sur une architecture 3 tiers (identification des différents
+
+serveurs, leurs accès et les différents espaces de travail),
+
+• mettre  en  place  des  programmes  sur  les  serveurs  et  les  clients  web  nécessaires  au  fonctionnement  de
+
+l'architecture 3 tiers,
+
+• utiliser les principaux langages de développement des applications web (SQL, HTML, PHP…),
+• mettre en œuvre l'accès aux données d'une base à partir du client web.
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+concevoir et mettre en œuvre une architecture 3
+tiers de taille moyenne.
+
+Niveau
+Maîtrise
+
+ 
+
+concevoir et mettre en œuvre une base de
+données normalisée à partir d'un cahier des
+charges.
+ 
+
+ 
+
+formaliser les contraintes et règles de gestion
+liées à une base de données.
+ 
+
+ 
+
+Maîtrise
+
+ 
+
+ 
+
+Maîtrise
+
+ 
+
+31
+
+A l'issue de ce cours l'élève sera capable :
+d'énumérer les types des composants in-
+tervenants dans une architecture 3 tiers et
+d'expliquer leurs rôles
+de mettre en œuvre une démarche projet lui
+permettant de travailler sur une architecture
+3 tiers (identification des différents serveurs,
+leurs accès et les différents espaces de travail)
+de comprendre une base de données existante
+et la faire évoluer (établir un schéma concep-
+tuel, requêtes SQL)
+de comparer différentes conception d'une base
+de données par rapport à des critères qualité
+liés à la redondance, la maintenance de la base,
+l'intégrité...
+de mettre en oeuvre un processus de normalisa-
+tion d'une base de données
+d'identifier les contraintes et les traitements né-
+cessaires à la gestion de la base de données
+d'utiliser les mécanismes de déclencheurs,
+fonctions et procédures stockées d'un système
+de gestion de base de données pour automatiser
+
+Semestre 6
+
+Ce cours vise à rendre l'élève apte à :
+
+Niveau
+
+concevoir et réaliser une interface web pour
+une base de données.
+
+Maîtrise
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+A l'issue de ce cours l'élève sera capable :
+des actions sur les données, gérer l'intégrité de
+la base, sécuriser l'accès aux données...
+de mettre en place des programmes sur les ser-
+veurs et les clients web nécessaires au fonc-
+tionnement de l'architecture 3 tiers
+d'utiliser les principaux langages de développe-
+ment des applications web (HTML, PHP …)
+de mettre en œuvre l'accès aux données d'une
+base à partir du client web
+de mettre en place une application web com-
+plète répartie sur les 3 tiers
+
+Bibliographie
+Ouvrage de référence de Georges Gardarin ici.
+Webographie :
+• Principaux types de données MySQL
+• Procédures, fonctions et déclencheurs
+• Curseurs
+• Catalogue Mysql (informations sur un schéma de base de données)
+• MySQL sur Wikibooks
+Outils numériques
+Les outils numériques sont utilisés à plusieurs fins :
+- pédagogiques : outils de gestion de projets en équipe (répartition, planification et suivi, espaces documantaires...)
+- d'auto-évaluation et d'évaluation : Quizz sur Moodle
+- d'organisation du cours : espace dédié su Moodle pour les supports de cours et pour la remise des livrables des
+étudiants.
+
+3.5. MATH642a - Mathématiques spécialisées
+Cours (h)
+
+Pondération
+
+18
+
+18
+
+ 
+
+2
+
+TD (h)
+
+TP (h)
+
+Evaluation
+
+CT
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Pré-requis
+Notions de base sur les fonctions, les suites et séries numériques, l'intégration.
+Descriptif
+Ce cours apporte des compléments mathématiques indispensables pour la compréhension, la représentation et
+l'analyse de données. La première partie du cours traite de la théorie des distributions, théorie fondamentale lorsque
+les données analysées sont associées à des signaux analogiques. Cette partie permet de mieux comprendre et ma-
+nipuler les mathématiques utilisées en traitement du signal et de l'information, ainsi que d'autres phénomènes
+physiques qui ne peuvent pas être représentés par des fonctions classiques. La deuxième partie du cours traite
+des mathématiques nécessaires à l’analyse de données numériques. Elle propose d’une part, l’étude des mathé-
+matiques nécessaires à l’analyse des signaux discrets et autres informations numériques (Convolution discrète,
+Transformée en Z, Transformée de Fourier Discrète...). Elle développe, d’autre part, les techniques et méthodes
+d'optimisation. Cette partie fournit un ensemble d’outils mathématiques essentiels à la résolution des problèmes
+d'analyse, d'apprentissage machine et recherche d'informations dans les données.
+Plan du Cours
+1. Complément de calcul intégral
+
+1.1. Intégrales généralisées et intégrales dépendant d'un paramètre
+1.2. Produit de convolution des fonctions
+1.3. Transformées de Fourier et Transformée de Laplace des fonctions
+
+32
+
+Semestre 6
+
+1.4. Espaces fonctionnels, Espaces des fonctions test
+2. Distributions de Schwartz et Distributions tempérées
+
+2.1. Distributions régulières et singulières (de Schwartz)
+2.2. Opérations sur les distributions (translation, changement d'échelle, dérivation, …)
+2.3. Produit de convolution des distributions
+2.4. Distributions causales et Transformée Laplace (TL) des distributions
+2.5. Distributions tempérées et Transformée de Fourier (TF) des distributions
+Théorie de l'échantillonnage
+3.1. Modèle mathématique de l'échantillonnage
+3.2. Représentation dans le domaine de Fourier
+3.3. Théorème de reconstitution (Shannon) des fonctions échantillonnées
+3.4. Transformée de Fourier des fonctions échantillonnées
+ Convolution discrete et Transformée en Z
+4.1. Convolution discrète
+4.2. Transformée en Z
+Introduction à l'optimisation
+5.1. Optimisation sans contrainte
+5.2. Optimisation sous contraintes d'égalité
+5.3. Optimisation sous contraintes d'inégalité
+
+3.
+
+4.
+
+5.
+
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+utiliser les distributions pour représenter les si-
+gnaux continus dans le domaine temporel et
+fréquentiel
+
+Niveau
+Maîtrise
+
+de passer des représentations continues aux re-
+présentations discrètes des signaux
+
+Maîtrise
+
+ 
+
+ 
+
+analyser un problème et proposer une solution
+idéale
+
+Notion
+
+A l'issue de ce cours l'élève sera capable :
+de faire des calculs à l'aide des distributions ré-
+gulières (associées aux fonctions) et non-régu-
+lières (Dirac,...) : convolution, Transformée de
+Laplace, de Fourier...
+de maîtriser les phénomènes de repliement
+spectrale et les équivalences entre fréquences
+réelles (analogique) et calculées par Transfor-
+mée de Fourier Discrète.
+de manipuler les principales transformées dis-
+crètes utilisées en traitement numérique du si-
+gnal (TNS)
+d'appliquer à un problème d'optimisation les
+techniques de base : recherche de points cri-
+tique, calcul de Hessien, descente de gradient,
+utilisation des multiplicateurs de Lagrange…
+
+33
+
+Semestre 7
+
+UE
+
+ECTS Module
+
+Intitulé
+
+Cours (h) TD (h)
+
+TP (h)
+
+Pondé-
+ration
+
+Evaluation
+
+6
+
+LANG700a Soutien : Anglais
+
+ 
+
+ 
+
+ 
+
+ 
+
+LANG701a
+
+LANG702a
+
+SHES703a
+
+SHES704a
+
+12
+
+EASI744a
+
+Anglais (Ni-
+veau TOEIC
+non atteint)
+Langues vi-
+
+vantes (Niveau
+TOEIC atteint)
+Ressources et
+dynamique pro-
+
+fessionnelles
+
+Créativité et
+Management
+de l'innovation
+Automatique
+- Stabilité et
+commande
+de systèmes
+
+ 
+
+ 
+
+ 
+
+ 
+
+6
+
+40.5
+
+30
+
+10.5
+
+12
+
+13.5
+
+ 
+
+ 
+
+ 
+
+8
+
+ 
+
+7.5
+
+9
+
+20
+
+ 
+
+3
+
+3
+
+1.5
+
+1.5
+
+2.5
+
+ 
+
+CC
+
+CC
+
+Oral (50%)
++ rapport et
+soutenance
+
+stage 3A (50%)
+CC (20%) Rap-
+
+port +Soute-
+nance(80%)
+CT(50%)
++ TP(50%)
+
+PACI741
+
+Electronique
+
+12
+
+12
+
+12
+
+2.5
+
+CC
+
+ 
+
+ 
+
+ 
+
+d'instrumentation :
+
+notions essen-
+
+tielles pour
+l'ingénieur
+Systèmes
+
+d'acquisition
+de données -
+Programma-
+tion graphique
+
+Apprentis-
+
+sage par Projet
+
+PACI742
+
+PROJ741a
+
+4.5
+
+ 
+
+ 
+
+ 
+
+12
+
+EASI741a Signaux aléatoires
+
+12
+
+12
+
+UE701 :
+Passerelle
+vers le mi-
+lieu pro-
+fessionnel
+
+ 
+
+ 
+
+ 
+
+ 
+
+UE702 :
+Electro-
+nique, au-
+tomatique
+et appren-
+
+tissage
+
+par projet
+
+ 
+
+ 
+
+ 
+
+UE703 :
+Signaux et
+systèmes
+numériques
+
+32
+
+2.5
+
+CC
+
+24
+
+12
+
+4.5
+
+2.5
+
+Rapport +
+soutenance
++ pratique
+CT(70%)
+TP(30%)
+
+CT(40%)
+TP(60%)
+
+ 
+
+ 
+
+INFO741a
+
+Systèmes
+embarqués
+
+9
+
+3
+
+24
+
+2.5
+
+34
+
+Semestre 7
+
+UE
+
+ECTS Module
+
+Intitulé
+
+Cours (h) TD (h)
+
+TP (h)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+INFO742a Méthodes de dé-
+veloppement lo-
+giciel et qualité
+Réseaux et sys-
+tèmes répartis
+Probabilités
+- Statistiques
+
+INFO743a
+
+MATH741a
+
+12.5
+
+7.5
+
+12
+
+18
+
+3
+
+18
+
+16
+
+20
+
+ 
+
+1. UE701 : Passerelle vers le milieu professionnel
+
+Pondé-
+ration
+
+2.5
+
+2.5
+
+2
+
+Evaluation
+
+CC(40%)
+CT(30%)
+TP(30%)
+CT(60%)
++ TP(40%)
+CC(50%)
+CT(50%)
+
+1.1. LANG700a - Soutien : Anglais
+Cours (h)
+
+TD (h)
+
+TP (h)
+
+Pondération
+
+ 
+
+6
+
+ 
+
+ 
+
+Evaluation
+
+ 
+
+Pré-requis
+Avoir validé S5 - S6 Score Toeic 635. Score Toeic 735 non atteint.
+Descriptif
+Reprise de toutes les bases et renforcement des points de langues. 6h de cours + 6 h de travail en autonomie par
+semestre en groupe de 15 étudiants.
+
+1.2. LANG701a - Anglais (Niveau TOEIC non atteint)
+Cours (h)
+
+Pondération
+
+TP (h)
+
+ 
+
+3
+
+TD (h)
+40.5
+
+ 
+
+Evaluation
+
+CC
+
+Langue(s) utilisée(s) pour les enseignements
+• Anglais
+Pré-requis
+Programme de S5 et S6.
+Descriptif
+Ce  cours  prépare  les  étudiants  au  test  du  TOEIC  ("Test  of  English  for  International  communication")  et  plus
+exactement à l'obtention d'un score minimal de 785 points (sur 990).
+Dans le but de travailler les 4 compétences, ce cours est aussi une introduction à la prise de parole en public au
+moyen de présentations données par des étudiants en groupes ou en individuel, sur des sujets illustrés par des
+articles de presse ou des supports vidéos (VTD : Video, Talk and Debate et aussi production écrite). Selon le site
+(Annecy ou Chambéry certains seront vus à des moments différents du semestre, de l'année voire même des trois
+années de formation).
+Les étudiants sont évalués tout au long de chaque semestre. L'évaluation terminale consiste en une épreuve de
+1h, 1h30 ou 2h selon le semestre et selon le site (Annecy ou Le Bourget),et compte coefficient 2 dans le contrôle
+continu total.
+Plan du Cours
+1. Révision de points de grammaire importants pour le Toeic:
+
+1.1. Révisions des temps.
+1.2. Le conditionnel et les structures en "should" (suggestion/subjonctif).
+1.3. Les auxiliaires de modalité et les périphrases de sens voisin.
+1.4. Les mots de liaison (révisions).
+
+2. Compréhension orale:
+
+2.1. Dialogues enregistrés en anglais américain, britannique, néo-zélandais....
+2.2. Videos en anglais américain, britannique, australien.
+
+3. Compréhension écrite:
+3.1. Extraits de presse
+3.2. Textes divers
+
+35
+
+Semestre 7
+
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+intervenir à l'écrit et à l'oral, en visant toujours
+l’inter-activité de communication opération-
+nelle
+
+Niveau
+Maîtrise
+
+ 
+
+comprendre des documents sonores et
+s’exprimer oralement
+
+ 
+
+comprendre des documents écrits et s’exprimer
+à l’écrit
+ 
+
+ 
+
+ 
+
+Notion
+
+ 
+
+Maîtrise
+
+ 
+
+ 
+
+A l'issue de ce cours l'élève sera capable :
+de poursuivre des révisions grammaticales
+sur : le conditionnel ; tous les autres temps ;
+l’expression de la suggestion et de la modali-
+té / le passif ; les structures verbales (infinitif/ -
+ing) ;
+d'améliorer ses connaissances grammaticales et
+lexicales (anglais général, « business » et de sa
+spécialité scientifique) , en classe et en autono-
+mie, en les validant par des tests réguliers
+de continuer à s’entraîner sur des exercices de
+TOEIC (4 parties de compréhension orale) +
+tests entiers
+de travailler sur des supports audio et vidéo va-
+riés (anglais général, « business » et de spécia-
+lité) et prendre la parole pour réagir spontané-
+ment, en inter-activité avec la classe
+de continuer à s’entraîner sur des exercices de
+TOEIC (3 parties écrites)
+de lire des documents variés (anglais général,
+« business » et scientifique) et rédigé quelques
+lignes pour en rendre compte et donner son
+avis
+de rédiger CVs et lettres de motivation
+
+1.3. LANG702a - Langues vivantes (Niveau TOEIC atteint)
+Cours (h)
+
+Pondération
+
+Evaluation
+
+TD (h)
+
+TP (h)
+
+ 
+
+30
+
+ 
+
+3
+
+CC
+
+Pré-requis
+• Pour l'anglais Culture Civilisation et Langue (CCL) : élèves ingénieurs ayant réussi le TOEIC.
+• Pour la LV2 : cours débutants uniquement pour le chinois et le japonais.
+Descriptif
+Ce cours est composé de deux parties :
+• 15h d'Anglais :  Culture, Civilisation et Langue
+• 15h d'une seconde langue vivante. Les langues proposées sont :
+
+• Espagnol, Allemand et Italien pour les 2 sites de l'école (non débutants).
+• Chinois et Japonais sur le site d'Annecy avec des cours débutants possibles.
+
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+être en autonomie linguistique et culturelle
+pour communiquer de façon authentique
+ 
+
+ 
+
+A l'issue de ce cours l'élève sera capable :
+d'inter-agir avec des professionnels (de sa spé-
+cialité) au cours de présentations
+d'écouter régulièrement les nouvelles sur des
+sites anglophones d’information (CNN, BBC,
+Skynews…) et sera en mesure de restituer
+l’essentiel oralement de façon succincte, en in-
+ter-activité avec le groupe-classe
+de faire des recherches (en groupe et indivi-
+duellement) à visée professionnelle / culturelle
+à présenter en classe
+
+Niveau
+Maîtrise
+
+ 
+
+ 
+
+36
+
+Ce cours vise à rendre l'élève apte à :
+imaginer, être créatif et crédible (dans une
+langue étrangère) pour convaincre des parte-
+naires professionnels
+
+ 
+
+comprendre et parler d'autres langues que
+le français et l'anglais et s'ouvrir à d'autres
+cultures.
+ 
+
+Semestre 7
+
+Niveau
+Maîtrise
+
+ 
+
+Maîtrise
+
+A l'issue de ce cours l'élève sera capable :
+de monter un projet professionnel innovant ;
+simuler les démarches auprès des acteurs éco-
+nomiques et d’apporter de l’aide pour le fina-
+liser (selon les étapes d’un « business plan »
+crédible : rédaction de emails, entretien télé-
+phonique, recrutement, recherches de finance-
+ment..)
+de le présenter, en démontrant la faisabilité
+technique et commerciale (« pitch » / sur le
+modèle de : « Dragons’ den »)
+de travailler sur des supports écrits, audio et vi-
+déo variés
+
+ 
+
+d'échanger avec des personnes non franco-
+phones et non anglophones.
+
+1.4. SHES703a - Ressources et dynamique professionnelles
+Cours (h)
+
+Pondération
+
+TP (h)
+
+Evaluation
+
+TD (h)
+10.5
+
+ 
+
+8
+
+1.5
+
+Oral (50%) + rap-
+port et soutenance
+stage 3A (50%)
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Descriptif
+Le but du module est d'amener les élèves vers une meilleure connaissance de soi pour définir un projet profession-
+nel, élaborer une stratégie de recherche ciblée et se présenter efficacement lors d'un entretien.
+Plan du Cours
+1.
+2.
+3. Ressources et dynamique personnelles et professionnelles (4TD)
+Intitulés TP
+Simulations d'entretien avec des professionnels
+Objectifs d'apprentissage
+
+Préparation à la soutenance de stage (2 TD)
+Présentation des objectifs du stage (1TD)
+
+Ce cours vise à rendre l'élève apte à :
+définir son projet de stage 4ème année et mener
+une recherche efficace
+ 
+
+ 
+
+ 
+
+ 
+
+Niveau
+
+A l'issue de ce cours l'élève sera capable :
+Application d'identifier ses valeurs, ses motivations et ses
+compétences personnelles et professionnelles
+de comprendre les attendus du stage de 4ème
+année
+de définir son projet selon les attendus du stage
+et ses ressources (personnalité et compétences)
+de convaincre en entretien
+
+ 
+
+ 
+
+1.5. SHES704a - Créativité et Management de l'innovation
+Cours (h)
+
+Pondération
+
+TP (h)
+
+Evaluation
+
+TD (h)
+13.5
+
+12
+
+ 
+
+1.5
+
+CC (20%) Rapport
++Soutenance(80%)
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+
+37
+
+Semestre 7
+
+Descriptif
+L'objectif de ce cours est de permettre aux étudiants de connaitre les grandes orientations stratégiques des entre-
+prises. A travers une mise en application des notions abordées en cours magistral, les étudiants auront à gérer un
+projet innovation, à analyser le secteur, l'offre, la demande et à élaborer un business model.
+Ce cours a, en outre, pour vocation de développer des capacités entrepreneuriales chez les étudiants et, de leur
+donner les clés de compréhension de l'élaboration d'un projet innovant (contraintes temporelles, financières etc...).
+Plan du Cours
+1.
+
+Innovation ou invention? La créativité au démarrage
+1.1. Le processus de créativité
+1.2. Les outils de la créativité
+1.3. De l'idée aux Best-seller et produits cultes
+Le management de l'innovation
+2.1. Favoriser l'innovation dans l'entreprise
+2.2. S'organiser pour innover
+2.3. L'innovation et le crowdfunding
+La valeur de l'innovation Business ou GRD : quel outil?
+3.1. La proposition de valeur de l'innovation
+3.2. Le business Canvas
+3.3. Le GRP
+
+2.
+
+3.
+
+4. Quand l'innovation se confronte au marché
+4.1. L'étude de marché ou de non-marché
+4.2. les outils quantitatifs
+4.3. les outils qualitatifs
+L'écosystème de l'innovation
+5.1. Le PESTEL comme outil d'analyse de l'environnement de l'innovation
+5.2. Le SWOT comme outils d'évaluation de l'innovation
+
+5.
+
+6. Valoriser l'innovation
+
+7.
+
+6.1. Le rôle de la communication (faire aimer, faire connaitre, faire savoir)
+6.2. L'innovation et les réseaux sociaux
+L'entreprenariat et la création d'entreprise
+7.1. L'accompagnement à l'entreprenariat
+7.2. La posture entreprenariale
+7.3. Faut-il protéger l'idée?
+
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+assurer le management de l'innovation
+
+Niveau
+
+A l'issue de ce cours l'élève sera capable :
+
+Application  
+
+2. UE702 : Electronique, automatique et apprentissage par projet
+
+2.1. EASI744a - Automatique - Stabilité et commande de systèmes
+Cours (h)
+
+Pondération
+
+Evaluation
+
+TD (h)
+
+TP (h)
+
+7.5
+
+9
+
+20
+
+2.5
+
+CT(50%) + TP(50%)
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Pré-requis
+Module EASI641 (Signaux et systèmes)
+Descriptif
+Etude de la stabilité et de la commande des systèmes dynamiques linéaires continus.
+Plan du Cours
+COURS
+1.
+
+Introduction : notions de stabilité et de système bouclé
+1.1. Notion de stabilité d'un système
+
+38
+
+Semestre 7
+
+2.
+
+3.
+
+1.2. Notion de système bouclé (commande en boucle fermée)
+Stabilité des systèmes dynamiques linéaires
+2.1. Introduction
+2.2. Rappels sur les systèmes linéaires
+2.3. Condition de stabilité
+2.4. Critère de Routh
+2.5. Stabilité des systèmes bouclés
+Les correcteurs standards
+3.1. Introduction
+3.2. Le correcteur PID
+3.3. Les principales actions
+3.4. Les correcteurs standards
+
+4. Réglage de correcteurs par la méthode du modèle
+
+4.1. Le problème
+4.2. Procédé d'ordre 1
+4.3. Procédés d'ordre 2
+
+Stabilité - Méthodes algébriques
+Synthèse de correcteurs P et PI pour un procédé d'ordre 1
+
+TRAVAUX DIRIGES
+1.
+2.
+3. Asservissement en vitesse et en position d'un moteur
+4. Asservissement de position d'un motoréducteur piloté par un variateur de vitesse
+Intitulés TP
+Modélisation et asservissement d'un robot LEGO suiveur de ligne
+Les séances de travaux pratiques (20h) sont organisées sous la forme d'un mini projet.
+Matériels et logiciels utilisés : Robot LEGO EV3, Maltab, Simulink.
+Les principales étapes du projet sont :
+1. Modélisation
+
+1.1. Modélisation des actionneurs (variateur de vitesse, moteur avec encodeur)
+1.2. Validation du modèle
+1.3. Etude et modélisation du capteur de luminosité
+1.4. Modélisation de la cinématique du robot
+
+2. Mise en oeuvre d'un asservissement
+
+2.1. Choix et réglage du correcteur (P, PI)
+2.2. Mise en oeuvre et évaluation des performances de l'asservissement
+Simulation de l'asservissement et justification des performances de l'asservissement et des limites du modèle
+
+3.
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+analyser la stabilité d'un système décrit par une
+fonction de transfert en temps continu
+
+ 
+
+expliquer les avantages apportés par une com-
+mande en boucle fermée
+déterminer des réglages satisfaisants de correc-
+teurs standards, en temps continu
+
+Niveau
+Maîtrise
+
+ 
+
+Maîtrise
+
+Maîtrise
+
+A l'issue de ce cours l'élève sera capable :
+d'utiliser des méthodes type critère de ROUTH
+pour déterminer si un système en boucle ou-
+verte ou en boucle fermée est stable ou non.
+de préciser le domaine de stabilité d'une struc-
+ture bouclée (réglages des paramètres).
+d'expliquer les avantages et les inconvénients
+de structures de commande.
+de proposer des réglages de correcteurs P, PI
+ou PID par la méthode du modèle.
+
+Bibliographie
+H. Bourlès, Systèmes linéaires : de la modélisation à la commande, Lavoisier Hermès Sciences, 2006
+P.  Codron,  S.  Le  Ballois,  Automatique  -  Systèmes  linéaires  et  continus  -  Cours  et  exercices  résolus  -  Dunod
+Sciences Sup, 1998
+Ph. De Larminat, Commande des systèmes linéaires, Lavoisier Hermès Sciences, 2002
+
+39
+
+Semestre 7
+
+Outils numériques
+Logiciels MATLAB et SIMULINK
+Robots LEGO EV3
+
+2.2. PACI741 - Electronique d'instrumentation : notions essentielles pour
+l'ingénieur
+Cours (h)
+
+Pondération
+
+Evaluation
+
+TD (h)
+
+TP (h)
+
+12
+
+12
+
+12
+
+2.5
+
+CC
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+• Anglais
+Pré-requis
+• Bases de l’électronique analogique : circuits avec des éléments actifs et passifs, éléments sur les transistors,
+
+amplificateurs,  filtres.
+
+• Bases de l’électronique numérique :  bases de la logique numérique, portes logiques,  bascules, commutateurs
+
+et éléments de mémoires
+
+Descriptif
+Ce module traite des blocs électroniques de base nécessaires pour comprendre les éléments essentiels d'un système
+d'acquisition de données;
+Le système est  souvent somposé d'une ou plusieurs cartes électroniques comprenant une partie analogique et  une
+partie numérique munie ou non d’un microcontrôleur. Les éléments suivants  seront abordés d’une manière plus
+au moins approfondie : Interfaçage du capteur à l’électronique analogique, amplification bas bruit, amplification
+de mise en forme du signal, échantillonneur-bloqueur, conversion analogique numérique, conversion numérique
+analogique, notion de FPGA et enfin les protocoles et circuits de transmission des données numériques
+Plan du Cours
+1.
+2.
+3.
+4. Analog-to-digital conversion (ADC), digital-to-analog conversion (DAC)  (2 hours lectures + 2 hours exer-
+
+ Interface of the sensor to the front end electronics     (2 hours lectures + 2 hours exercices)
+ Low noise amplification (2 hours lectures + 2 hours exercices)
+Shapers, sample and hold circuits (2 hours lectures + 2 hours exercices)
+
+cices)
+FPGA, notions (2 hours lectures + 2 hours exercices)
+Protocols and the of data transmission.   (2 hours lectures + 2 hours exercices)
+
+5.
+6.
+Intitulés TP
+• Amplification and amplificators   4 hours
+• Sample and hold followed with an ADC and the sotorage of the data 4 hours
+• A data acquidsition system with a microcontroler  4 hours
+Objectifs d'apprentissage
+
+Niveau
+Maîtrise
+
+Ce cours vise à rendre l'élève apte à :
+comprendre et pouvoir proposer et réaliser un
+système d'acquisition de données pour une ap-
+plication spécifique en instrumentation
+ 
+
+A l'issue de ce cours l'élève sera capable :
+acquérir les connaissances concernant les dif-
+férents blocs électroniques constituants une
+chaîne de mesure
+d'identifier les paramètres essentiels pour le
+choix des composants (circuits) à utiliser ou à
+réaliser ou à faire réaliser le cas échéant.
+2.3. PACI742 - Systèmes d'acquisition de données - Programmation gra-
+phique
+Cours (h)
+
+Pondération
+
+Evaluation
+
+TD (h)
+
+ 
+
+TP (h)
+
+4.5
+
+ 
+
+32
+
+CC
+
+2.5
+
+40
+
+Semestre 7
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Pré-requis
+Avoir suivi les modules EASI501 et PACI741 ou posséder les connaissances équivalentes.
+Descriptif
+Programmer  des  systèmes  numériques  d'acquisition/génération  de  données  avec  un  langage  graphique
+(LabVIEW).
+Plan du Cours
+1. Convertisseurs Numérique/Analogique et Analogique/Numérique (Rappels)
+
+1.1. Convertisseurs Numérique/Analogique : Structures, principes de fonctionnement et performances
+1.2. Convertisseurs Analogique/Numérique :
+
+1.2.1.A équilibre de tension : Structures, principes et performances
+1.2.2.A équilibre de charge : Structures, principes et performances
+1.2.3.Convertisseurs Sigma/Delta
+
+Système numérique d'acquisition/génération : architectures, performances et programmation
+
+2.
+Intitulés TP
+Les Travaux Pratiques sont regroupés en 3 grandes parties :
+• TP1 et TP2 : Présentation et prise en main du Langage de programmation graphique LabVIEW (8h)
+• TP3  à  TP5  :  TP-cours  sur  les  fondamentaux  de  l'acquisition/génération,  cas  d'une  programmation  sous
+
+LabVIEW (12h)
+
+• TP6 à TP8 : Micro-projet de programmation d'un système numérique d'acquisition/génération sous LabVIEW
+
+(12h)
+
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+comprendre les différents constituants de la
+chaîne d'acquisition d'un signal analogique ou
+numérique
+ 
+
+ 
+
+mettre en œuvre les différentes possibilités of-
+fertes par un dispositif d'acquisition associé à
+un calculateur
+ 
+
+ 
+
+ 
+
+concevoir, à partir de la description d'un besoin
+en instrumentation, l'application logiciel ex-
+ploitant le matériel d'acquisition/génération mis
+en œuvre
+ 
+
+Niveau
+Maîtrise
+
+A l'issue de ce cours l'élève sera capable :
+de connaître les fonctions de base
+d’électronique numérique
+
+ 
+
+ 
+
+de connaître les différents types de convertis-
+seurs
+de dimensionner les grandeurs caractéristiques
+du pré-conditionnement avant acquisition (am-
+plification, filtrage et quantification)
+
+Application de connaître les contraintes matérielles de
+
+l’acquisition/génération (référence de masse,
+niveau de tension…)
+de définir la nature des signaux en entrée et/ou
+en sortie (analogique, numérique, compteur)
+de choisir et mettre en œuvre différents modes
+d’acquisition/génération (à la demande, en
+nombre fini, en continu…)
+de choisir et mettre en œuvre différents modes
+de déclenchement et de cadencement
+de choisir et mettre en œuvre le(s) mode(s)
+d’acquisition/génération répondant à un pro-
+blème posé
+
+de choisir et mettre en œuvre le(s) mode(s) de
+déclenchement et de cadencement répondant à
+un problème posé
+
+ 
+
+ 
+
+ 
+
+Maîtrise
+
+ 
+
+41
+
+Semestre 7
+
+Ce cours vise à rendre l'élève apte à :
+ 
+
+Niveau
+
+ 
+
+A l'issue de ce cours l'élève sera capable :
+de choisir et mettre en œuvre la forme de pré-
+sentation des données à post-traiter
+
+Bibliographie
+• Francis COTTET, LabVIEW: Programmation et Applications, DUNOD
+• Francis COTTET, Traitement des signaux et acquisition de données, DUNOD
+• Ronald J. TOCCI, Circuits numériques Théorie et Applications, DUNOD/GOULET
+• Site de NI : www.ni.com
+Outils numériques
+Site de National Instrument, avec les tutoriaux et vidéo en ligne : www.ni.com
+Matériel d'acquisition/génération numérique National Instrument.
+Plateforme LabVIEW de développement logiciel.
+
+2.4. PROJ741a - Apprentissage par Projet
+Pondération
+Cours (h)
+
+TD (h)
+
+ 
+
+ 
+
+24
+
+4.5
+
+TP (h)
+
+Evaluation
+
+Rapport + soute-
+nance + pratique
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Pré-requis
+De préférence avoir suivi le module d'APP du même thème au semestre 6.
+Descriptif
+L'Apprentissage par Problèmes et par Projet ( APP ) dans la spécialité IAI consiste d'une part à développer chez
+les élèves ingénieurs les compétences acquises dans la formation académique et d'autre part à acquérir des com-
+pétences supplémentaires dans des thèmes d'avenir:
+• Bâtiment Intelligent (BI) et Objets Connectés (OC)
+• Gestion des énergies renouvelables (GER) : photovoltaïque, éolienne, hydrolienne
+• Imagerie pour l'environnement (IE)
+• Robotique de service (RS) : traitements informatiques
+• Santé (S)
+Ces thèmes sont le fil conducteur des activités d'APP qui s'étalent sur 3 à 5 semestres à raison d'un module par
+semestre (module de 36h aux semestres 6, 7 et 9 ; module de 60h au semestre 8). Le travail est effectué par équipe
+(entre 4 et 7 élèves ingénieurs) sur l'ensemble des semestres.
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+organiser, planifier et suivre la réalisation d'un
+projet d'équipe tout en acquérant de nouvelles
+connaissances et de nouvelles compétences.
+ 
+
+ 
+
+ 
+
+participer à la conception d'un système ou
+d'une application répondant à une probléma-
+tique dans un domaine spécifique en s'appuyant
+sur les compétences acquises au semestre pré-
+
+Maîtrise
+
+42
+
+Niveau
+Maîtrise
+
+A l'issue de ce cours l'élève sera capable :
+d'organiser un travail en tâches et les répartir
+entre les membres de l'équipe [
+
+ 
+
+ 
+
+ 
+
+d'organiser et animer une réunion de travail,
+prendre des notes et rédiger un compte-rendu
+d'échanger et confronter ses idées pour faire
+avancer un projet [
+d'acquérir et développer des compétences nou-
+velles
+d'appliquer une approche ingénieur dans la
+conception d'un système instrumenté ou une
+application robotique
+
+Semestre 7
+
+Ce cours vise à rendre l'élève apte à :
+cédent et en acquérant de nouvelles compé-
+tences.
+
+Niveau
+
+A l'issue de ce cours l'élève sera capable :
+
+Outils numériques
+Logiciels spécialisés divers (Labview, Matlab, ETS4, Choregraphe, AndroidStudio, ...).
+Plates-formes collaboratives (Moodle, Github, Trello, ...).
+Systèmes d'exploitation Windows, Linux, Android et virtualisation.
+3. UE703 : Signaux et systèmes numériques
+
+3.1. EASI741a - Signaux aléatoires
+Cours (h)
+
+TD (h)
+
+TP (h)
+
+Pondération
+
+12
+
+12
+
+12
+
+2.5
+
+Evaluation
+
+CT(70%) TP(30%)
+
+Pré-requis
+• MATH642 - Mathématiques Spécialisés
+• EASI642 - Bases du traitement d'image
+Descriptif
+A l’issue de ce module les étudiants seront capables
+• définir les propriétés d'un processus aléatoire ainsi que le théorème de l'ergodicité
+• expliquer  les  estimateurs  des  propriétés  statistiques  d'un  processus  aléatoire  en  numérique  (autocorrélation,
+
+densité spectrale, ...)
+
+• illustrer par quelques applications en filtrage optimal, détection, estimation, ...
+Plan du Cours
+1.
+
+Signaux aléatoires
+1.1. Variables aléatoires,
+1.2. Signaux aléatoire,
+1.3. Propriétés statistiques : lois, indépendance, stationnarité,
+1.4. Propriétés temporelles : ergodisme, Représentation fréquentielle des signaux aléatoires stationnaires au
+
+sens large,
+
+2.
+
+3.
+
+1.5. Opération linéaire sur signaux aléatoires
+Estimation :
+2.1. Définitions générales relatives à l'estimation,
+2.2. Estimation de la fonction d'autocorrélation,
+2.3. Estimation de la DSP
+Filtrage Adaptatif
+3.1. Introduction,
+3.2. Filtre de Wiener,
+3.3. Moindres carrés exacts et pondérés,
+3.4. Moindres carrés récursifs (RLS),
+3.5. Filtrage adaptatif par algorithme du gradient (LMS)
+
+Intitulés TP
+• TP1 : Fonction d'autocorrélation
+• TP2 : Densité spectrale de puissance. Analyse spectrale classique
+• TP3 : Filtrage adaptatif
+Ces TPs se déroulent sur MATLAB.
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+extraire de l’information et de la connaissance
+par traitement de données
+
+A l'issue de ce cours l'élève sera capable :
+d'expliquer les définitions liées à un processus
+aléatoire
+
+Niveau
+Notion
+
+43
+
+Ce cours vise à rendre l'élève apte à :
+ 
+
+ 
+
+ 
+
+prendre des décisions à partir de mesures,
+d’observations sur l’environnement, de mo-
+dèles et de critères
+ 
+
+Semestre 7
+
+Niveau
+
+ 
+
+ 
+
+ 
+
+Notion
+
+A l'issue de ce cours l'élève sera capable :
+d'interpréter en terme de traitement de signal le
+théorème de l'ergodicité
+d'appliquer les différents estimateurs de la
+fonction d'autocorrélation et de la densité spec-
+trale
+de prévoir le comportement de ses estimateurs
+en fonction des différents paramètres
+d'identifier à partir d'un cahier de charges le
+traitement adapté aux signaux rencontrés
+
+ 
+
+d'utiliser un programme de moindres carrés ré-
+cursifs, de LMS, ...
+
+Bibliographie
+• Méthodes et techniques de traitement de signal. Jacques Max et Jean Louis Lacoume - 5ème édition Dunod
+• Filtrage adaptatif : théorie et algorithmes. François Michaud et Maurice Bellanger - Hermès
+Outils numériques
+MATLAB.
+
+3.2. INFO741a - Systèmes embarqués
+Cours (h)
+
+TD (h)
+
+9
+
+3
+
+24
+
+2.5
+
+TP (h)
+
+Pondération
+
+Evaluation
+
+CT(40%) TP(60%)
+
+Pré-requis
+INFO501 : Numération et Algorithmique
+Descriptif
+Cet enseignement a pour objectif de présenter les caractéristiques des systèmes embarqués. Les aspects matériels
+et  logiciels  sont  abordés  dans  une  approche  système.  Les  notions  importantes  liées  à  la  gestion  des  systèmes
+embarqués sont abordées et mises en pratique dans un mini-projet (Entrées-Sorties, interruptions, partage du temps
+CPU, programmation multi-threads, fonctionnalités d'un noyau de système d'exploitation, ...).
+Plan du Cours
+1. Architecture générale d’un système embarqué
+
+2.
+
+3.
+
+4.
+
+1.1. Caractéristiques : aspects techniques et fonctionnels
+1.2. Contraintes des systèmes embarqués
+Système d’exploitation (OS):
+2.1. Comprendre le rôle d’un Système d’exploitation
+2.2. Connaître les spécificités d’un système d’exploitation dédié à un système embarqué
+2.3. Savoir  déterminer  la  nécessité  de  mise  en  œuvre  d’un  système  d’exploitation  temps  réel  (notion  de
+
+criticité)
+
+Système embarqué avec  OS
+3.1. Du logiciel embarqué simple à l’application embarquée s’appuyant sur un système d’exploitation
+Entrées/Sorties
+4.1. Comprendre le rôle d’un pilote de périphérique et être capable de l’exploiter dans une application
+4.2. Comprendre et mettre en œuvre la gestion d’un circuit d’interface d’E/S
+4.3. Comprendre le mécanisme d’interruptions et savoir le mettre en œuvre  
+
+Intitulés TP
+Organisée sous la forme de 2 mini-projets, la mise en application des connaissances enseignées dans ce module
+a pour but bien évidemment d'appuyer les concepts vus en cours mais également d'apporter des notions complé-
+mentaires (environnement de développement, cross-compilation, programmation de système embarqué, gestion
+des entrées-sorties, modules noyau, ...).
+Différents supports seront utilisés dans ces TP-projets (arduino, Raspberry Pi avec linux embarqué)
+
+44
+
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+spécifier, analyser, concevoir et mettre en
+œuvre des systèmes informatiques, en particu-
+lier des systèmes embarqués et des systèmes
+communicants
+ 
+
+ 
+
+ 
+
+Semestre 7
+
+Niveau
+
+A l'issue de ce cours l'élève sera capable :
+Application de proposer une solution technologique pour
+
+réaliser un système embarqué
+
+ 
+
+ 
+
+ 
+
+de proposer et justifier une solution
+d'implémentation du logiciel embarqué (avec
+ou sans OS)
+de spécifier, concevoir et réaliser une applica-
+tion logicielle embarquée simple utilisant des
+échanges avec l'extérieur (gestion d'Entrées/
+Sorties, mise en œuvre des interruptions, mé-
+moires partagées, ...)
+de déterminer la criticité du traitement logiciel
+(notion de temps réel, d'ordonnancement, de
+gestion des priorités et de multitâche)
+
+Bibliographie
+Les supports seront sur la plateforme EAD. Certains sont sur la page web suivante : https://www.listic.univ-smb.fr/
+en/presentation-en/members/lecturers/guillaume-ginolhac-en/teaching/
+Outils numériques
+Arduino, Raspberry Pi avec linux embarqué
+
+3.3. INFO742a - Méthodes de développement logiciel et qualité
+Evaluation
+Cours (h)
+CC(40%)
+
+Pondération
+
+12.5
+
+TD (h)
+
+TP (h)
+
+7.5
+
+16
+
+2.5
+
+CT(30%) TP(30%)
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Pré-requis
+Conception et programmation d'applications (INFO641, INFO642)
+Descriptif
+Ce module constitue une introduction au génie logiciel, en abordant tout particulièrement des aspects liés à la
+qualité et tests du logiciel. Dans ce contexte les étudiants se familiarisent avec les différentes facettes de la qualité
+du logiciel, des pratiques et principes de conceptions menant a des logiciels maintenables et fiables.
+Plan du Cours
+1.
+2. Conception pour la qualité et la maintenance
+3. Qualité et test du logiciel
+Intitulés TP
+4 séances de TP sont prévues.
+La première est dédiée à l'appropriation des différents outils de modélisation UML (modèle statique et modèle
+dynamique). Un travail individuel est demandé pour cette séance.
+Les trois séances suivantes sont dédiées à un mini projet qui implique un travail en équipe.
+Objectifs d'apprentissage
+
+Introduction au génie logiciel et outils de modélisation UML
+
+Ce cours vise à rendre l'élève apte à :
+intégrer la dimension qualité dans le dévelop-
+pement de logiciels
+
+Niveau
+Maîtrise
+
+A l'issue de ce cours l'élève sera capable :
+de citer les différents attributs qui constituent
+la qualité d'un système informatique de citer
+les différents attributs qui constituent la qua-
+
+45
+
+Semestre 7
+
+Ce cours vise à rendre l'élève apte à :
+
+Niveau
+
+ 
+
+concevoir des logiciels en s'assurant des pro-
+priétés fonctionnelles et non fonctionnelles en
+particulier la maintenabilité et la réutilisabilité
+ 
+
+ 
+
+ 
+
+concevoir un dispositif de test, intégrant la
+construction des jeux de test et l'analyse des ré-
+sultats
+ 
+ 
+
+ 
+
+Maîtrise
+
+ 
+
+ 
+
+ 
+
+Maîtrise
+
+A l'issue de ce cours l'élève sera capable :
+lité d'un système informatique de citer les dif-
+férents attributs qui constituent la qualité d'un
+système informatique de citer les différents at-
+tributs qui constituent la qualité d'un système
+informatique de citer les différents attributs qui
+constituent la qualité d'un système informa-
+tique de citer les différents attributs qui consti-
+tuent la qualité d'un système informatique
+de citer des éléments historiques liés à la crise
+du logiciel et l'avènement du génie logiciel
+de citer les différentes formes de maintenance
+
+d’expliquer le rôle de la maintenance dans le
+développement du logiciel
+d’expliquer les différents principes de concep-
+tion
+de faire des choix argumentés de conception
+par rapport à des caractéristiques visées pour le
+logiciel
+de réaliser des jeux de tests appropriés et faire
+une analyse des résultats de tests
+
+ 
+ 
+
+de citer les différentes méthodes de test
+de faire le choix de la méthode appropriée par
+rapport aux propriétés et la phase dans le cycle
+de développement
+
+Outils numériques
+Les outils numériques sont utilisés à plusieurs fins :
+- pédagogiques : outils de gestion de projets en équipe (répartition, planification et suivi, espaces documantaires...)
+- d'auto-évaluation et d'évaluation : plusieurs Quizz sur Moodle
+- d'organisation du cours : espace dédié su Moodle pour les supports de cours et pour la remise des livrables des
+étudiants.
+
+3.4. INFO743a - Réseaux et systèmes répartis
+Cours (h)
+
+Pondération
+
+Evaluation
+
+TD (h)
+
+TP (h)
+
+12
+
+3
+
+20
+
+2.5
+
+CT(60%) + TP(40%)
+
+Langue(s) utilisée(s) pour les enseignements
+• Français avec documents en anglais
+Descriptif
+Ce cours donne les concepts fondamentaux nécessaires à la compréhension des réseaux informatique et aux dé-
+ploiement des applications et systèmes réparties. Le cours débutera par une introduction à l'architecture de l'Internet
+et aux notions de protocoles applicatifs (HTTP, SMTP, SSH,...). Il présentera ensuite les protocoles de transport
+(TCP, UDP) ainsi que la structure de l'adressage IP. L'interface sockets sera présentée ainsi que la notion de midd-
+leware. L'algorithmique répartie sera introduite par des examples concrets d'applications.  Ceci fournira les bases
+essentielles au déploiement d'applications en réseau et réparties.
+Plan du Cours
+1.
+2.
+
+Introduction à l'architecture d'Internet (1,5h cours)
+Protocoles applicatifs (1,5 h cours)
+
+46
+
+Semestre 7
+
+Etude de cas (1,5 h cours)
+
+Programmation Socket  (1,5 h cours)
+
+Protocoles de transport: TCP, UDP (1,5 h cours)
+
+3.
+4. Adressage IP (1,5 h cours)
+5.
+6. Middlewares (1,5 h cours)
+7. Algorithmique répartie (1,5 h cours)
+8.
+Liste des TD
+• TD 1 ( protocoles, encapsulation, architecture IP)
+• TD2 (middlewares, systèmes répartis)
+Intitulés TP
+• Mise en place d'un réseau IP (4 h de TP)
+• Routage IP ( 4 h de TP)
+• Capture de trames et observation in vivo (4 h de TP)
+• Développement d'applications réseaux (serveur de tchat) (4h de TP)
+• Algorithmique répartie et middlewares (4h de TP)
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+comprendre l'architecture de l'Internet et des
+réseaux IP
+comprendre l'architecture des applications ré-
+seau
+
+comprendre et mettre en place des protocoles
+applicatifs rétroactifs
+
+Niveau
+Maîtrise
+
+Maîtrise
+
+Maîtrise
+
+A l'issue de ce cours l'élève sera capable :
+de déployer un réseau local simple et définir un
+adressage IP
+de développer des applications réseaux et des
+algorithmes répartis simples en utilisant les so-
+ckets ou du middleware
+d'implanter des applications client-serveur et
+Pair à Pair
+
+Bibliographie
+• James Kurose, Keith W. Ross, Analyse structurée des réseaux - Des applications de l'Internet aux infrastructures
+
+de télécommunication (2e éd.), Pearson Education, 2003
+
+• A. S. Tanenbaum, M. Van Steen, Distributed Systems: Principles and Paradigms (2nd ed.), 2007, Prentice Hall
+
+3.5. MATH741a - Probabilités - Statistiques
+Pondération
+Cours (h)
+
+TD (h)
+
+TP (h)
+
+18
+
+18
+
+ 
+
+2
+
+Evaluation
+
+CC(50%) CT(50%)
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Pré-requis
+Séries numériques, intégrales généralisées.
+Descriptif
+Ce cours traite les principales notions de probabilité et statistiques utiles en sciences de l'ingénieur afin de savoir
+les utiliser pour modéliser des situations concrètes.
+Plan du Cours
+Probabilités
+1.
+1.1. Définitions, dénombrement, lois de probabilités, probabilité conditionnelle et indépendance.
+1.2. Variables aléatoires discrètes et lois usuelles discrètes
+1.3. Variables aléatoires continues et principales lois continues
+1.4. Vecteurs aléatoires et suites de variabes aléatoires
+1.5. Lois conjointes et marginales
+1.6. Convergence des suites de variables aléatoires
+1.7. Approximations par les lois classiques
+Statistiques
+2.1. Satistique descriptive
+
+2.
+
+47
+
+Semestre 7
+
+2.2. Séries statistiques doubles, différents types de régression
+2.3. Estimations : définitions, estimation par intervalles de confiance ....
+
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+modéliser une situation aléatoire à l'aide de
+probabilités
+ 
+ 
+
+Niveau
+Maîtrise
+
+ 
+ 
+
+A l'issue de ce cours l'élève sera capable :
+de manipuler les variables discrètes ou conti-
+nues
+de connaitre et utiliser les lois classiques
+de trouver la loi d'une variable aléatoire et
+d'une somme de variables aléatoires
+
+maitriser les statistiques
+
+Application d'utiliser les probabilités pour déterminer les
+
+ 
+
+ 
+
+Outils numériques
+• Fonctions statistiques de la calculatrice
+• Tableur
+
+lois des échantillons
+d'utiliser des approximations (par la loi nor-
+male, la loi de Poisson ...)
+de déterminer des modèles (régressions ... )
+
+ 
+
+ 
+
+48
+
+Semestre 8
+
+UE
+
+ECTS Module
+
+Intitulé
+
+Cours (h) TD (h)
+
+TP (h)
+
+Pondé-
+ration
+
+Evaluation
+
+12
+
+LANG800
+
+Soutien : Anglais
+
+UE801 :
+Passerelle
+vers le mi-
+lieu pro-
+fessionnel
+
+ 
+
+ 
+
+ 
+
+ 
+
+UE802 :
+
+Stage
+
+UE803 :
+Mesures,
+instrumen-
+tation et pi-
+lotage de
+systèmes
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+6
+
+7
+
+ 
+
+UE804 : Da-
+
+11
+
+ta science
+et appren-
+
+tissage
+
+par projet
+
+ 
+
+ 
+
+ 
+
+ 
+
+EASI844a Modèles des sys-
+tèmes à évène-
+ments discrets
+et applications
+Sécurité des
+systèmes cy-
+ber-physiques
+
+INFO841
+
+9
+
+19.5
+
+12
+
+1.5
+
+7.5
+
+4.5
+
+12
+
+2
+
+49
+
+ 
+
+ 
+
+ 
+
+6
+
+40.5
+
+30
+
+9
+
+10.5
+
+13.5
+
+ 
+
+ 
+
+6
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+24
+
+LANG801a
+
+LANG802a
+
+SHES802a
+
+SHES803a
+
+PROJ801
+
+Anglais (Ni-
+veau TOEIC
+non atteint)
+Langues vi-
+
+vantes (Niveau
+TOEIC atteint)
+Système de Ma-
+nagement Inté-
+gré QSE (Qua-
+lité Sécurité En-
+vironnement)
+Théorie des
+organisations
+Stage Assis-
+tant ingénieur
+
+EASI843a
+
+Automatisation
+décentralisée
+
+PACI841
+
+Physique expé-
+rimentale, me-
+sures, capteurs et
+instrumentation
+EASI842a Analyse d'image
+
+et vision par
+ordinateur
+
+15
+
+13.5
+
+64
+
+15
+
+13.5
+
+12
+
+ 
+
+3
+
+3
+
+1.5
+
+ 
+
+CC
+
+CC
+
+CC
+
+1.5
+
+CC
+
+6
+
+2
+
+5
+
+2
+
+Soutenance,
+rapport écrit,
+évaluation
+entreprise
+
+TP
+
+CC(25%)
+TP(50%)
+
+Projet(25%)
+
+CT(70%)
++ TP(30%)
+
+CC(70%)
+TP(30%)
+
+CT(50%)
+TP(50%)
+
+Semestre 8
+
+UE
+
+ECTS Module
+
+Intitulé
+
+Cours (h) TD (h)
+
+TP (h)
+
+ 
+
+ 
+
+PROJ841a
+
+Apprentis-
+
+sage par projet
+
+ 
+
+ 
+
+40
+
+Pondé-
+ration
+
+5.5
+
+Evaluation
+
+Rapport +
+soutenance
++ pratique
+
+1. UE801 : Passerelle vers le milieu professionnel
+
+1.1. LANG800 - Soutien : Anglais
+Cours (h)
+
+TD (h)
+
+TP (h)
+
+Pondération
+
+Evaluation
+
+ 
+
+6
+
+ 
+
+ 
+
+ 
+
+Langue(s) utilisée(s) pour les enseignements
+• Anglais
+Pré-requis
+Avoir validé S5 - S6 Score Toeic 635. Score Toeic 735 non atteint.
+Descriptif
+Reprise de toutes les bases et renforcement des points de langues. 6h de cours  + 6 h de travail en autonomie par
+semestre en groupe de 15 étudiants.
+
+1.2. LANG801a - Anglais (Niveau TOEIC non atteint)
+Cours (h)
+
+Pondération
+
+TP (h)
+
+ 
+
+3
+
+TD (h)
+40.5
+
+ 
+
+Evaluation
+
+CC
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Pré-requis
+Programme de S7
+Descriptif
+Ce  cours  prépare  les  étudiants  au  test  du  TOEIC  ("Test  of  English  for  International  communication")  et  plus
+exactement à l'obtention d'un score minimal de 785 points (sur 990).
+Le test Toeic se déroulera à la fin de ce semestre sur chacun des sites à des dates très proches. (Des sessions de
+" rattrapage" auront lieu s9).
+Les étudiants sont évalués tout au long de chaque semestre. L'évaluation terminale consiste en une épreuve de
+1h, 1h30 ou 2h selon le semestre et selon le site (Annecy ou Le Bourget),et compte coefficient 2 dans le contrôle
+continu total.
+Plan du Cours
+1.
+
+ Révision de points de grammaire importants pour le Toeic
+1.1. Révisions de tous les temps vus ou revus en S5, S6 et S7.
+1.2. Le passif.
+1.3. les structures causatives.
+1.4. BV / BVing ou to BV.
+1.5. Les mots de liaison.
+
+2. Compréhension orale
+
+2.1. Dialogues enregistrés en anglais américain, britannique, néo-zélandais....
+2.2. Videos en anglais américain, britannique, australien....
+
+3. Compréhension écrite
+3.1. Extraits de presse
+3.2. Textes divers
+
+50
+
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+intervenir à l'écrit et à l'oral, en visant toujours
+l’inter-activité de communication opération-
+nelle
+
+ 
+
+Semestre 8
+
+Niveau
+Maîtrise
+
+ 
+
+comprendre des documents sonores et
+s’exprimer oralement
+
+Maîtrise
+
+ 
+
+ 
+
+comprendre des documents écrits et s’exprimer
+à l’écrit
+ 
+
+ 
+
+ 
+
+ 
+
+Maîtrise
+
+ 
+
+ 
+
+A l'issue de ce cours l'élève sera capable :
+de poursuivre des révisions grammaticales
+sur : le conditionnel ; tous les autres temps ;
+l’expression de la suggestion et de la modalité /
+le passif ; les structures verbales (infinitif/ -ing)
+d'améliorer ses connaissances grammaticales et
+lexicales (anglais général, « business » et de sa
+spécialité scientifique) , en classe et en autono-
+mie, en les validant par des tests réguliers
+de continuer à s’entraîner sur des exercices de
+TOEIC (4 parties de compréhension orale) +
+tests entiers
+de travailler sur des supports audio et vidéo va-
+riés (anglais général, « business » et de spécia-
+lité) et pris la parole pour réagir spontanément,
+en inter-activité avec la classe
+de prendre la parole en mode préparé et en in-
+ter-activité spontanée via des exposés à carac-
+tère scientifique et sur des thématiques ou pro-
+blèmes liés au monde de l’entreprise (entretien
+d’embauche, négociations, discussion sur un
+projet technique/ professionnel…/ inégalité sa-
+lariale ; mobilité internationale…etc)
+de s’entraîner sur des exercices de TOEIC (3
+parties écrites)
+de lire des documents variés (anglais général,
+« business » et scientifique) et rédigé quelques
+lignes pour en rendre compte et donner son
+avis
+de rédiger CVs et lettres de motivation
+
+1.3. LANG802a - Langues vivantes (Niveau TOEIC atteint)
+Cours (h)
+
+Pondération
+
+Evaluation
+
+TD (h)
+
+TP (h)
+
+ 
+
+30
+
+ 
+
+3
+
+CC
+
+Pré-requis
+• Pour l'anglais Civilisation : élèves ingénieurs ayant réussi le TOEIC.
+• Pour la LV2 : cours débutants uniquement pour le chinois et le japonais
+Descriptif
+Ce cours est composé de deux parties :
+• 15h d'Anglais :  Culture, Civilisation et Langue.Réactualisation et validation des acquis et utilisation de l'anglais
+
+en toute situation de communication.
+
+• 15h d'une seconde langue vivante. Les langues proposées  sont :
+
+• Espagnol, Allemand et Italien pour les 2 sites de l'école (non débutants).
+• Chinois et Japonais sur le site d'Annecy avec des cours débutants possibles
+
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+être en autonomie linguistique et culturelle
+pour communiquer de façon authentique
+
+Niveau
+Maîtrise
+
+A l'issue de ce cours l'élève sera capable :
+d'inter-agir avec des professionnels (de sa spé-
+cialité) au cours de présentations
+
+51
+
+Ce cours vise à rendre l'élève apte à :
+ 
+
+ 
+
+Semestre 8
+
+Niveau
+
+ 
+
+ 
+
+imaginer, être créatif et crédible (dans une
+langue étrangère) pour convaincre des parte-
+naires professionnels
+
+Maîtrise
+
+ 
+
+comprendre et parler d'autres langues que
+le français et l'anglais et s'ouvrir à d'autres
+cultures.
+ 
+
+ 
+
+Maîtrise
+
+A l'issue de ce cours l'élève sera capable :
+d'écouter régulièrement les nouvelles sur des
+sites anglophones d’information (CNN, BBC,
+Skynews…) et sera en mesure de restituer
+l’essentiel oralement de façon succincte, en in-
+ter-activité avec le groupe-classe
+de faire des recherches (en groupe et indivi-
+duellement) à visée professionnelle / culturelle
+à présenter en classe
+de monter un projet (professionnel) innovant ;
+simulé les démarches auprès des acteurs éco-
+nomiques capables d’apporter de l’aide pour le
+finaliser (selon les étapes d’un « business plan
+» crédible : rédaction de emails, entretien télé-
+phonique, recrutement, recherches de finance-
+ment..)
+de présenter un projet, en en démontrant la fai-
+sabilité technique et commerciale (« pitch » /
+sur le modèle de : « Dragons’ den »)
+de travailler sur des supports écrits, audio et vi-
+déo variés
+
+ 
+
+d'échanger avec des personnes non franco-
+phones et non anglophones.
+
+1.4. SHES802a - Système de Management Intégré QSE (Qualité Sécurité En-
+vironnement)
+Cours (h)
+
+Pondération
+
+Evaluation
+
+ 
+
+1.5
+
+CC
+
+TD (h)
+10.5
+
+9
+
+TP (h)
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Pré-requis
+Aucun pré-requis nécessaire.
+Descriptif
+Les élèves doivent avoir pris conscience que les systèmes de management de la qualité, de l'environnement et
+de la santé et sécurité au travail sont aujourd'hui incontournables dans l'entreprise. Il leur faut donc avoir une
+connaissance suffisante de ces systèmes afin de les prendre en compte et de les intégrer dans leur métier d'ingénieur.
+Plan du Cours
+1. Management de la Qualité :
+
+1.1. Introduction au management de la qualité ;
+1.2. Norme : définition et historique de la qualité, principe de la certification ;
+1.3. Amélioration Continue : Kaizen, 5S, Lean, Six Sigma ;
+1.4. Démarche Processus ;
+1.5. TD : Modélisation informatique d'un processus, bpm, édition Web.
+
+2. Management de l'Environnement :
+
+2.1. L'environnement, le développement durable, le Bilan Carbone ;
+2.2. Qu'est-ce qu'un SME ?
+2.3. Les référentiels, les enjeux ;
+2.4. La norme ISO 14001 ;
+2.5. Le référentiel EMAS ;
+2.6. Mettre en place un SME ;
+2.7. TD : Audit du SME d'une entreprise, proposition d'éco-cartes.
+
+52
+
+Semestre 8
+
+3.
+
+Santé et Sécurité au Travail :
+3.1. Généralités et enjeux ;
+3.2. Parties prenantes ;
+3.3. Législation et référentiel de système de management SST ;
+3.4. SST et RSE.
+
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+citer et décrire les systèmes de management de
+la qualité
+ 
+
+ 
+
+citer et décrire les systèmes de management en-
+vironnementaux
+ 
+
+ 
+
+décrire la législation et le système de manage-
+ment de la santé et de la sécurité au travail
+
+ 
+
+Niveau
+
+A l'issue de ce cours l'élève sera capable :
+
+Application de participer activement à une démarche quali-
+
+ 
+
+ 
+
+té
+de faire partie d'un workshop à l'occasion d'un
+événement Kaizen
+de repérer et de modéliser un processus dont il
+serait le pilote
+
+Application de participer activement à une certification en-
+
+ 
+
+ 
+
+vironnementale
+de repérer et de modéliser un processus dont il
+serait le pilote
+de construire des éco-cartes dans le cadre du
+référentiel EMAS
+
+Application de prendre en compte les impératifs liés à la
+santé et à la sécurité au travail imposés par la
+législation
+de prendre conscience de la notion de bien-
+être au travail en s'inscrivant dans une politique
+RSE pro-active
+
+ 
+
+1.5. SHES803a - Théorie des organisations
+Pondération
+Cours (h)
+
+TD (h)
+
+TP (h)
+
+13.5
+
+6
+
+ 
+
+1.5
+
+Evaluation
+
+CC
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Descriptif
+Le contenu du cours de théorie des organisations est volontairement descriptif et suit une chronologie très claire.
+L'idée est de retracer les prémisses dans la gestion des organisations dès la fin du XIXième siècle jusqu'à nos jours.
+Pour cela le cours s'appuie sur les principales théories, recherches et avancées managériales effectuées au fur et
+a mesure du  développement des entreprises.
+Ce module se divise en trois grandes parties thématiques :
+• Les fondements de la gestion des organisations (approche classique et école des relations humaines);
+• Le concept de structure organisationnelle avec entre autres les travaux de Mintzberg qui mettent en évidence
+
+les opportunités et les contraintes en termes de conception, de coordination et d'agencement d'une entreprise;
+
+• Le comportement organisationnel avec les notions de performance, de diversité, de conflits, de négociation,
+
+de stress...
+
+Ce cours est un enseignement de base dans le domaine de la gestion. Il permet d'avoir un aperçu global du mana-
+gement des entreprises et d'en comprendre les tenants et les aboutissants.
+Plan du Cours
+1.
+
+Les prémisses de la gestion des organisations.
+1.1. L'ecole classique (Taylor, Ford, Weber, Fayol)
+1.2. L'ecole des relations humaines (Mayo...)
+1.3. Les théories de la motivation (Maslow, Lewin...)
+Les structures organisationnelles
+
+2.
+
+53
+
+Semestre 8
+
+3.
+
+2.1. Les différents types de structure
+2.2. L'impératif de la coordination
+2.3. Vers un modèle de réseau
+Le comportement organisationnel
+3.1. La diversité
+3.2. Les équipes / groupes
+3.3. Les conflits et négociations
+3.4. La dynamique du stress
+
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+retracer les prémisses dans la gestion des or-
+ganisations et décrire les principales théories
+et recherches sur le fonctionnement des entre-
+prises
+ 
+
+Niveau
+
+A l'issue de ce cours l'élève sera capable :
+
+Application de connaître les grands courants de pensée
+
+ 
+
+de comprendre l'évolution des premières ré-
+flexions de management
+
+décrire la notion de structure organisationnelle
+
+Application de connaître les différentes formes organisa-
+
+ 
+
+décrire la thématique du comportement organi-
+sationnel (conflits, négociation, stress...)
+
+2. UE802 : Stage
+
+ 
+
+tionnelles
+de comprendre l'adéquation entre structure et
+coordination
+
+Application d'identifier et de reconnaître les diverses me-
+
+sures de performance, la notion de diversité, la
+problématique des conflits, de la négociation,
+du stress...
+
+2.1. PROJ801 - Stage Assistant ingénieur
+Pondération
+Cours (h)
+
+TD (h)
+
+TP (h)
+
+ 
+
+ 
+
+ 
+
+6
+
+Evaluation
+
+Soutenance, rapport écrit,
+
+évaluation entreprise
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Pré-requis
+Enseignements du S5 au S8
+Descriptif
+Le stage de 4ème année est un stage d'application en milieu professionnel en tant que technicien ou assistant in-
+génieur. L'élève-ingénieur sera chargé d'une étude spécifique, de la mise au point ou de l'adaptation de techniques
+ou méthodes nouvelles. Ce stage sera réalisé au sein d'une entreprise ou d'un organisme dont l'activité est repré-
+sentative de la spécialité choisie à l'école. 
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+s'intégrer et participer à une organisation pro-
+fessionnelle
+ 
+ 
+
+Niveau
+
+A l'issue de ce cours l'élève sera capable :
+
+Application de découvrir des méthodes et des pratiques pro-
+
+fessionnelles
+de respecter la politique RSE de l'entreprise
+de participer au développement de l'entreprise
+
+ 
+ 
+
+collaborer à l'avancement d'un projet
+
+Application de mettre en œuvre ses connaissances théo-
+
+ 
+
+riques et pratiques
+de mettre en œuvre les bases du management
+opérationnel
+
+ 
+
+54
+
+Semestre 8
+
+Ce cours vise à rendre l'élève apte à :
+ 
+
+Niveau
+
+ 
+
+A l'issue de ce cours l'élève sera capable :
+de travailler en équipe et communiquer effica-
+cement avec un public varié
+
+3. UE803 : Mesures, instrumentation et pilotage de systèmes
+
+3.1. EASI843a - Automatisation décentralisée
+Cours (h)
+
+Pondération
+
+TD (h)
+
+TP (h)
+
+ 
+
+ 
+
+24
+
+2
+
+Evaluation
+
+TP
+
+Pré-requis
+• EASI541: Automatisation
+• INFO743 : Réseaux et systèmes répartis
+• ou posséder les connaissances équivalentes
+Descriptif
+Depuis que les automatismes sont mis en oeuvre à partir de calculateurs, leurs architectures ont fortement évolué
+pour passer de centralisées à décentralisées. Cet enseignement aborde les éléments de base nécessaires à l'analyse,
+la modélisation et la mise en oeuvre de ces automatismes décentralisés.
+Intitulés TP
+24h TP autour d'un projet d'automatisation décentralisée.
+• automatisation centralisée et automatisation décentralisée
+• concept support du projet (drive-by-wire) et cahier des charges
+• prise en main de la communication entre calculateurs (API) sur Ethernet : configuration réseaux, services client/
+
+serveur et producteur/consommateur
+
+• à partir de l'analyse du cahier des charges : répartition des fonctionnalités sur les différents calculateurs, carac-
+
+térisation des flux de données qui en découlent, et choix des services réseaux pour assurer ces flux
+
+• projet : mise en oeuvre, tests et validation
+• bilan
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+comprendre les caractéristiques d’une applica-
+tion d’automatisation décentralisée
+ 
+
+concevoir et implémenter une application logi-
+cielle d’automatisation décentralisée de com-
+plexité modeste à partir de la description d’un
+cahier des charges fonctionnel
+ 
+
+ 
+ 
+
+Niveau
+
+A l'issue de ce cours l'élève sera capable :
+
+Application de comprendre les avantages/inconvénients de
+
+ 
+
+la décentralisation
+de comprendre les étapes propres à la décen-
+tralisation dans la démarche de développement
+d'une application décentralisée
+
+Application de proposer une architecture de communication
+
+ 
+
+ 
+ 
+
+de proposer une répartition des fonctionnalités,
+de définir les flux et choisir les modes de co-
+opération associés
+de choisir les services réseaux correspondant
+de programmer, tester et valider l’application
+
+Outils numériques
+Suite logiciel Unity-Pro et Vijeo-Designer (Schneider Electric)
+
+55
+
+Semestre 8
+
+3.2. PACI841 - Physique expérimentale, mesures, capteurs et instrumenta-
+tion
+Cours (h)
+
+Pondération
+
+Evaluation
+
+64
+
+5
+
+CC(25%) TP(50%)
+
+Projet(25%)
+
+TD (h)
+13.5
+
+15
+
+TP (h)
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Pré-requis
+Avoir suivi les modules et assimilé les connaissances de EASI501, PHYS541, PHYS542, PACI641, PACI642
+et PACI741.
+Descriptif
+L'objectif de cet enseignement est de savoir choisir un capteur pour une application donnée. Pour cela, le module
+aborde  des  notions  de  métrologie,  décrit  les  principes  de  fonctionnement  des  principaux  types  de  capteurs  et
+de l'électronique de conditionnement associée, ainsi que les phénomènes physiques mis en jeu. Le module est
+constitué de Cours, Travaux Dirigés, TP et Projets qui permettent d'approfondir et de mettre en application les
+connaissances abordées dans ces domaines au cours de la formation.
+Plan du Cours
+1. Métrologie et Capteurs
+
+2.
+
+3.
+
+4.
+
+1.1. Définitions
+1.2. Grandeurs mesurables
+1.3. Caractéristiques métrologiques
+Principes physiques des capteurs
+2.1. Transducteurs optiques
+2.2. Transducteurs thermiques
+2.3. Transducteurs magnétiques
+2.4. Transducteurs mécaniques
+Electronique de conditionnement des capteurs
+3.1. Capteurs passifs
+3.2. Pont de Wheatstone
+3.3. Ponts d'impédances
+3.4. Capteurs actifs
+3.5. Structures des chaînes d'acquisition
+3.6. Mode commun – réjection
+Etude des capteurs
+4.1. Capteurs de grandeurs mécaniques : accélération, vitesse, force, position et déplacement
+4.2. Capteurs de grandeurs fluidiques : pression, vitesse, débit
+4.3. Capteurs de grandeurs thermiques
+4.4. Capteurs optiques
+4.5. Microcapteurs
+
+Intitulés TP
+Liste des Travaux Pratiques (52h) et Intitulés des mini-projets (12h) :
+• Microscope à Force Atomique (AFM)
+• Polarisation
+• Modulation électro-optique
+• Propriétés électriques de matériaux
+• Transferts de chaleur
+• PZT Céramique : Modélisation-Simulation
+• PZT Céramique  : Mesures
+• Piézorésistivité-Jauges (Capteurs de force)
+• Capteurs de grandeurs mécaniques (position, vitesse, accélération)
+• Capteurs de déplacement (LVDT)
+• Capteurs de déplacement (ultrasons)
+• Capteurs de vitesse
+
+56
+
+Semestre 8
+
+• Capteurs de pression (absolue, relative, différentielle)
+• Propriétés magnétiques de matériaux (Projet)
+• LVDT-Démodulation synchrone (Projet)
+• Mesures statique et dynamique de température (Projet)
+• Mise en oeuvre et exploitation d'un capteur 6 axes (Projet)
+• Principe d'un capteur communicant-intelligent (Projet)
+• Commande et instrumentation d'un bras robotisé (Projet)
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+identifier les classes de matériaux actifs mis en
+œuvre dans différentes applications.
+
+ 
+
+ 
+
+connaître différents principes physiques de
+transduction
+ 
+
+ 
+
+ 
+
+évaluer les performances du dispositif de me-
+sure incluant le capteur
+ 
+
+ 
+ 
+
+ 
+
+concevoir un capteur et son conditionnement
+en fonction d’un cahier des charges donné
+ 
+ 
+
+ 
+
+présenter rigoureusement un travail effectué
+
+Maîtrise
+
+ 
+
+ 
+
+57
+
+ 
+
+ 
+
+Niveau
+
+A l'issue de ce cours l'élève sera capable :
+Application d'expliquer les mécanismes passifs et actifs
+permettant de contrôler l'état de polarisation
+d'une onde optique en vue de la transmission
+de l'information
+de citer les différences fondamentales entre les
+propriétés électriques et magnétiques des diffé-
+rentes classes de matériaux et de comprendre la
+mesure et les grandeurs d'influence de ces pro-
+priétés
+d'expliciter comment mettre à profit les pro-
+priétés de certains matériaux pour concevoir
+des transducteurs, des capteurs et des action-
+neurs.
+d'expliquer les principes physiques mis en jeu
+dans un transducteur mécanique
+d'expliquer les principes physiques mis en jeu
+dans un transducteur thermique
+d'expliquer les principes physiques mis en jeu
+dans un transducteur magnétique
+d'expliquer les principes physiques mis en jeu
+dans un transducteur optique
+de connaître les définitions de la métrologie
+
+Maîtrise
+
+Maîtrise
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+Maîtrise
+
+ 
+ 
+
+ 
+
+de classer les capteurs en 2 grandes familles ac-
+tifs ou passifs
+d'identifier les grandeurs d’influence
+de déterminer les erreurs et la précision du dis-
+positif
+de réaliser l’étalonnage du dispositif
+de dimensionner un Pont Wheatstone résistif
+
+de dimensionner un Pont Wheatstone impédant
+de dimensionner les amplificateurs
+d’instrumentation
+de concevoir un capteur et son conditionne-
+ment en fonction d’un cahier des charges don-
+né
+d'analyser, critiquer et interpréter avec honnê-
+teté scientifique les résultats de manipulations
+d'anticiper et organiser son travail, travailler de
+manière collaborative
+
+Semestre 8
+
+Ce cours vise à rendre l'élève apte à :
+ 
+
+Niveau
+
+ 
+
+A l'issue de ce cours l'élève sera capable :
+de rendre compte des résultats du travail effec-
+tué de façon claire, argumentée et synthétique
+
+Bibliographie
+• Georges ASCH, Les capteurs en instrumentation industrielle, DUNOD
+• R. PALLAS-ARENY et J.G. WEBSTER, Sensors and signal conditionning, Wiley Interscience
+• P.P.L. REGTIEN, Measurement science for engineers, Kogan page science
+Outils numériques
+Logiciel de modélisation COMSOL Multiphysics®
+4. UE804 : Data science et apprentissage par projet
+4.1. EASI842a - Analyse d'image et vision par ordinateur
+Cours (h)
+
+Pondération
+
+Evaluation
+
+15
+
+12
+
+2
+
+CT(70%) + TP(30%)
+
+TD (h)
+13.5
+
+TP (h)
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Pré-requis
+• MATH642 - Mathématiques spécialisées
+• EASI642 - Signal et image : opérateurs de base
+• EASI742 - Signaux aléatoires
+Descriptif
+A travers ce cours, les étudiants approfondissent les connaissances initiales en traitement d'images introduites en
+EASI642, en s'appuyant sur des éléments de mathématiques spécialisées (MATH642) et les notions de signaux
+aléatoires (EASI742) acquises dans le cas monodimensionnel. Il comporte deux parties : la première est dédiée aux
+méthodes d'analyse d'images (segmentation, classification, ...) et la seconde à la technique de corrélation d'images
+pour objectif de détection d'objets et mesure de mouvement.
+Plan du Cours
+1. Analyse d’images
+
+1.1. Segmentation (région/contours)
+1.2. Détection/Classification
+1.3. Filtrage morphologique
+
+2. Corrélation d'images
+
+2.1. Détection d'objet par la corrélation 2D
+2.2. Mesure de mouvement par la corrélation 2D
+2.3. Modélisation 3D (optionnel)
+
+1 séance (1.5h) TD sur machine.
+Intitulés TP
+• Analyse de texture et segmentation d'images
+• Classification d'images multi-composantes (supervisées et automatiques)
+• Corrélation d'images : application à la mesure de déplacement
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+utiliser des méthodes d’analyse d’images
+"haut niveau" (segmentation, classification)
+afin d’extraire de l'information spatio-tempo-
+relle (régions, objets, changements...) dans les
+images bidimensionnelles (2D) et les séries
+d’images (2D+T).
+
+A l'issue de ce cours l'élève sera capable :
+d'analyser le contenu radiométrique des images
+pour en extraire des grandeurs caractéristiques
+utiles à un processus de reconnaissance, de sui-
+vi, de mesure… : attributs de texture, coeffi-
+cients d’ondelettes, paramètres statistiques,
+combinaison de canaux renforçant les struc-
+
+Niveau
+Maîtrise
+
+58
+
+Semestre 8
+
+Ce cours vise à rendre l'élève apte à :
+
+Niveau
+
+ 
+
+ 
+
+appliquer des méthodes de corrélation 2D pour
+détecter des objets ou suivre le déplacement
+d’objets.
+ 
+
+Maîtrise
+
+ 
+
+A l'issue de ce cours l'élève sera capable :
+tures observées (index de végétation, espaces
+colorimétriques…).
+de détecter et reconnaitre les objets ou les
+classes présents dans les images par des
+méthodes de type segmentation (approche
+contour/région…), classification (avec ou sans
+apprentissage) s’appuyant sur les informations
+extraites des images ou des informations com-
+plémentaires (données exogènes, connaissance
+experte…).
+de choisir des outils appropriés de corrélation
+2D pour calculer des cartes de déplacement en
+fonction des natures d'images.
+traiter différent types d’images (appareil pho-
+to, webcam, image aérienne ou satellitaire…)
+pour détecter les objets en mouvement et mesu-
+rer leur déplacement.
+
+Bibliographie
+• Faugeras O., Three-dimensional computer vision: a geometric viewpoint, MIT Press, 1993.
+• Kasser M., Egels Y., Digital Photogrammetry, Taylor & Francis, New York und London, 2001.
+• Philipp S., Cocquerez J.-P., Analyse d'images. Filtrage et Segmentation, Elsevier-Masson, 1997.
+• Correlates Solutions, Digital Image Correlation: Overview of Principles and Software, SEM 2009 Workshop.
+• B.  Zitova  and  J.  Flusser,  Image  registration  methods:  a  survey.  Image  and  Vision  Computing,  No.21,
+
+pp.977-1000, 2003.
+Outils numériques
+• Programmation: Python, Matlab
+• Logiciel: ENVI
+
+4.2. EASI844a - Modèles des systèmes à évènements discrets et applica-
+tions
+Cours (h)
+
+Pondération
+
+Evaluation
+
+9
+
+12
+
+1.5
+
+CC(70%) TP(30%)
+
+TD (h)
+19.5
+
+TP (h)
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+• Français avec documents en anglais
+Pré-requis
+Notions de bases en Algèbre (matrices et graphes), Analyse fonctionnelle de données, Variables et vecteurs aléa-
+toires, Automatisation, Conception et programmation orientée objet, Développement logiciel.
+Descriptif
+L'objectif de cet enseignement est d'introduire les notions de systèmes à événements discrets, leurs diverses mo-
+délisations et l'intérêt de ces modèles (communication, dimensionnement, vérification, simulation, prédiction, su-
+pervision, etc.). On s'intéressera, non seulement à diverses modélisations mathématiques d'un tel système, mais
+aussi à la modélisation de ses entrées afin de pouvoir prédire les futures états et sorties du système en fonction de
+son état actuel est des entrées disponibles. Les visions analytiques et par apprentissage seront également traitées.
+Plan du Cours
+1.
+2. Graphes d'événements temporisés, Algèbre Max-Plus, Vérification, Validation et Supervision (3h CM, 3h
+
+Système à Evénements Discrets, Modélisations, Réseaux de Petri (3h CM, 3h TD)
+
+TD)
+Processus de comptage et markoviens (3h CM, 3h TD)
+
+3.
+4. Modèles haut niveau -  Exploration par domaine et apprentissage (6h TD)
+
+59
+
+Semestre 8
+
+5. Modèles haut niveau associés aux systèmes étudiés en 'Apprentissage par Projet et par Problèmes' (4,5h TD)
+Intitulés TP
+• Travaux Pratiques en Modélisation : du cahier des charges à la conception détaillée, ainsi que la simulation,
+
+les vérifications et la supervision.
+
+• Mini-Projet : Application en communications, production, contrôle ou vision par ordinateur.
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+choisir un type de modèle de SED approprié à
+partir d'un système donné, et pour une question
+donnée relative à son fonctionnement attendu.
+ 
+
+établir, pour un modèle de système donné et
+une question donnée relative à son fonctionne-
+ment attendu, si oui ou non une propriété cible
+est satisfaite
+ 
+
+Niveau
+Maîtrise
+
+A l'issue de ce cours l'élève sera capable :
+de décrire les contraintes du modèle
+
+ 
+
+Maîtrise
+
+de choisir un type de modèle correspondant à
+ces contraintes parmi ceux étudiés
+de réaliser la vérification de la propriété dans le
+formalisme adapté (preuve, test, simulation, ...)
+
+ 
+
+d'utiliser les méthodes et outils logiciels (s'il y
+a lieu), adaptés à la vérification à réaliser
+
+4.3. INFO841 - Sécurité des systèmes cyber-physiques
+Cours (h)
+
+Pondération
+
+Evaluation
+
+TD (h)
+
+TP (h)
+
+7.5
+
+4.5
+
+12
+
+2
+
+CT(50%) TP(50%)
+
+Langue(s) utilisée(s) pour les enseignements
+• Français avec documents en anglais
+Descriptif
+L'objectif  de  ce  cours  et  d'identifier  les  vulnérabilités  et  les  risques  auxquels  les  données,  système  et  réseaux
+informatiques sont exposés. Le cours permettra de choisir et de déployer les contre-mesures appropriées pour
+augmenter la sécurité des systèmes cyber-physique et de les protéger contre les menaces internes et externes.
+Plan du Cours
+1.
+2.
+3.
+4.
+5.
+6. Cybersecurité et geopolitique
+Intitulés TP
+• Encryption securité des données, PGP, SSL, HTTPS
+• Securité des systèmes, buffer overflow
+• Vers, Virus et Malware
+• Projet de sécurité informatique   
+Objectifs d'apprentissage
+
+Introduction à la securité
+Elements de cryptographie et de sécurité des données
+Securité des systèmes et controle d'accès
+Sécurité des réseaux et virologie
+Sécurité des process cyber-physique
+
+Ce cours vise à rendre l'élève apte à :
+être sensibilisé à la sécurité informatique
+
+Niveau
+Maîtrise
+
+A l'issue de ce cours l'élève sera capable :
+ 
+
+Bibliographie
+• Solange  Ghernaouti  (2016)  Cybersécurité,  sécurité  informatique  et  réseaux,  paru  aux  éditions  Dunod
+
+(5e#édition)
+
+• Jie Wang, Zachary A. Kissel (2016) Introduction to Network Security: Theory and Practice, paru aux éditions
+
+Wiley.
+
+• Bryan Burns et coll. (2007) Security Power Tools, publié par O'Reilly Media
+
+60
+
+Semestre 8
+
+4.4. PROJ841a - Apprentissage par projet
+Pondération
+Cours (h)
+
+TD (h)
+
+TP (h)
+
+ 
+
+ 
+
+40
+
+5.5
+
+Evaluation
+
+Rapport + soute-
+nance + pratique
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Pré-requis
+De préférence avoir suivi le module d'APP du même thème au semestre 7.
+Descriptif
+L'Apprentissage par Problèmes et par Projet ( APP ) dans la spécialité IAI consiste d'une part à développer chez
+les élèves ingénieurs les compétences acquises dans la formation académique et d'autre part à acquérir des com-
+pétences supplémentaires dans des thèmes d'avenir:
+• Bâtiment Intelligent (BI) et Objets Connectés (OC)
+• Gestion des énergies renouvelables (GER) : photovoltaïque, éolienne, hydrolienne
+• Imagerie pour l'environnement (IE)
+• Robotique de service (RS) : traitements informatiques
+• Santé (S)
+Ces thèmes sont le fil conducteur des activités d'APP qui s'étalent sur 3 à 5 semestres à raison d'un module par
+semestre (module de 36h aux semestres 6, 7 et 9 ; module de 60h au semestre 8). Le travail est effectué par équipe
+(entre 4 et 7 élèves ingénieurs) sur l'ensemble des semestres.
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+participer et contribuer à l'organisation, la pla-
+nification des tâches d'un travail d'équipe et en
+assurer le suivi et les ajustements
+ 
+
+ 
+
+appréhender les difficultés de mise en appli-
+cation, analyser les situations et prévoir les
+solutions permettant d'obtenir un système ou
+une application fiable répondant au cahier des
+charges
+ 
+
+ 
+
+ 
+
+Niveau
+Maîtrise
+
+ 
+
+ 
+
+Maîtrise
+
+A l'issue de ce cours l'élève sera capable :
+d'organiser un travail en tâches, d'identifier et
+affecter des ressources à ces tâches, d'en pré-
+voir la durée et d'en définir l'enchaînement
+d'évaluer les compétences des membres de
+l'équipe et répartir les tâches entre ceux-ci
+d'organiser et animer une réunion de travail en
+veillant à en respecter les objectifs et en maitri-
+sant le temps
+de définir un plan d'actions face à une difficulté
+technique
+
+ 
+
+ 
+
+ 
+
+de prévoir les cas de blocage et d'élaborer une
+ou plusieurs solutions pour les résoudre
+de vérifier la ou les solutions retenues et leur
+robustesse
+d'acquérir de nouvelles compétences par
+l''autoformation, la consultation d'experts et la
+veille technologique
+
+Outils numériques
+Logiciels spécialisés divers (Labview, Matlab, ETS4, Choregraphe, AndroidStudio, ...).
+Plates-formes collaboratives (Moodle, Github, Trello, ...).
+Systèmes d'exploitation Windows, Linux, Android et virtualisation.
+
+61
+
+Semestre 9
+
+UE
+
+ECTS Module
+
+Intitulé
+
+Cours (h) TD (h)
+
+TP (h)
+
+ 
+
+ 
+
+ 
+
+40.5
+
+30
+
+ 
+
+15
+
+7.5
+
+25.5
+
+25.5
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+40
+
+ 
+
+20
+
+24
+
+36
+
+Pondé-
+ration
+
+2.5
+
+2.5
+
+6
+
+1.5
+
+4
+
+4
+
+2
+
+2
+
+2
+
+2
+
+2
+
+2
+
+Evaluation
+
+CC
+
+CC
+
+Pratique +
+Rapport +
+Soutenance
+
+CC
+
+CC(20%)
+CT(50%)
+TP(30%)
+
+Pratique +
+rapport +
+soutenance
+
+TP
+
+CT(70%)
++ TP(30%)
+
+CT(40%)
+TP(60%)
+
+CC(30%)
+CT(30%)
+TP(40%)
+CT(30%)
+TP(70%)
+Rapport +
+soutenance
+
+UE901 :
+Passerelle
+vers le mi-
+lieu pro-
+fessionnel
+
+ 
+
+ 
+
+ 
+
+UE902 :
+Automa-
+tique et ap-
+prentissage
+par projet
+
+ 
+
+ 
+
+ 
+
+10
+
+LANG901a
+
+Anglais (Ni-
+veau TOEIC
+non atteint)
+
+LANG902a Langues (Niveau
+TOEIC atteint)
+Projet Recherche
+et Développement
+
+PROJ901a
+
+SHES901a
+
+8
+
+EASI943a
+
+Techniques de
+management
+
+Approche d'état
+en automatique :
+représentation,
+commande et
+observation
+Apprentis-
+
+sage par projet
+
+ 
+
+ 
+
+PROJ943a
+
+UE903 : Da-
+ta science et
+objets com-
+municants
+
+12
+
+EASI941a Systèmes commu-
+nicants, capteurs
+communicants
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+EASI942a
+
+INFO941a
+
+INFO942a
+
+Imagerie 3D :
+acquisition, re-
+construction,
+applications
+Systèmes em-
+barqués et pro-
+
+grammation
+concurrente
+Apprentissage
+automatique et
+
+INFO943
+
+fouille de données
+Internet des objets
+
+PROJ942a
+
+Projet technique
+
+traitement de
+l'information
+
+13.5
+
+10.5
+
+12
+
+9
+
+12
+
+3
+
+ 
+
+3
+
+ 
+
+9
+
+ 
+
+24
+
+24
+
+24
+
+36
+
+1. UE901 : Passerelle vers le milieu professionnel
+
+62
+
+Semestre 9
+
+1.1. LANG901a - Anglais (Niveau TOEIC non atteint)
+Cours (h)
+
+Pondération
+
+TP (h)
+
+TD (h)
+40.5
+
+ 
+
+ 
+
+2.5
+
+Evaluation
+
+CC
+
+Langue(s) utilisée(s) pour les enseignements
+• Anglais
+Pré-requis
+Cours de s7 et s8 et score Toeic minimum 735
+Descriptif
+ Ce cours prépare les étudiants à leur entrée dans la vie professionnelle. Conduite ou participation à une réunion :
+vocabulaire et structures liés à cet aspect tout en continuant un travail sur les 4 compétences mais en insistant
+sur une mise en situation proche de la réalité( "jeux de rôle", acquisition de vocabulaire technique (selon le site)
+et  vocabulaire  de  l'entreprise...).  Mais  aussi  prise  de  parole  en  public  au  moyen  de  présentations  données  par
+des étudiants en groupes et ou en individuel, sur des sujets illustrés par des articles de presse ou des supports
+vidéos (VTD : Video, Talk and Debate). Les étudiants sont évalués tout au long de chaque semestre. L'évaluation
+terminale consiste en une épreuve de 1h, 1h30 ou 2h selon le semestre et selon le site (Annecy ou Le Bourget),
+et compte coefficient 2 dans le contrôle continu total.
+Plan du Cours
+1. Utilisation des structures, lexiques, notions et fonctions nécessaires à une bonne expression orale et écrite:
+
+1.1. Temps
+1.2. Questionnement (dans un cadre professionnel)
+1.3. Mots de liaison
+
+2. Compréhension orale:
+
+2.1. Dialogues enregistrés en anglais américain, britannique, néo-zélandais....
+2.2. Videos en anglais américain, britannique, australien....
+
+3. Compréhension écrite:
+3.1. Extraits de presse
+3.2. Textes divers
+
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+valider le TOEIC à 785
+
+ 
+
+utiliser l’inter-activité de communication opé-
+rationnelle la plus authentique possible
+
+ 
+
+ 
+
+A l'issue de ce cours l'élève sera capable :
+de continuer des révisions lexicales et gram-
+maticales visant plus spécifiquement les points
+testés au TOEIC
+d'intensifer l’entraînement sur des exercices de
+TOEIC (7 parties) / test entiers
+d'écouter régulièrement les nouvelles sur des
+sites anglophones d’information (CNN, BBC,
+Skynews…) et sera en mesure de restituer
+l’essentiel oralement de façon succincte, en in-
+ter-activité avec le groupe-classe
+de faire des recherches (en groupe et indivi-
+duellement) pour monter un projet (profession-
+nel / culturel) innovant , en équipe, à présen-
+ter en classe, après avoir anticipé et simulé les
+démarches auprès des acteurs économiques ca-
+pables d’aider l’équipe à le monter, selon les
+étapes d’un « business plan » crédible : rédac-
+tion de emails, entretien téléphonique, recrute-
+ment, recherches de financement…
+de présenter le projet collectif, en en démon-
+trant la faisabilité technique et commerciale («
+pitch » / sur le modèle de : « Dragons’ den »)
+
+Niveau
+Notion
+
+ 
+
+Maîtrise
+
+ 
+
+ 
+
+63
+
+Semestre 9
+
+Bibliographie
+• Documents distribués par les intervenants
+• Différents sites internet dont la liste est donnée en début de S5
+
+1.2. LANG902a - Langues (Niveau TOEIC atteint)
+Cours (h)
+
+Pondération
+
+TD (h)
+
+TP (h)
+
+ 
+
+30
+
+ 
+
+2.5
+
+Evaluation
+
+CC
+
+Pré-requis
+• Pour l'anglais Civilisation : élèves ingénieurs ayant réussi le TOEIC.
+• Pour la LV2 : cours débutants uniquement pour le chinois et le japonais
+Descriptif
+Ce cours est composé de deux parties :
+• 15h d'Anglais :  Culture, Civilisation et Langue.Réactualisation et validation des acquis et utilisation de l'anglais
+
+en toute situation de communication.
+
+• 15h d'une seconde langue vivante. Les langues proposées  sont :
+
+• Espagnol, Allemand et Italien pour les 2 sites de l'école (non débutants).
+• Chinois et Japonais sur le site d'Annecy avec des cours débutants possibles
+
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+être en autonomie linguistique et culturelle
+pour communiquer de façon authentique
+ 
+
+ 
+
+Niveau
+Expertise
+
+ 
+
+ 
+
+imaginer, être créatif et crédible (dans une
+langue étrangère) pour convaincre des parte-
+naires professionnels
+
+Expertise
+
+ 
+
+comprendre et parler d'autres langues que
+le français et l'anglais et s'ouvrir à d'autres
+cultures.
+ 
+
+ 
+
+Expertise
+
+A l'issue de ce cours l'élève sera capable :
+d'inter-agir avec des professionnels (de sa spé-
+cialité) au cours de présentations
+d'écouter régulièrement les nouvelles sur des
+sites anglophones d’information (CNN, BBC,
+Skynews…) et sera en mesure de restituer
+l’essentiel oralement de façon succincte, en in-
+ter-activité avec le groupe-classe
+de faire des recherches (en groupe et indivi-
+duellement) à visée professionnelle / culturelle
+à présenter en classe
+de monter un projet (professionnel) innovant ;
+simulé les démarches auprès des acteurs éco-
+nomiques capables d’apporter de l’aide pour le
+finaliser (selon les étapes d’un « business plan
+» crédible : rédaction de emails, entretien télé-
+phonique, recrutement, recherches de finance-
+ment..)
+de présenter un projet, en en démontrant la fai-
+sabilité technique et commerciale (« pitch » /
+sur le modèle de : « Dragons’ den »)
+de travailler sur des supports écrits, audio et vi-
+déo variés
+
+ 
+
+d'échanger avec des personnes non franco-
+phones et non anglophones.
+
+1.3. PROJ901a - Projet Recherche et Développement
+Cours (h)
+
+Pondération
+
+TD (h)
+
+TP (h)
+
+Evaluation
+
+ 
+
+ 
+
+40
+
+Pratique + Rap-
+port + Soutenance
+
+6
+
+64
+
+Semestre 9
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Descriptif
+Ce travail consiste en une initiation à la recherche fondamentale ou appliquée. Il est réalisé sur un sujet proposé
+par le monde industriel ou par un laboratoire de recherche. La première partie du projet porte sur un état de l'art
+des connaissances et/ou techniques sur le sujet, l'identification de la méthode et/technique qui sera mise en ouvre
+dans le cadre du projet, et l'élaboration d'un plan d'experience ou de travail permettant de répondre au problème.
+La deuxième partie du travail concerne la réalisation de l'étude et l'analyse des résultats
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+mener un travail de recherche fondamentale ou
+appliquée
+ 
+ 
+
+Niveau
+
+A l'issue de ce cours l'élève sera capable :
+
+Application de réaliser un état de l'art des connaissances et
+
+des techniques
+de justifier une stratégie de recherche
+de faire une analyse critique de ses résultats
+
+ 
+ 
+
+gérer un projet
+ 
+
+Application planifier son travail sur la durée du projet
+
+ 
+
+respecter les jalon et rendre les livrables atten-
+dus
+1.4. SHES901a - Techniques de management
+Cours (h)
+
+Pondération
+
+Evaluation
+
+TD (h)
+
+TP (h)
+
+15
+
+7.5
+
+ 
+
+1.5
+
+CC
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Descriptif
+Cet élément constitutif de SHES se décompose en deux enseignements indépendants : Management, Ethique.
+Le  but  de  ce  module  est  d'appréhender  les  dimensions  humaine  et  communicationnelle  du  management  et  de
+développer l'assertivité managériale des élèves
+Plan du Cours
+1. Management (12h CM ; 7,5h TD) :
+
+1.1. Comprendre - La dimension humaine du management
+1.2. Communiquer - La dimension relationnelle du management
+Ethique et management (3h CM)
+
+2.
+Intitulés TP
+Management :
+1. Agir - La dimension stratégique du management (mises en situation)
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+mener une réflexion éthique sur sa pratique
+professionnelle et sur la posture managériale
+ 
+
+ 
+
+Niveau
+
+A l'issue de ce cours l'élève sera capable :
+
+Application de connaître les concepts de RSE, d’éthique et
+
+ 
+
+ 
+
+de déontologie
+d'argumenter la place de l’éthique dans
+l’entreprise et le management
+d’analyser des situations de dilemme pour
+prendre une décision réfléchie
+
+conduire un projet et des hommes
+
+Application de concevoir une équipe chargée de la mise en
+
+œuvre d’un projet
+
+65
+
+Ce cours vise à rendre l'élève apte à :
+ 
+
+ 
+
+Semestre 9
+
+Niveau
+
+ 
+
+ 
+
+A l'issue de ce cours l'élève sera capable :
+de comprendre les tâches et les compétences
+professionnelles impliquées dans la mise en
+œuvre du projet
+de prendre du recul sur des situations com-
+plexes et d’arbitrer les besoins conflictuels liés
+à la conception du projet
+
+développer l'assertivité managériale
+ 
+
+Application d'exprimer ses attentes et ses besoins
+
+ 
+
+de se positionner en tant que personne et fonc-
+tion
+
+2. UE902 : Automatique et apprentissage par projet
+
+2.1. EASI943a - Approche d'état en automatique : représentation, commande
+et observation
+TD (h)
+Cours (h)
+25.5
+
+Evaluation
+CC(20%)
+
+Pondération
+
+25.5
+
+TP (h)
+
+20
+
+4
+
+CT(50%) TP(30%)
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Pré-requis
+• EASI641 : Signaux et systèmes
+• EASI744 : Automatique - Stabilité et commande de systèmes
+Descriptif
+Les objectifs de ce cours sont :
+• Construire des modèles de type représentation d’état de systèmes multi-entrées multi-sorties
+• Analyser les propriétés de tels systèmes (au moins localement)
+• Les simuler à l’aide d’outils tels que Simulink de Matlab
+• Construire des observateurs pour obtenir des informations sur des variables d'état
+• Mettre en œuvre des outils de prototypage rapide de lois de commande pour les piloter
+Plan du Cours
+COURS
+1. Représentation d'état
+
+1.1. Description de systèmes dynamiques continus
+1.2. Modèle d'état
+1.3. Equation d'évolution
+1.4. Association de blocs
+1.5. Systèmes échantillonnés
+1.6. Passage modèle d'état - fonction de transfert
+
+2. Analyse d'un modèle d'état (en continu et en échantillonné)
+
+2.1. Stabilité
+2.2. Gain statique
+2.3. Commandabilité
+2.4. Observabilité
+2.5. Forme canonique de la représentation d'état
+2.6. Pôles d'un système en représentation d'état
+2.7. Zéros d'un système en représentation d'état
+
+3. Commande par retour d'état
+
+3.1. Principe
+3.2. Cas mono-entrée mono-sortie
+3.3. Cas multi-entrées multi-sorties
+3.4. Commande découplante
+
+66
+
+Semestre 9
+
+4. Observateur de Luenberger
+
+4.1. En temps continu
+4.2. En temps échantillonné
+4.3. Observateur de Luenberger et perturbation additive
+
+5. Observateurs étendus
+
+5.1. Perturbation constante
+5.2. Perturbation en rampe
+5.3. perturbation sinusoïdale
+
+6. Commande par retour d'état avec observateur
+
+6.1. Commande par retour d'état
+6.2. Le principe de séparation
+
+Principes généraux de prototypage de lois de commande
+
+Synthèse d'observateurs et d'observateurs étendus, en temps continu et en temps échantillonné
+
+7. Rappels sur les outils d’analyse numérique pour la simulation de systèmes dynamiques
+8.
+TRAVAUX DIRIGES
+Les séances de travaux dirigés se font majoritairement sur machines (14/17), avec l'utilisation des logiciels Matlab
+et  Simulink.  Ces  outils  sont  bien  adaptés  à  ce  module  :  ils  facilitent  les  calculs  et  permettent  de  nombreuses
+simulations.
+1. Représentation d'état de systèmes dynamiques (SISO, MIMO)
+2.
+Etude de la stabilité, de la commandabilité et de l'observabilité
+3. Représentation d'état de sous-systèmes connectés entre-eux
+4. Commande découplante et stabilisante
+5.
+6. Commande par retour d'état avec observateur d'un chariot filoguidé
+Intitulés TP
+Les 20 heures de TP se font sous la forme d'un mini-projet. D'un point de vue matériel, les élèves-ingénieurs
+travaillent sur des robots LEGO EV3.
+Il s'agit de faire tenir en équilibre un robot de type pendule inversé. La décomposition des tâches à effectuer
+pendant le projet est la suivante:
+- Mise en place du modèle non linéaire du robot EV3 en mode pendule inversé
+- Simulation du système (Matlab/Simulink)
+- Linéarisation du modèle
+- Synthèse d'une commande par retour d'état stabilisante à l'aide de la méthode LQR
+- Programamtion du robot pour la mise en oeuvre de la loi de commande
+Objectifs d'apprentissage
+
+Niveau
+Maîtrise
+
+A l'issue de ce cours l'élève sera capable :
+de décrire correctement le problème posé
+
+ 
+
+ 
+
+Maîtrise
+
+ 
+ 
+
+de distinguer les différentes entrées influentes,
+en séparant commande et perturbations
+de hiérarchiser les différentes échelles de temps
+en terme de dynamique
+de calculer des matrices de gains statiques
+
+de déterminer la stabilité du système
+d'évaluer les différents couplages entrées-sor-
+ties
+de poser correctement un problème de simu-
+lation : horizon, conditions initiales, entrées
+appliquées, méthode efficace d'analyse numé-
+rique
+
+Ce cours vise à rendre l'élève apte à :
+construire des modèles de type représentation
+d’état de systèmes multi-entrées multi-sorties
+ 
+
+ 
+
+analyser les propriétés de tels systèmes (au
+moins localement)
+ 
+ 
+
+les simuler à l’aide d’outils tels que Simulink
+de Matlab
+
+Notion
+
+67
+
+Ce cours vise à rendre l'élève apte à :
+ 
+construire des systèmes de commande par re-
+tour d'état
+ 
+
+ 
+
+ 
+
+reconstruire indirectement les valeurs de gran-
+deurs physiques non accessibles directement à
+la mesure
+ 
+ 
+
+ 
+
+Semestre 9
+
+Niveau
+
+ 
+
+Maîtrise
+
+ 
+
+ 
+
+ 
+
+Maîtrise
+
+A l'issue de ce cours l'élève sera capable :
+d'analyser les résultats obtenus
+de fixer la dynamique recherchée pour le sys-
+tème piloté
+de repérer les perturbations dont l'influence est
+à rejeter
+de déterminer la structure de commande adap-
+tée aux objectifs fixés
+de paramétrer correctement celle-ci
+de construire un modèle d'état du système
+
+ 
+ 
+
+ 
+
+d'en analyser les propriétés d'observabilité
+de proposer des structures d'observateurs per-
+mettant de reconstruire les informations recher-
+chées
+de paramétrer correctement le type
+d'observateur choisi
+
+Bibliographie
+R. Konn, Automatique - Commande analogique et numérique des systèmes - Méthodes fréquentielle et polyno-
+miale, espace d'état, Editions Ellipses, 2010
+Ph. De Larminat, Automatique appliquée, Hermès-Lavoisier, 2009
+Y. Granjon, Automatique - 3ème édition, Dunod, 2015
+B. d'Andréa-Novel, M. Cohen de Lara, Automatique - Commande linéaire des systèmes dynamiques, Les Presses
+Ecole des Mines de Paris, 2002
+F. Bonnans, P. Rouchon, Commande et optimisation de systèmes dynamiques, Les Editions de l'Ecole Polytech-
+nique, 2005
+Outils numériques
+Logiciels Matlab et Simulink
+
+2.2. PROJ943a - Apprentissage par projet
+Pondération
+Cours (h)
+
+TD (h)
+
+ 
+
+ 
+
+24
+
+4
+
+TP (h)
+
+Evaluation
+
+Pratique + rap-
+port + soutenance
+
+Pré-requis
+de préférence avoir suivi le module d'APP du même thème au semestre 8.
+Descriptif
+L'Apprentissage par Problèmes et par Projet ( APP ) dans la spécialité IAI consiste d'une part à développer chez
+les élèves ingénieurs les compétences acquises dans la formation académique et d'autre part à acquérir des com-
+pétences supplémentaires dans des thèmes d'avenir:
+• Bâtiment Intelligent (BI) et Objets Connectés (OC)
+• Gestion des énergies renouvelables (GER) : photovoltaïque, éolienne, hydrolienne
+• Imagerie pour l'environnement (IE)
+• Robotique de service (RS) : traitements informatiques
+• Santé (S)
+Ces thèmes sont le fil conducteur des activités d'APP qui s'étalent sur 3 à 5 semestres à raison d'un module par
+semestre (module de 36h aux semestres 6, 7 et 9 ; module de 60h au semestre 8). Le travail est effectué par équipe
+(entre 4 et 7 élèves ingénieurs) sur l'ensemble des semestres.
+
+68
+
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+finaliser le projet en fournissant un démonstra-
+teur fiable
+ 
+
+ 
+
+ 
+
+Semestre 9
+
+Niveau
+Maîtrise
+
+ 
+
+ 
+
+ 
+
+A l'issue de ce cours l'élève sera capable :
+de vérifier la qualité et la fiabilité du système
+ou de l'application réalisé
+de produire une documentation claire et dé-
+taillée sur le système ou l'application réalisé
+(documentation technique précise et manuel
+d'utilisation)
+d'organiser et d'assurer une formation aux utili-
+sateurs
+de proposer des améliorations et/ou évolution
+du système ou de l'application réalisé
+
+Outils numériques
+Logiciels spécialisés divers (Labview, Matlab, ETS4, Choregraphe, AndroidStudio, ...).
+Plates-formes collaboratives (Moodle, Github, Trello, ...).
+Systèmes d'exploitation Windows, Linux, Android et virtualisation.
+3. UE903 : Data science et objets communicants
+
+3.1. EASI941a - Systèmes communicants, capteurs communicants
+Cours (h)
+
+Pondération
+
+Evaluation
+
+TD (h)
+
+TP (h)
+
+ 
+
+ 
+
+36
+
+2
+
+TP
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Pré-requis
+• EASI501 : Electricité
+• PHYS542 : Electromagnétisme appliqué à la transmission de l'information
+• EASI641 : Signaux et systèmes
+• INFO501 : Numération et Algorithmique
+• PACI741 : Electronique d'instrumentation : notions essentielles pour l'ingénieur
+• PACI742 : Systèmes d'acquisition de données - Programmation graphique
+• INFO741 : Systèmes embarqués
+• PACI841 : Physique expérimentale, mesures, capteurs et instrumentation
+Descriptif
+A l'issue de ce cours les élèves seront capables de concevoir et de réaliser un capteur communicant intégrant un
+capteur, son conditionnement, une source d'énergie, un module de communication et l'informatique embarquée.
+Plan du Cours
+Notions spécifiques et apports culturels nécessaires aux choix technologiques en vue de la conception de capteurs
+communicants.
+• Systèmes informatiques embarqués (micro-contrôleurs, FPGA, PSOC, ...)
+• Technologies de communications sans fil (WIFI, Zigbee, Bluetooth, ...)
+• Capteurs intégrés (analogiques ou numériques)
+• Sources d'énergies (batterie, récupération d'énergie ambiante)
+Intitulés TP
+mini projet : conception et réalisation d'un capteur autonome communicant
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+développer l’architecture matérielle et logi-
+cielle d’un capteur communicant
+
+Niveau
+Maîtrise
+
+A l'issue de ce cours l'élève sera capable :
+de choisir des composants électroniques et mi-
+cro-informatiques (capteurs, microcontrôleur,
+
+69
+
+Semestre 9
+
+Ce cours vise à rendre l'élève apte à :
+
+Niveau
+
+ 
+
+ 
+
+ 
+
+ 
+
+choisir un mode et un protocole de communi-
+cation
+
+Maîtrise
+
+ 
+
+ 
+
+ 
+
+ 
+
+programmer un microcontrôleur basse consom-
+mation afin de gérer un capteur, d’assurer un
+prétraitement de l’information et de piloter un
+dispositif de communication
+ 
+
+Maîtrise
+
+ 
+
+A l'issue de ce cours l'élève sera capable :
+source d'énergie, émetteur/récepteur) adaptés à
+une application donnée
+de concevoir l'architecture matérielle du sys-
+tème (conception et réalisation de la carte élec-
+tronique)
+de concevoir et de réaliser le logiciel embarqué
+d'identifier les caractéristiques nécessaires du
+système de communication (portée, filaire ou
+non filaire, débit)
+de choisir le protocole de communication adap-
+té
+de garantir l'intégrité et la sécurité des données
+transmises ou échangées
+de concevoir et réaliser le logiciel de gestion et
+d'exploitation du capteur communicant (com-
+munication uni ou bi-directionnelle, configura-
+tion, paramétrage, remontée d'information)
+de prendre en compte les contraintes énergé-
+tiques dans la gestion logicielle du système
+(mode veille, optimisation des traitements,
+changements de modes ..)
+
+3.2. EASI942a - Imagerie 3D : acquisition, reconstruction, applications
+Cours (h)
+
+Pondération
+
+Evaluation
+
+13.5
+
+12
+
+2
+
+CT(70%) + TP(30%)
+
+TD (h)
+10.5
+
+TP (h)
+
+Langue(s) utilisée(s) pour les enseignements
+• Français avec documents en anglais
+• Anglais
+Pré-requis
+MATH641, MATH642, EASI642, EASI842 ou connaissances équivalentes ;  connaissances de base en physique
+des matériaux
+Descriptif
+En s'appuyant essentiellement sur les propriétés des dispositifs à rayons X, ce cours vise à introduire les techniques
+de reconstruction tomographique et d'analyse de blocs de données 3D.  Les applications présentées relèvent de
+l'imagerie industrielle (caractérisation de matériaux, contrôle non destructif) et de l'imagerie médicale. Ce cours
+est organisé en trois parties :
+• aspects physiques-interactions onde-matière
+• reconstruction tomographique
+• traitement et analyse en 3D
+Ce module comprend des études de cas présentées par des intervenants extérieurs, provenant de la société RX-
+solutions et de l'ESRF. Une visite de l'entreprise RX-solutions (fabricant d'appareils de tomographie) est organisée.
+Supports de cours en anglais. Cours dispensé en anglais sauf si le public est 100% francophone.
+Plan du Cours
+1. which rays for imaging? ultrasounds, TeraHertz, X-rays, neutrons, MRI ; optical techniques
+2.
+
+computed tomography: modelization; analytical techniques (Radon transform, Fourier slice theorem), alge-
+braic techniques; practical issues (spatial resolution)
+3D image processing: visualization, filtering, shape analysis
+
+3.
+Intitulés TP
+étude qualitative et quantitative d'un dispositif de tomographie
+
+70
+
+Semestre 9
+
+•  caractérisation de l'effet des paramètres d'acquisition et de reconstruction sur la qualité de l'image
+• caractérisation des effets d'un mauvais reglage mécanique
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+comprendre les méthodes d'investigation de la
+matière
+
+Niveau
+Maîtrise
+
+ 
+
+résoudre un problème inverse dans le cas de la
+reconstruction 2D et 3D
+ 
+
+choisir des opérateurs de traitement et
+d'analyse dans une bibliothèque
+ 
+
+ 
+
+construire un cahier des charges et préparer la
+réponse à un appel d'offre
+ 
+ 
+ 
+
+A l'issue de ce cours l'élève sera capable :
+de connaître les principales techniques
+d'analyse surfacique et d'inspection de la ma-
+tière par réflexion (optique) ou transmission
+(acoustique, électromagnétique, électronique)
+de connaître les capteurs associés
+de comprendre les propriétés de la transforma-
+tion de Radon
+de connaître les principes de reconstruction par
+des techniques algébriques itératives
+comprendre les principes de la visualisation
+d'objets 3D
+de connaître les méthodes de filtrage et de seg-
+mentation d'images 3D
+de connaître les principales méthodes de carac-
+térisation géométrique ainsi que les effets de
+discrétisation spatiale
+choix de capteurs
+
+ 
+
+Maîtrise
+
+ 
+
+Maîtrise
+
+ 
+
+ 
+
+Maîtrise
+
+ 
+ 
+ 
+
+dimensionnement d'une installation
+estimation des perfomances
+estimation du cout d'installation et
+d’exploitation d'un dispositif d'imagerie 3D
+
+Bibliographie
+P. Grangeat, Tomography, ISTE/Wiley, 2009
+P. Grangeat, La tomographie fondements mathématiques imagerie microscopique et imagerie industrielle traite
+IC2. editions Hermes; 2002
+Outils numériques
+MATLAB : utilisation en cours/TD pour illuster les pricipes de réolution de problèmes inverses linéaires ; utili-
+sation en TP : traitement d'un cas simple d'acquistion en faisceaux aprallèles, simulation de défauts de reglages
+mécaniques ou de défauts de capteurs
+MAPLE : calculs et visualisation
+
+3.3. INFO941a - Systèmes embarqués et programmation concurrente
+Cours (h)
+
+Pondération
+
+Evaluation
+
+TD (h)
+
+TP (h)
+
+9
+
+3
+
+24
+
+2
+
+CT(40%) TP(60%)
+
+Pré-requis
+INFO741 : systèmes embarqués - systèmes d'exploitation
+Descriptif
+Ce module couvre le fonctionnement des systèmes embarqués fonctionnant avec un système d'exploitation. Il
+présente aussi les contraintes liées à des problématiques temps-réel et multi-tâche. Finalement, ce cours aborde la
+mise en œuvre à partir d'un cahier des charges d'un système embarqué temps-réel.
+Plan du Cours
+1.
+
+Fonctionnement systèmes embarqués : architecture circuit programmable, outils de développement
+
+71
+
+Semestre 9
+
+2.
+
+Traitements temps-réels : contraintes, ordre de priorité (fonctionnement par interruptions), adapter la pro-
+grammation multi-tâche au temps réel
+
+3. Développement d'une application temps-réel sur un système embarqué : utilisation de la plateforme Rasp-
+berry-Pi (avec Linux embarqué), développer l'application, test et validation, lien avec traitement du signal /
+image / vidéo
+
+Intitulés TP
+TP 1-6 : Mini-projet sur plateforme Raspberry: développement d'une application temps-réel / multi tâche. Possible
+de communiquer avec Arduino.
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+Spécifier, analyser, concevoir et mettre en
+œuvre des systèmes informatiques, en particu-
+lier des systèmes embarqués et des systèmes
+communicants
+ 
+
+Niveau
+Maîtrise
+
+A l'issue de ce cours l'élève sera capable :
+de faire de la programmation multi-tâche à par-
+tir des objets MUTEX (verrou, sémaphore, va-
+riables conditionnelles)
+
+ 
+
+de réaliser sur Raspberry-Pi opérant avec un
+OS Linux un système temps réel et multi-tâche
+complexe avec partir d'un cahier des charges
+
+Bibliographie
+• http://www.yolinux.com/TUTORIALS/LinuxTutorialPosixThreads.html
+• https://computing.llnl.gov/tutorials/pthreads/index.html
+Outils numériques
+Plateforme Moodle.
+Forum Raspberry : https://www.raspberrypi.org/forums/viewforum.php?f=65
+
+3.4. INFO942a - Apprentissage automatique et fouille de données
+Cours (h)
+
+Pondération
+
+TD (h)
+
+TP (h)
+
+Evaluation
+CC(30%)
+
+12
+
+ 
+
+24
+
+2
+
+CT(30%) TP(40%)
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+• Français avec documents en anglais
+Pré-requis
+Maîtrise des notions de base en statistiques, analyse numérique, optimisation, informatique, systèmes numériques
+et modélisation mathématique
+Descriptif
+Ce module dédié l’apprentissage machine a pour objectif la construction de modèles non-nécessairement analy-
+tiques à partir d’un ensemble de données.  Il s’agit de découvrir, à travers les données et selon le problème à
+résoudre (prise de décision, aide à la décision, segmentation, classification, recherche de contenu à partir d’une
+requête, …), des fonctionnelles optimales capables de décomposer les données pour en extraire des attributs si-
+gnificatifs et de conduire ainsi à un traitement sophistiqué de l’information numérique. Ces fonctionnelles peuvent
+être très parcimonieuses (shallow learning) ou organisées en plusieurs couches toutes très complexes (deep lear-
+ning). Construit à partir de plusieurs disciplines scientifiques (statistiques, analyse numérique, optimisation, in-
+formatique, ...) et composante fondamentale de l’intelligence artificielle, l’apprentissage machine est aujourd'hui
+exploité dans de nombreux domaines d'activités.
+Plan du Cours
+1.
+
+Problématique générale
+1.1. Les données
+1.2. Typologie des problèmes
+1.3. Formulation d'un problème d'apprentissage
+
+2. Apprentissage non-supervisé
+
+2.1. Modélisation directe des données
+
+72
+
+Semestre 9
+
+2.2. Modélisation d'attributs extraits à partir des données
+2.3. Métriques et mesures de similarité
+
+3. Apprentissage supervisé
+
+3.1. Benchmarking des données
+3.2. Réseaux non-récurrents
+3.3. Réseaux récurrents
+
+4. Ouverture sur d'autres approches
+
+4.1. Apprentissage par renforcement
+4.2. Sur-apprentissage et problèmes ouverts
+
+Intitulés TP
+(i) Travaux pratiques de prise en main des outils d'apprentissage machine et (ii) Mini-Projet (2 sujets au choix).
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+choisir une méthode appropriée à la résolution
+d'un problème d'analyse de données ou de re-
+cherche d'information dans les données, puis
+argumenter son choix, enfin interpréter et éva-
+luer les résultats obtenus
+
+Niveau
+Maîtrise
+
+A l'issue de ce cours l'élève sera capable :
+ 
+
+Outils numériques
+Ce module regroupe 4 compétences. Les outils numériques associés à chacune de ces compétences sont les sui-
+vants :
+- Développement sur tablette : Android Studio
+- Analyse d'images :  Anaconda /Spyder pour des développements en langage python avec le module opencv
+- Communication : machine virtuelle, architecture client/serveur (Apache, ftp, ...), programmation web (php, py-
+thon, ...)
+- Gestion de projets : Trello, Git/Github ou SVN, Espaces collaboratifs
+
+3.5. INFO943 - Internet des objets
+Cours (h)
+
+TD (h)
+
+3
+
+9
+
+24
+
+2
+
+TP (h)
+
+Pondération
+
+Evaluation
+
+CT(30%) TP(70%)
+
+Langue(s) utilisée(s) pour les enseignements
+• Français avec documents en anglais
+Descriptif
+L'objectif  de  ce  cours  est  de  donner  aux  étudiants  une  densibilisation  à  l’importance  de  l’IoT.  Il  présente
+les concepts fondamentaux de l’Internet des Objets et décrit la chaîne de conception des objets connectés.
+Plan du Cours
+Introduction
+1.
+2.
+Le marché de l’IoT
+3. Concepts fondamentaux
+4.
+5.
+6.
+7.
+8.
+Intitulés TP
+Développement d'un projet IoT sur 24 heures, sur les thèmes :
+• Conception et développement d'une application de monitoring d'un parc informatique
+• Interface d'un système cyber-physique avec le service IFTTTT
+
+Interactions entre le « monde numérique » et le « monde physique »
+Infrastructures pour l’IoT
+Solutions technologiques
+Exemples d’application
+Projet
+
+73
+
+Semestre 9
+
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+comprendre les caractéristiques de l'IoT
+
+Niveau
+Maîtrise
+
+A l'issue de ce cours l'élève sera capable :
+ 
+
+3.6. PROJ942a - Projet technique traitement de l'information
+Cours (h)
+
+Pondération
+
+Evaluation
+
+TD (h)
+
+TP (h)
+
+ 
+
+ 
+
+36
+
+2
+
+Rapport + soutenance
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Pré-requis
+Ce projet suppose des pré-requis en traitement de l'information (traitement d'images en particulier) et en program-
+mation. Typiquement ces pré-requis correspondent aux modules :
+• EASI642 - Signal et image : opérateurs de base
+• EASI842 - Analyse d'images et vision par ordinateur
+• INfO501 - Numération et Algorithmique
+• INFO641 - Conception et programmation orientée objet
+• INFO743 - Réseaux et systèmes répartis
+• INFO742 - Méthodes de développement logiciel et qualité
+Descriptif
+L'objectif de ce module est le développement d'une application de traitement de l'information (images) sur support
+type tablette.
+Ce projet mêlera donc plusieurs compétences : celles acquises en traitement de l'information (et plus particulière-
+ment en traitement d'images et vision), celles acquises en conception et programmation et celles acquises en trai-
+tement réparti. Les projets seront réalisés par groupes (typiquement 5 étudiants). Ils comporteront quatre aspects :
+- la réalisation d'une interface d'acquisition d'image (un visage) sur tablette
+- la réalisation d'un programme de traitement d'images réalisant la reconnaissance de visage se basant sur une
+analyse en composantes principales.
+- la réalisation d'une communication entre la tablette et le serveur de traitement
+- un travail en mode "gestion de projet" en s'appuyant sur des méthodes (V, agiles...) et outils (planification, espaces
+collaboratifs, gestion de versions)
+Plan du Cours
+Ce module de projet comporte d'une part des séances planifiées dans l'emploi du temps (volume de 36h) et enca-
+drées par des tuteurs de projets et d'autre part du travail personnel. L'organisation est la suivante :
+• 4  séances  de  4h  de  présentation  des  connaissances  nécessaires  (1)  programmation  sur  tablette,  2)  analyse
+
+d'images, 3) systèmes répartis, 4) gestion de projet informatique)
+
+• 4,5 séances de travail en équipe
+• 1/2  séance  pour  l'évaluation  (rapport,  présentation  orale  et  démonstration  d'équipe  et  entretiens  individuels
+
+d'évaluation des compétences acquises)
+
+Objectifs d'apprentissage
+
+Ce cours vise à rendre l'élève apte à :
+développer une architecture logicielle sur sup-
+port de type tablette
+ 
+
+développer l'architecture d'une chaine de traite-
+ment de l'information (image)
+
+Maîtrise
+
+74
+
+Niveau
+
+A l'issue de ce cours l'élève sera capable :
+Application de développer et implanter un programme in-
+
+ 
+
+formatique sur tablette
+d'utiliser une bibliothèque de fonctions dans un
+programme développé sur un support de type
+tablette
+choisir ou concevoir les traitements de
+l'information (images, vidéos, ...) permettant de
+répondre à un objectif précis
+
+Semestre 9
+
+Ce cours vise à rendre l'élève apte à :
+ 
+
+mettre en place une démarche de gestion de
+projet informatique de petite taille en équipe
+ 
+
+Niveau
+
+ 
+
+A l'issue de ce cours l'élève sera capable :
+concevoir l'architecture logicielle d'une chaine
+de traitement de l'information
+
+Application mettre en œuvre d'une méthode de gestion de
+
+ 
+
+projet informatique et des outils associés
+mettre en œuvre et utiliser un outil de gestion
+de versions de programmes
+
+75
+
+Semestre 10
+
+UE
+
+ECTS Module
+
+Intitulé
+
+Cours (h) TD (h)
+
+TP (h)
+
+30
+
+PROJ001
+
+Stage Ingénieur
+
+ 
+
+ 
+
+ 
+
+UE001 :
+Stage In-
+génieur
+
+Pondé-
+ration
+
+30
+
+Evaluation
+
+Soutenance,
+rapport écrit,
+évaluation
+entreprise
+
+1. UE001 : Stage Ingénieur
+
+1.1. PROJ001 - Stage Ingénieur
+Cours (h)
+
+TD (h)
+
+TP (h)
+
+Pondération
+
+Evaluation
+
+ 
+
+ 
+
+ 
+
+30
+
+Soutenance, rapport écrit,
+
+évaluation entreprise
+
+Langue(s) utilisée(s) pour les enseignements
+• Français
+Pré-requis
+Enseignements du S5 au S9
+Descriptif
+Ce stage s'effectue en entreprise, dans laquelle l'élève-ingénieur aura une (ou des) mission(s) à réaliser, proche(s)
+de sa future fonction d'ingénieur, intégrant une démarche de projet avec des aspects techniques, économiques et
+humains. Ces différents aspects doivent être mis en valeur lors de la restitution écrite et orale du stage même si
+l'élève ingénieur n'en a pas été l'acteur direct.
+Objectifs d'apprentissage
+
+A l'issue de ce cours l'élève sera capable :
+de découvrir des méthodes et des pratiques pro-
+fesionnelles
+de respecter la politique RSE de l'entreprise
+de participer au développement de l'entreprise
+de mettre en œuvre ses connaissances théo-
+riques et pratiques
+de mettre en œuvre les bases du management
+opérationnel
+de travailler en équipe et communiquer effica-
+cement avec un public varié
+
+Ce cours vise à rendre l'élève apte à :
+s'intégrer et participer à une organisation pro-
+fessionnelle
+ 
+ 
+
+Niveau
+Maîtrise
+
+ 
+ 
+
+collaborer à l'avancement d'un projet
+
+Maîtrise
+
+ 
+
+ 
+
+ 
+
+ 
+
+76
+
+

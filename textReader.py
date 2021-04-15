@@ -251,7 +251,7 @@ def list_Module_court(fichier):
 
 
 # test
-# print(Module(text))
+# print(list_Module_court(text))
 
 
 def attributModule(module, fichier):
